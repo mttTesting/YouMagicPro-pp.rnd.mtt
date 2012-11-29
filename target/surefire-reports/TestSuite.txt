@@ -1,0 +1,93 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 93, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 2,380.19 sec <<< FAILURE!
+addAndDeleteMenusTest(com.YouMagicPro.LKA_tests.AddAndDeleteMenusTest)  Time elapsed: 28.985 sec  <<< FAILURE!
+com.thoughtworks.selenium.SeleniumException: ERROR: Element //div[3]/div[2]/a/span not found
+	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
+	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:193)
+	at com.YouMagicPro.LKA_tests.AddAndDeleteMenusTest.addAndDeleteMenusTest(AddAndDeleteMenusTest.java:26)
+
+clickOnInternalNumbersTest(com.YouMagicPro.LKA_tests.ClickOnInternalNumbersTest)  Time elapsed: 18.646 sec  <<< FAILURE!
+com.thoughtworks.selenium.SeleniumException: ERROR: Couldn't access document.body.  Is this HTML page fully loaded?
+	at com.thoughtworks.selenium.HttpCommandProcessor.throwAssertionFailureExceptionOrError(HttpCommandProcessor.java:112)
+	at com.thoughtworks.selenium.HttpCommandProcessor.doCommand(HttpCommandProcessor.java:106)
+	at com.thoughtworks.selenium.HttpCommandProcessor.getString(HttpCommandProcessor.java:275)
+	at com.thoughtworks.selenium.HttpCommandProcessor.getBoolean(HttpCommandProcessor.java:348)
+	at com.thoughtworks.selenium.DefaultSelenium.isTextPresent(DefaultSelenium.java:535)
+	at com.YouMagicPro.LKA_tests.ClickOnInternalNumbersTest.clickOnInternalNumbersTest(ClickOnInternalNumbersTest.java:26)
+
+contractBankAccountOneInTextFieldTest_C14993(com.YouMagicPro.LKA_tests.ContractBankAccountOneInTextFieldTest)  Time elapsed: 15.301 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (555, 381). Other element would receive the click: <img id="1" class="slideimage" src="/sites/all/modules/contrib/umagicpro_instructions/images/home.png" data-title="Благодарим вас за выбор YouMagic.Pro!"> (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 42ceaa2cdec8593375f22775fee20504
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.TestBase.waitContractPageToLoad(TestBase.java:138)
+	at com.YouMagicPro.LKA_tests.ContractBankAccountOneInTextFieldTest.contractBankAccountOneInTextFieldTest_C14993(ContractBankAccountOneInTextFieldTest.java:11)
+
+expenseStructureTest(com.YouMagicPro.LKA_tests.DiscSpaceTest)  Time elapsed: 125.914 sec  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Timed out after 120 seconds waiting for element to be clickable: By.selector: a.bPopup__eClose.instructions-close
+Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:255)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:224)
+	at com.YouMagicPro.LKA_tests.TestBase.waitAdminPageToLoad(TestBase.java:109)
+	at com.YouMagicPro.LKA_tests.DiscSpaceTest.expenseStructureTest(DiscSpaceTest.java:11)
+Caused by: org.openqa.selenium.NoSuchElementException: The element could not be found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 2f92d37ec3a68dfc394009f530701f6f
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:301)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:378)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:427)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:39)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:126)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:123)
+	at org.openqa.selenium.support.ui.ExpectedConditions$11.apply(ExpectedConditions.java:310)
+	at org.openqa.selenium.support.ui.ExpectedConditions$11.apply(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	... 35 more
+
+OrderByPickUpChangePhoneTest_C25666(com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest)  Time elapsed: 5.337 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Element is not clickable at point (0, 0) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33 milliseconds
+Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 72f0d768e30d94f0c2a1539f3930085a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:246)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.YouMagicPro.LKA_tests.TestBase.waitAdminPageToLoadSecondAccount(TestBase.java:120)
+	at com.YouMagicPro.LKA_tests.OrderByPickUpChangePhoneTest.OrderByPickUpChangePhoneTest_C25666(OrderByPickUpChangePhoneTest.java:11)
+
