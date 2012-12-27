@@ -9,6 +9,6 @@ public class ExpenseStructureAdditionalNumbersFeeTest extends TestBase{
 	@Test
 	public void expenseStructureAdditionalNumbersFeeTest_C15096() {
 		waitAdminPageToLoad();
-		assertEquals(driver.findElement(By.xpath("//div[4]/div/table/tbody/tr[2]/td[2]/span")).getText(), "116.82");//проверяем плату по доп.номерам
+		assertEquals(driver.findElement(By.xpath("//div[4]/div/table/tbody/tr[2]/td[2]/span")).getText(), "0");//проверяем плату по доп.номерам
 		}
 }

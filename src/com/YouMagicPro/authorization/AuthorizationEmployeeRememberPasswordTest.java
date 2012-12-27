@@ -16,7 +16,7 @@ public class AuthorizationEmployeeRememberPasswordTest extends TestBase{
 				driver.findElement(By.xpath("//td[2]/a")).click();
 				
 				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span")));//ожидание загрузки страницы
-				assertEquals(driver.findElement(By.xpath("//span")).getText(), "Ќомер личевого счета или адрес e-mail: *");
+				assertEquals(driver.findElement(By.xpath("//span")).getText(), "»м€ пользовател€: *");
 			}
 			
 }

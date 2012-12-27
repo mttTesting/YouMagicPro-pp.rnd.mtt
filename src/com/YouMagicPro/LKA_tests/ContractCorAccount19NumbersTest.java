@@ -10,7 +10,8 @@ public class ContractCorAccount19NumbersTest extends TestBase{
 	public void contractCorAccount19NumbersTest_C15005() {
 	waitContractPageToLoad();
 	
-	
+	//driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	
 	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
 	driver.findElement(By.id("edit-bank-details-kor-account")).click();// без клика и очистки поле не заполняется

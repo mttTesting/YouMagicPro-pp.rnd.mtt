@@ -13,7 +13,7 @@ public class DiscSpaceTest  extends TestBase{
 		driver.findElement(By.id("free_space_all")).isDisplayed();//проверка наличия виджета с отображением свободного места
 		driver.findElement(By.id("music_space_all")).isDisplayed();
 		
-		assertEquals(driver.findElement(By.xpath("//div[6]/div/div/span[2]")).getText(), "191.98 МБ");//проверка отображения свободного места
+		assertEquals(driver.findElement(By.xpath("//div[6]/div/div/span[2]")).getText(), "200 МБ");//проверка отображения свободного места
 		
 	}
 }

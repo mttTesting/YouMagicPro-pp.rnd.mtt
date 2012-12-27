@@ -27,7 +27,7 @@ public class EmployeesEditProfile3SymbolsInTextFieldTest extends TestBase{
 		driver.findElement(By.id("edit-employee-extension")).clear();
 		driver.findElement(By.id("edit-employee-extension")).sendKeys("531");
 		driver.findElement(By.id("edit-submit")).click();
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/div/div[2]/div/div/div/div")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td[3]/div/div[2]/div/div/div")));
 		
 		assertEquals(driver.findElement(By.xpath("//td[3]/div/div[2]/div/div/div")).getText(), "Сотрудники");
 		}

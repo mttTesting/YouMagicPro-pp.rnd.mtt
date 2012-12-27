@@ -15,7 +15,7 @@ public class OrderToAdressNoTextFieldFilledTest  extends TestBase{
 		
 		driver.findElement(By.xpath("//form/div/div/div/div[3]/input")).click();//нажатие на "сохранить"
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[2]/div/div/div/div/ul/li")));//ожидание загрузки страницы
-		assertEquals(driver.findElement(By.xpath("//div[2]/div/div/div/div/ul/li")).getText(), "На вашем балансе недостаточно денег для совершения данной операции. Пожалуйста, пополните счет.");//проверяем, вывелось ли предупреждение о незаполненных полях
-		
+		assertEquals(driver.findElement(By.xpath("//div[2]/div/div/div/div/ul/li")).getText(), "Вы находитесь в состоянии финансовой блокировки. Пожалуйста, пополните счет.");//проверяем, вывелось ли предупреждение о незаполненных полях	
 	}
+
 }

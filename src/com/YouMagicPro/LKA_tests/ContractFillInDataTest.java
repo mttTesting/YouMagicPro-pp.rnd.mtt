@@ -11,7 +11,8 @@ public class ContractFillInDataTest  extends TestBase{
     	@Test
     	public void fillInContractDataTest_C14998() {  		
     		waitContractPageToLoad();
-    		
+    		//driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
     		driver.findElement(By.id("edit-buisness-form-company")).sendKeys("1234");//заполнение данными
     		driver.findElement(By.id("edit-bank-details-inn")).sendKeys("1234123411");
     		driver.findElement(By.id("edit-buisness-form-contact-man-wrapper-contact-man-base-value")).sendKeys("1234");
@@ -29,7 +30,7 @@ public class ContractFillInDataTest  extends TestBase{
     		driver.findElement(By.id("edit-submit")).click();//нажатие на кнопку "Сохранить"
     		
     		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bDocWrap > h1")));//ожидание загрузки страницы
-    		assertEquals(driver.findElement(By.cssSelector("div.bDocWrap > h1")).getText(), "ДОГОВОР ОБ ОКАЗАНИИ УСЛУГ СВЯЗИ № 100126");
+    		assertEquals(driver.findElement(By.cssSelector("div.bDocWrap > h1")).getText(), "ДОГОВОР ОБ ОКАЗАНИИ УСЛУГ СВЯЗИ № 100232");
     	}
 
 }

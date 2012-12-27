@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class EmployeesEditProfileFillInDataTest extends TestBase{
 	@Test
-	public void employeesEditProfileTest_C15253() {
+	public void employeesEditProfileFillInDataTest_C15253() {
 		waitAdminPageToLoad();
 		
 		driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"

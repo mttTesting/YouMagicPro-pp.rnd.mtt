@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="com.LKA_tests">
- <test verbose="2" name="com.LKA_tests">
+<suite name="com.authorization">
+ <test verbose="2" name="authorization">
     <packages>
-     <package name="com.YouMagicPro.LKA_tests"/>
+     <package name="com.YouMagicPro.authorization"/>
     </packages>
  </test>
 </suite>

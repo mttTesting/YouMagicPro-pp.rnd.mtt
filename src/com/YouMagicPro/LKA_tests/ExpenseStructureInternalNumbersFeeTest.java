@@ -9,6 +9,6 @@ public class ExpenseStructureInternalNumbersFeeTest extends TestBase{
 	@Test
 	public void expenseStructureInternalNumbersFeeTest_C15101() {
 		waitAdminPageToLoad();
-		assertEquals(driver.findElement(By.xpath("//div[4]/div/table/tbody/tr[3]/td[2]/span")).getText(), "35.4");//проверяем плату за внутренние номер
+		assertEquals(driver.findElement(By.xpath("//div[4]/div/table/tbody/tr[3]/td[2]/span")).getText(), "0");//проверяем плату за внутренние номер
 		}
 }

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.AddAndDeleteMenusTest">
+      <class name="com.YouMagicPro.LKA_tests.ContractFillInDataTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="addAndDeleteMenusTest"/>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
+          <include name="fillInContractDataTest_C14998"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.AddAndDeleteMenusTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractFillInDataTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

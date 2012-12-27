@@ -13,6 +13,7 @@ public class RegistrationStabilityOfNumbersTest extends TestBaseReg{
 		selenium.waitForPageToLoad("30000");
 		selenium.click("link=Бронзовые");
 		selenium.click("link=Платиновые");
+		selenium.click("link=Обычные");
 		AssertJUnit.assertTrue(selenium.isTextPresent("(499)"));
 		selenium.click("css=span.text");
 		selenium.click("//div[@id='edit-city-wrapper']/span/ul/li[2]");

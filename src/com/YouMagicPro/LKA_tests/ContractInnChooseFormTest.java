@@ -9,7 +9,8 @@ public class ContractInnChooseFormTest  extends TestBase{
 	@Test
 	public void contractInnChooseForm_C15047() {
 	waitContractPageToLoad();
-
+	//driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	//проверка ввода 10 цифр при организационно-правовой форме ООО
 	sendKeysAndAssert("1234321220", "Проверьте правильность заполнения договора и подпишите", "//span/ul/li");
 	driver.findElement(By.xpath("//div[3]/div[2]/span/a")).click(); //Нажатие "Оформить"

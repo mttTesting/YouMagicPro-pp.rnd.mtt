@@ -23,6 +23,6 @@ public class EmployeesEditProfileTest extends TestBase{
 		
 		driver.findElement(By.xpath("//div[3]/a/span")).click();
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/label")));//ожидание загрузки страницы
-		assertEquals(driver.findElement(By.xpath("//div/label")).getText(), "Внутренний номер *");
+		assertEquals(driver.findElement(By.xpath("//div/label")).getText(), "Фамилия *");
 		}
 }

@@ -9,7 +9,8 @@ public class ContractCheckDocumentTest  extends TestBase{
 	@Test
 	public void contractCheckDocumentTest_C14986() {
 	waitContractPageToLoad();
-	
+	//driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	driver.findElement(By.xpath("//div[2]/div/span/span/span")).click(); //нажатие на элементы выпадающего меню - Доверенность
 	driver.findElement(By.xpath("//div[2]/div/span/ul/li[2]")).click();
 	driver.findElement(By.xpath("//div[2]/div/span/span/span")).click(); //нажатие на элементы выпадающего меню - Устав
