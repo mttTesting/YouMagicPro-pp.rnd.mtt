@@ -1,5 +1,5 @@
 #surefire
-#Thu Dec 27 15:24:16 MSK 2012
+#Thu Dec 27 16:37:35 MSK 2012
 classPathUrl.61=C\:\\.m2\\repository\\org\\apache\\maven\\maven-repository-metadata\\2.0.9\\maven-repository-metadata-2.0.9.jar
 classPathUrl.60=C\:\\.m2\\repository\\org\\apache\\maven\\wagon\\wagon-provider-api\\1.0-beta-2\\wagon-provider-api-1.0-beta-2.jar
 useSystemClassLoader=true
