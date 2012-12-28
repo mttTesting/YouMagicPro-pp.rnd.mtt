@@ -7,7 +7,7 @@ import com.registration.tests.TestBaseReg;
 
 public class AddAndDeleteMenusTest extends TestBaseReg{
 	@Test
-	public void addAndDeleteMenusTest() throws Exception {
+	public void addAndDeleteMenusTest_C15292() throws Exception {
 		openAndLogin();
 	
 		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон

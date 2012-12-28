@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class AuthorizationAdminWrongLoginTest extends TestBase{
 			@Test
-			public void authorizationWrongLoginTest() throws Exception {
+			public void authorizationWrongLoginTest_C14708() throws Exception {
 				driver.get("http://umagicpro-pp.rnd.mtt/");
 				
 				driver.findElement(By.xpath("//span")).click();

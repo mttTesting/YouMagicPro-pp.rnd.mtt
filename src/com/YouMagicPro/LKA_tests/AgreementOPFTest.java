@@ -6,7 +6,7 @@ import com.registration.tests.TestBaseReg;
 
 public class AgreementOPFTest extends TestBaseReg{
 	@Test
-	public void addAndDeleteNoticesTest() throws Exception {
+	public void agreementOPFTest_C14983() throws Exception {
 		openAndLogin();
 		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
 		selenium.click("css=span.modal_cansel_button_text");

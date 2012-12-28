@@ -2,29 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29175" started-at="2012-12-27T12:06:54Z" finished-at="2012-12-27T12:07:23Z">
+  <suite name="Default suite" duration-ms="11782" started-at="2012-12-27T12:51:50Z" finished-at="2012-12-27T12:52:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29175" started-at="2012-12-27T12:06:54Z" finished-at="2012-12-27T12:07:23Z">
-      <class name="com.YouMagicPro.LKA_tests.SoundFilesPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.YouMagicPro.LKA_tests.SoundFilesPageTest@7dd9578a]" name="setUp" is-config="true" duration-ms="6752" started-at="2012-12-27T16:06:54Z" finished-at="2012-12-27T16:07:01Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="11782" started-at="2012-12-27T12:51:50Z" finished-at="2012-12-27T12:52:02Z">
+      <class name="com.YouMagicPro.authorization.AuthorizationAdminNoFieldsFilledTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.authorization.AuthorizationAdminNoFieldsFilledTest@2c3c8df6]" name="startWebDriver" is-config="true" duration-ms="5594" started-at="2012-12-27T16:51:50Z" finished-at="2012-12-27T16:51:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="soundFilesTest()[pri:0, instance:com.YouMagicPro.LKA_tests.SoundFilesPageTest@7dd9578a]" name="soundFilesTest" duration-ms="22219" started-at="2012-12-27T16:07:01Z" finished-at="2012-12-27T16:07:23Z">
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="authorizationNoLoginTest()[pri:0, instance:com.YouMagicPro.authorization.AuthorizationAdminNoFieldsFilledTest@2c3c8df6]" name="authorizationNoLoginTest" duration-ms="6177" started-at="2012-12-27T16:51:56Z" finished-at="2012-12-27T16:52:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- soundFilesTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YouMagicPro.LKA_tests.SoundFilesPageTest@7dd9578a]" name="tearDown" is-config="true" duration-ms="203" started-at="2012-12-27T16:07:23Z" finished-at="2012-12-27T16:07:23Z">
+        </test-method> <!-- authorizationNoLoginTest -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.authorization.AuthorizationAdminNoFieldsFilledTest@2c3c8df6]" name="closeSession" is-config="true" duration-ms="6" started-at="2012-12-27T16:52:02Z" finished-at="2012-12-27T16:52:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.YouMagicPro.LKA_tests.SoundFilesPageTest -->
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.authorization.AuthorizationAdminNoFieldsFilledTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

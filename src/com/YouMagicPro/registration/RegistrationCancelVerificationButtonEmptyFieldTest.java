@@ -6,7 +6,7 @@ import com.registration.tests.TestBaseReg;
 
 public class RegistrationCancelVerificationButtonEmptyFieldTest extends TestBaseReg{
 	@Test
-	public void  registrationCancelVerificationButtonEmptyFieldTest() throws Exception {
+	public void  registrationCancelVerificationButtonEmptyFieldTest_C14967() throws Exception {
 		open();
 		selenium.click("//li[4]/a");
 		selenium.waitForPageToLoad("30000");
