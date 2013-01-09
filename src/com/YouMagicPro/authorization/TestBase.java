@@ -38,7 +38,7 @@ import org.testng.annotations.BeforeTest;
 	 
 	    @AfterClass(alwaysRun = true)
 	    protected void closeSession() {
-		    driver.close();
+		    driver.quit();
 	    }
 	 
 	    public static void assertEquals(Object actual, Object expected) {

@@ -138,7 +138,7 @@ import org.testng.annotations.BeforeTest;
 	    { 	
 	    	driver.get("http://account.umagicpro-pp.rnd.mtt/user/login");//открытие портала  	    	
 	    	
-	    	driver.findElement(By.id("edit-name-1")).sendKeys("100232");//ввод логина, пароля
+	    	driver.findElement(By.id("edit-name-1")).sendKeys("100235");//ввод логина, пароля
 	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");
 	    	driver.findElement(By.id("edit-submit-1")).click();
 	    
@@ -151,7 +151,7 @@ import org.testng.annotations.BeforeTest;
 	    	driver.get("http://account.umagicpro-pp.rnd.mtt/user/login");//открытие портала  	    	
 	 
 	
-	    	driver.findElement(By.id("edit-name-1")).sendKeys("100233");//ввод логина, пароля
+	    	driver.findElement(By.id("edit-name-1")).sendKeys("100236");//ввод логина, пароля
 	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");
 	    	
 	    	driver.findElement(By.id("edit-submit-1")).click();
@@ -165,7 +165,7 @@ import org.testng.annotations.BeforeTest;
 	    public static void  waitContractPageToLoad(){
 	    	driver.get("http://account.umagicpro-pp.rnd.mtt/user/login");//открытие портала  	    	
 	    	
-	    	driver.findElement(By.id("edit-name-1")).sendKeys("100232");//ввод логина, пароля
+	    	driver.findElement(By.id("edit-name-1")).sendKeys("100235");//ввод логина, пароля
 	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");
 	    	driver.findElement(By.id("edit-submit-1")).click();
 	    	
