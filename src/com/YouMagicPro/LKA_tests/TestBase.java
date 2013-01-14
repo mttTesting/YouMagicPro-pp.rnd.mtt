@@ -59,8 +59,8 @@ import org.testng.annotations.BeforeTest;
 			driver.findElement(By.id("edit-bank-details-bik")).clear();
 			driver.findElement(By.id("edit-bank-details-bik")).sendKeys(keys);	//Ввод в поле ввода БИК
 			driver.findElement(By.id("edit-submit")).click();
-			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
-			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
+			//wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
+			assertEquals(driver.findElement(By.cssSelector("div.errors_for_messages.error")).getText(), errorString);
 		}
 	    public static void sendKeysAndAssert_bankAccount(String keys, String errorString)
 		{
@@ -74,8 +74,8 @@ import org.testng.annotations.BeforeTest;
 			
 			driver.findElement(By.id("edit-submit")).click();
 	    	
-			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
-			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
+			//wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
+			assertEquals(driver.findElement(By.cssSelector("div.errors_for_messages.error")).getText(), errorString);
 		}
 	    public static void sendKeysAndAssert_cor(String keys, String errorString)
 	    {
@@ -88,8 +88,8 @@ import org.testng.annotations.BeforeTest;
 	    	
 	    	driver.findElement(By.id("edit-submit")).click();
 	    	
-			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
-			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
+			//wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
+			assertEquals(driver.findElement(By.cssSelector("div.errors_for_messages.error")).getText(), errorString);
 	    }
 	    public static void sendKeysAndAssert_kpp(String keys, String errorString)
 	    {
@@ -102,8 +102,8 @@ import org.testng.annotations.BeforeTest;
 	    	
 	    	driver.findElement(By.id("edit-submit")).click();
 
-			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
-			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
+			//wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
+			assertEquals(driver.findElement(By.cssSelector("div.errors_for_messages.error")).getText(), errorString);
 	    }
 	    public static void sendKeysAndAssert_ogrn(String keys, String errorString)
 	    {
@@ -116,8 +116,8 @@ import org.testng.annotations.BeforeTest;
 	    	
 	    	driver.findElement(By.id("edit-submit")).click();
 
-			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
-			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
+			//wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
+			assertEquals(driver.findElement(By.cssSelector("div.errors_for_messages.error")).getText(), errorString);
 	    }
 	    public static void sendKeysAndAssert_inn(String keys, String errorString)
 	    {
@@ -131,8 +131,8 @@ import org.testng.annotations.BeforeTest;
 	    	//wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));
 	    	driver.findElement(By.xpath("//form/div/div[2]/input")).click();
 
-			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
-			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
+			//wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
+			assertEquals(driver.findElement(By.cssSelector("div.errors_for_messages.error")).getText(), errorString);
 	    }
 	    public static void waitAdminPageToLoad()
 	    { 	
