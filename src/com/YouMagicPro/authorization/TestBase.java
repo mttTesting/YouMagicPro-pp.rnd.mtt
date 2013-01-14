@@ -44,100 +44,33 @@ import org.testng.annotations.BeforeTest;
 	    public static void assertEquals(Object actual, Object expected) {
 	    	Assert.assertEquals(actual, expected);
 	    }
-	    public static void sendKeysAndAssert_bik(String keys, String errorString)
-		{
-			driver.findElement(By.id("edit-bank-details-bik")).click();// без клика и очистки поле не заполняется
-			driver.findElement(By.id("edit-bank-details-bik")).clear();
-			driver.findElement(By.id("edit-bank-details-bik")).sendKeys(keys);	//Ввод в поле ввода БИК
-			driver.findElement(By.id("edit-submit")).click();
-			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
-			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
-		}
-	    public static void sendKeysAndAssert_bankAccount(String keys, String errorString)
-		{
-			driver.findElement(By.id("edit-bank-details-bank-account")).click();// без клика и очистки поле не заполняется
-			driver.findElement(By.id("edit-bank-details-bank-account")).clear();
-			driver.findElement(By.id("edit-bank-details-bank-account")).sendKeys(keys);	//Ввод в поле ввода БИК
-			driver.findElement(By.id("edit-submit")).click();
-			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
-			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
-		}
-	    public static void sendKeysAndAssert_cor(String keys, String errorString)
-	    {
-	    	driver.findElement(By.id("edit-bank-details-kor-account")).click();// без клика и очистки поле не заполняется
-	    	driver.findElement(By.id("edit-bank-details-kor-account")).clear();
-	    	driver.findElement(By.id("edit-bank-details-kor-account")).sendKeys(keys);	//Ввод в поле ввода Кор. счета
-	    	driver.findElement(By.id("edit-submit")).click();
-			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
-			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
-	    }
-	    public static void sendKeysAndAssert_kpp(String keys, String errorString)
-	    {
-	    	driver.findElement(By.id("edit-bank-details-kpp")).click();// без клика и очистки поле не заполняется
-	    	driver.findElement(By.id("edit-bank-details-kpp")).clear();
-	    	driver.findElement(By.id("edit-bank-details-kpp")).sendKeys(keys);	//Ввод в поле ввода Кор. счета
-	    	driver.findElement(By.id("edit-submit")).click();
-			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
-			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
-	    }
-	    public static void sendKeysAndAssert_ogrn(String keys, String errorString)
-	    {
-	    	driver.findElement(By.id("edit-bank-details-ogrn")).click();// без клика и очистки поле не заполняется
-	    	driver.findElement(By.id("edit-bank-details-ogrn")).clear();
-	    	driver.findElement(By.id("edit-bank-details-ogrn")).sendKeys(keys);	//Ввод в поле ввода Кор. счета
-	    	driver.findElement(By.id("edit-submit")).click();
-			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
-			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
-	    }
-	    public static void sendKeysAndAssert_inn(String keys, String errorString)
-	    {
-	    	driver.findElement(By.id("edit-bank-details-inn")).click();// без клика и очистки поле не заполняется
-	    	driver.findElement(By.id("edit-bank-details-inn")).clear();
-	    	driver.findElement(By.id("edit-bank-details-inn")).sendKeys(keys);	//Ввод в поле ввода Кор. счета
-	    	driver.findElement(By.id("edit-submit")).click();
-			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
-			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
-	    }
-	    public static void waitAdminPageToLoad()
-	    {
-	    	driver.get("http://account.umagicpro-pp.rnd.mtt/user/login/");
-	    	
-	    	driver.findElement(By.id("edit-name-1")).sendKeys("100126");//ввод логина пароля
-	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");		
-	    	driver.findElement(By.id("edit-submit-1")).click();//нажатие на кнопку "Вход"
-	    	
-	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
-	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
-	    }
-	    public static void waitAdminPageToLoadSecondAccount()
-	    {
-	    	driver.get("http://umagicpro-pp.rnd.mtt/");//открытие портала
-	    	driver.findElement(By.xpath("//span")).click();//нажатие на кнопку "Вход"
-	    	driver.switchTo().frame("iframe_autor");
-	    	driver.findElement(By.id("edit-name-1")).sendKeys("100177");//ввод логина пароля
-	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");		
-	    	driver.findElement(By.id("edit-submit-1")).click();//нажатие на кнопку "Вход"
-	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
-	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-	    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
-	    }
-	    public static void  waitContractPageToLoad()
+	  
+	    public static void  registration()
 	    {
 	    	driver.get("http://umagicpro-pp.rnd.mtt/");//открытие портала
 	    	
-	    	driver.findElement(By.xpath("//span")).click();//нажатие на кнопку "Вход"
-	    	driver.switchTo().frame("iframe_autor");
-	    	driver.findElement(By.id("edit-name-1")).sendKeys("100126");//ввод логина пароля
-	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");		
-	    	driver.findElement(By.id("edit-submit-1")).click();//нажатие на кнопку "Вход"
 	    	
-	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
+	    	driver.findElement(By.xpath("//li[4]/a")).click(); //клик по регистрации
+	    	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//label/span")));
+	    	driver.findElement(By.xpath("//label/span")).click();
+	    	driver.findElement(By.xpath("//label/input")).click(); //выбор номера из списка
+	    	driver.findElement(By.id("edit-next")).click(); //нажатие на кнопку продолжения
 	    	
-	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	    	driver.findElement(By.id("edit-last-name")).sendKeys("Мухин"); //нажатие на кнопку продолжения
+	    	driver.findElement(By.id("edit-first-name")).sendKeys("Вадим"); //нажатие на кнопку продолжения
+	    	driver.findElement(By.id("edit-middle-name")).sendKeys("Николаевич"); //нажатие на кнопку продолжения
+	    	driver.findElement(By.id("edit-personal-phone")).sendKeys("234"); //нажатие на кнопку продолжения
 	    	
-	    	driver.findElement(By.xpath("//div[5]/div[2]/span/a")).click(); //Нажатие "Оформить"
-	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
+	    	driver.findElement(By.id("confirm-link")).click(); //нажатие на кнопку подтверждения кода
+	    	driver.findElement(By.xpath("//div[2]/div/div[2]/input")).sendKeys("1234");
+	    	driver.findElement(By.xpath("//td/div/span")).click();
+	    	driver.findElement(By.xpath("//div[3]/div/span")).click();
+	    	
+	    	
+	    	driver.switchTo().window("null");
+	    	String val = driver.findElement(By.xpath("//div/form/input[2]")).getAttribute("value").toString();
+	    	driver.switchTo().window("36508");
+	    	driver.findElement(By.id("edit-mail")).sendKeys(val);
+	    	driver.findElement(By.id("edit-next")).click();
 	    }
 	}

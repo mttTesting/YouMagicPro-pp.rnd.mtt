@@ -53,10 +53,11 @@ import org.testng.annotations.BeforeTest;
 	    public static void assertEquals(Object actual, Object expected) {
 	    	Assert.assertEquals(actual, expected);
 	    }
+	    
 	    public static void sendKeysAndAssert_bik(String keys, String errorString)
 		{
-	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	    	//driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    	
 			driver.findElement(By.id("edit-bank-details-bik")).click();// без клика и очистки поле не заполняется
 			driver.findElement(By.id("edit-bank-details-bik")).clear();
@@ -67,12 +68,13 @@ import org.testng.annotations.BeforeTest;
 		}
 	    public static void sendKeysAndAssert_bankAccount(String keys, String errorString)
 		{
-	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	    	//driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    	
-			driver.findElement(By.id("edit-bank-details-bank-account")).click();// без клика и очистки поле не заполняется
-			driver.findElement(By.id("edit-bank-details-bank-account")).clear();
-			driver.findElement(By.id("edit-bank-details-bank-account")).sendKeys(keys);	//Ввод в поле ввода БИК
+			WebElement element = driver.findElement(By.id("edit-bank-details-bank-account"));
+			element.click();// без клика и очистки поле не заполняется
+			element.clear();
+			element.sendKeys(keys);	//Ввод в поле ввода БИК
 			
 			driver.findElement(By.id("edit-submit")).click();
 	    	
@@ -81,10 +83,10 @@ import org.testng.annotations.BeforeTest;
 		}
 	    public static void sendKeysAndAssert_cor(String keys, String errorString)
 	    {
-	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	    	//driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    	
-	    	driver.findElement(By.id("edit-bank-details-kor-account")).click();// без клика и очистки поле не заполняется
+			driver.findElement(By.id("edit-bank-details-kor-account")).click();// без клика и очистки поле не заполняется
 	    	driver.findElement(By.id("edit-bank-details-kor-account")).clear();
 	    	driver.findElement(By.id("edit-bank-details-kor-account")).sendKeys(keys);	//Ввод в поле ввода Кор. счета
 	    	
@@ -95,8 +97,8 @@ import org.testng.annotations.BeforeTest;
 	    }
 	    public static void sendKeysAndAssert_kpp(String keys, String errorString)
 	    {
-	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	    	//driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    	
 	    	driver.findElement(By.id("edit-bank-details-kpp")).click();// без клика и очистки поле не заполняется
 	    	driver.findElement(By.id("edit-bank-details-kpp")).clear();
@@ -109,8 +111,8 @@ import org.testng.annotations.BeforeTest;
 	    }
 	    public static void sendKeysAndAssert_ogrn(String keys, String errorString)
 	    {
-	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	    	//driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    	
 	    	driver.findElement(By.id("edit-bank-details-ogrn")).click();// без клика и очистки поле не заполняется
 	    	driver.findElement(By.id("edit-bank-details-ogrn")).clear();
@@ -123,37 +125,37 @@ import org.testng.annotations.BeforeTest;
 	    }
 	    public static void sendKeysAndAssert_inn(String keys, String errorString)
 	    {
-	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	    	//driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    	
-	    	driver.findElement(By.id("edit-bank-details-inn")).click();// без клика и очистки поле не заполняется
+	    	//driver.findElement(By.id("edit-bank-details-inn")).click();// без клика и очистки поле не заполняется
 	    	driver.findElement(By.id("edit-bank-details-inn")).clear();
 	    	driver.findElement(By.id("edit-bank-details-inn")).sendKeys(keys);	//Ввод в поле ввода Кор. счета
 	    	
-	    	driver.findElement(By.id("edit-submit")).click();
+	    	//wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));
+	    	driver.findElement(By.xpath("//form/div/div[2]/input")).click();
 
 			wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.messages.error")));//ожидание загрузки страницы
 			assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), errorString);
 	    }
 	    public static void waitAdminPageToLoad()
 	    { 	
-	    	driver.get("http://account.youmagic.pro/user/login");//открытие портала  	    	
+	    	driver.get("http://account.umagicpro-pp.rnd.mtt/user/login");//открытие портала  	    	
 	    	
-	    	driver.findElement(By.id("edit-name-1")).sendKeys("303187");//ввод логина, пароля
+	    	driver.findElement(By.id("edit-name-1")).sendKeys("100235");//ввод логина, пароля
 	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");
 	    	driver.findElement(By.id("edit-submit-1")).click();
 	    
 	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
 	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
 	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
-	    	
 	    }
 	    public static void waitAdminPageToLoadSecondAccount()
 	    {
-	    	driver.get("http://account.youmagic.pro/user/login");//открытие портала  	    	
+	    	driver.get("http://account.umagicpro-pp.rnd.mtt/user/login");//открытие портала  	    	
 	 
 	
-	    	driver.findElement(By.id("edit-name-1")).sendKeys("303327");//ввод логина, пароля
+	    	driver.findElement(By.id("edit-name-1")).sendKeys("100236");//ввод логина, пароля
 	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");
 	    	
 	    	driver.findElement(By.id("edit-submit-1")).click();
@@ -165,9 +167,9 @@ import org.testng.annotations.BeforeTest;
 	    
 	    
 	    public static void  waitContractPageToLoad(){
-	    	driver.get("http://account.youmagic.pro/user/login");//открытие портала  	    	
+	    	driver.get("http://account.umagicpro-pp.rnd.mtt/user/login");//открытие портала  	    	
 	    	
-	    	driver.findElement(By.id("edit-name-1")).sendKeys("303187");//ввод логина, пароля
+	    	driver.findElement(By.id("edit-name-1")).sendKeys("100235");//ввод логина, пароля
 	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");
 	    	driver.findElement(By.id("edit-submit-1")).click();
 	    	
@@ -176,7 +178,6 @@ import org.testng.annotations.BeforeTest;
 	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    	
 	    	driver.findElement(By.xpath("//div[5]/div[2]/span/a")).click(); //Нажатие "Оформить"
-	    	
 	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
 	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    	

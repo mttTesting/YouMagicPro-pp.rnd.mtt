@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.ContractFillInDataTest">
+      <class name="com.YouMagicPro.LKA_tests.PasswordNoMatchTest">
         <methods>
           <include name="startWebDriver"/>
+          <include name="PasswordNoMatchTest_C27054"/>
           <include name="closeSession"/>
-          <include name="fillInContractDataTest_C14998"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractFillInDataTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.PasswordNoMatchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11782" started-at="2012-12-27T12:51:50Z" finished-at="2012-12-27T12:52:02Z">
+  <suite name="Default suite" duration-ms="60790" started-at="2013-01-11T11:34:50Z" finished-at="2013-01-11T11:35:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11782" started-at="2012-12-27T12:51:50Z" finished-at="2012-12-27T12:52:02Z">
-      <class name="com.YouMagicPro.authorization.AuthorizationAdminNoFieldsFilledTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.authorization.AuthorizationAdminNoFieldsFilledTest@2c3c8df6]" name="startWebDriver" is-config="true" duration-ms="5594" started-at="2012-12-27T16:51:50Z" finished-at="2012-12-27T16:51:56Z">
+    <test name="Default test" duration-ms="60790" started-at="2013-01-11T11:34:50Z" finished-at="2013-01-11T11:35:51Z">
+      <class name="com.YouMagicPro.LKA_tests.PasswordCancelButtonTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.PasswordCancelButtonTest@423798e2]" name="startWebDriver" is-config="true" duration-ms="1816" started-at="2013-01-11T15:34:50Z" finished-at="2013-01-11T15:34:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="authorizationNoLoginTest()[pri:0, instance:com.YouMagicPro.authorization.AuthorizationAdminNoFieldsFilledTest@2c3c8df6]" name="authorizationNoLoginTest" duration-ms="6177" started-at="2012-12-27T16:51:56Z" finished-at="2012-12-27T16:52:02Z">
+        <test-method status="PASS" signature="passwordCancelButtonTest_C15127()[pri:0, instance:com.YouMagicPro.LKA_tests.PasswordCancelButtonTest@423798e2]" name="passwordCancelButtonTest_C15127" duration-ms="56508" started-at="2013-01-11T15:34:52Z" finished-at="2013-01-11T15:35:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- authorizationNoLoginTest -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.authorization.AuthorizationAdminNoFieldsFilledTest@2c3c8df6]" name="closeSession" is-config="true" duration-ms="6" started-at="2012-12-27T16:52:02Z" finished-at="2012-12-27T16:52:02Z">
+        </test-method> <!-- passwordCancelButtonTest_C15127 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.PasswordCancelButtonTest@423798e2]" name="closeSession" is-config="true" duration-ms="2463" started-at="2013-01-11T15:35:49Z" finished-at="2013-01-11T15:35:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.authorization.AuthorizationAdminNoFieldsFilledTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.PasswordCancelButtonTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
