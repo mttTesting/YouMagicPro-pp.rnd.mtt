@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 	    //	driver.findElement(By.xpath("//td[2]/div/span")).click();
 
     		assertEquals(driver.findElement(By.xpath("//strong")).getText(), "79857297409"); //проверка мобильного номера пользователя
-    		assertEquals(driver.findElement(By.xpath("//tr[2]/td/div/div/strong")).getText(), "74997044118"); //проверка номера аккаунта YM.Pro 
+    		assertEquals(driver.findElement(By.xpath("//tr[2]/td/div/div/strong")).getText(), "74997045371"); //проверка номера аккаунта YM.Pro 
     		assertEquals(driver.findElement(By.xpath("//tr[3]/td/div/div/strong")).getText(), "AT с поддержкой SIP");//Тип абонентского устройства
     		assertEquals(driver.findElement(By.xpath("//td[2]/div/strong")).getText(), "ОАО «МТТ»");//Выбор оператора связи
     		assertEquals(driver.findElement(By.xpath("//tr[2]/td[2]/div/strong")).getText(), "Простой");//Тарифный план

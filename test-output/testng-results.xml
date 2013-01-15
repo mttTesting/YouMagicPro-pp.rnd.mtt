@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25568" started-at="2013-01-14T11:59:15Z" finished-at="2013-01-14T11:59:40Z">
+  <suite name="Default suite" duration-ms="21308" started-at="2013-01-15T05:56:25Z" finished-at="2013-01-15T05:56:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25568" started-at="2013-01-14T11:59:15Z" finished-at="2013-01-14T11:59:40Z">
-      <class name="com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest@24f454e4]" name="startWebDriver" is-config="true" duration-ms="2811" started-at="2013-01-14T15:59:15Z" finished-at="2013-01-14T15:59:18Z">
+    <test name="Default test" duration-ms="21308" started-at="2013-01-15T05:56:25Z" finished-at="2013-01-15T05:56:46Z">
+      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalExternalNumberCloseWindowTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalExternalNumberCloseWindowTest@507aa91b]" name="startWebDriver" is-config="true" duration-ms="2643" started-at="2013-01-15T09:56:25Z" finished-at="2013-01-15T09:56:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractCorAccount19NumbersTest_C15005()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest@24f454e4]" name="contractCorAccount19NumbersTest_C15005" duration-ms="20086" started-at="2013-01-14T15:59:18Z" finished-at="2013-01-14T15:59:38Z">
+        <test-method status="PASS" signature="BuyingAdditionalExternalNumberCloseWindowTest_C15110()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalExternalNumberCloseWindowTest@507aa91b]" name="BuyingAdditionalExternalNumberCloseWindowTest_C15110" duration-ms="16421" started-at="2013-01-15T09:56:28Z" finished-at="2013-01-15T09:56:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contractCorAccount19NumbersTest_C15005 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest@24f454e4]" name="closeSession" is-config="true" duration-ms="2667" started-at="2013-01-14T15:59:38Z" finished-at="2013-01-14T15:59:40Z">
+        </test-method> <!-- BuyingAdditionalExternalNumberCloseWindowTest_C15110 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalExternalNumberCloseWindowTest@507aa91b]" name="closeSession" is-config="true" duration-ms="2240" started-at="2013-01-15T09:56:44Z" finished-at="2013-01-15T09:56:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractCorAccount19NumbersTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalExternalNumberCloseWindowTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

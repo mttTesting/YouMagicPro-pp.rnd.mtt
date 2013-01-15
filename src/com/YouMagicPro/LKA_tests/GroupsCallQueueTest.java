@@ -4,9 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 
-public class GroupsAddAndDeleteGroupTest extends TestBase {
+public class GroupsCallQueueTest extends TestBase {
 	@Test
-	public void GroupsAlertTest_C15184() {
+	public void groupsCallQueueTest_C15190() {
 	waitAdminPageToLoadSecondAccount();
 	
 	driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"
@@ -23,6 +23,15 @@ public class GroupsAddAndDeleteGroupTest extends TestBase {
 	driver.findElement(By.id("edit-group-id")).sendKeys("123");
 	driver.findElement(By.id("edit-capacity")).clear();
 	driver.findElement(By.id("edit-capacity")).sendKeys("10");
+	
+	driver.findElement(By.xpath("//span/span/span")).click();
+	driver.findElement(By.xpath("//span/ul/li[2]")).click();
+	driver.findElement(By.xpath("//span/span/span")).click();
+	driver.findElement(By.xpath("//li[3]")).click();
+	driver.findElement(By.xpath("//span/span/span")).click();
+	driver.findElement(By.xpath("//li[4]")).click();
+	
+
 	driver.findElement(By.id("edit-submit")).click();
 	
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@id='bgroup_1']/div/table/tbody/tr/td[8]/div/a/span")));//ждем загрузку страницы

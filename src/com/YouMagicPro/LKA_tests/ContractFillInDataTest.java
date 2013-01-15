@@ -30,7 +30,7 @@ public class ContractFillInDataTest  extends TestBase{
     		driver.findElement(By.id("edit-submit")).click();//нажатие на кнопку "Сохранить"
     		
     		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bDocWrap > h1")));//ожидание загрузки страницы
-    		assertEquals(driver.findElement(By.cssSelector("div.bDocWrap > h1")).getText(), "ДОГОВОР ОБ ОКАЗАНИИ УСЛУГ СВЯЗИ № 100232");
+    		assertEquals(driver.findElement(By.cssSelector("div.bDocWrap > h1")).getText(), "ДОГОВОР ОБ ОКАЗАНИИ УСЛУГ СВЯЗИ № 100235");
     	}
 
 }

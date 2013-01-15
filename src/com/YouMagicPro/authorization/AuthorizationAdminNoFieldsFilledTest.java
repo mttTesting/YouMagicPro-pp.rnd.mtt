@@ -15,7 +15,7 @@ public class AuthorizationAdminNoFieldsFilledTest extends TestBase{
 				driver.findElement(By.id("edit-submit-1")).click();
 				
 				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td/div/div")));//ожидание загрузки страницы
-				assertEquals(driver.findElement(By.xpath("//td/div/div")).getText(), "Логин обязателен для заполнения");
+				assertEquals(driver.findElement(By.xpath("//td/div/div")).getText(), "Логин и Пароль обязательны для заполнения");
 			}
 			
 }
