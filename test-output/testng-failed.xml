@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.EmployeesEditProfile2SymbolsInTextFieldTest">
+      <class name="com.YouMagicPro.LKA_tests.EmployeesLimitsOfFundsTest">
         <methods>
-          <include name="employeesEditProfile2SymbolsInTextFieldTest_C15253"/>
           <include name="startWebDriver"/>
           <include name="closeSession"/>
+          <include name="employeesLimitsOfFundsTest_C15270"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesEditProfile2SymbolsInTextFieldTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesLimitsOfFundsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class GroupsAddAndDeleteGroupTest extends TestBase {
 	@Test
-	public void GroupsAlertTest_C15184() {
+	public void groupsAddAndDeleteGroupTest_C15195C15186C25629() {
 	waitAdminPageToLoadSecondAccount();
 	
 	driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"

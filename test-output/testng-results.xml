@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21308" started-at="2013-01-15T05:56:25Z" finished-at="2013-01-15T05:56:46Z">
+  <suite name="Default suite" duration-ms="41463" started-at="2013-01-17T13:33:58Z" finished-at="2013-01-17T13:34:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21308" started-at="2013-01-15T05:56:25Z" finished-at="2013-01-15T05:56:46Z">
-      <class name="com.YouMagicPro.LKA_tests.BuyingAdditionalExternalNumberCloseWindowTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalExternalNumberCloseWindowTest@507aa91b]" name="startWebDriver" is-config="true" duration-ms="2643" started-at="2013-01-15T09:56:25Z" finished-at="2013-01-15T09:56:28Z">
+    <test name="Default test" duration-ms="41463" started-at="2013-01-17T13:33:58Z" finished-at="2013-01-17T13:34:40Z">
+      <class name="com.YouMagicPro.LKA_tests.EmployeesGeneratePasswordTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesGeneratePasswordTest@649be74f]" name="startWebDriver" is-config="true" duration-ms="1809" started-at="2013-01-17T17:33:58Z" finished-at="2013-01-17T17:34:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="BuyingAdditionalExternalNumberCloseWindowTest_C15110()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalExternalNumberCloseWindowTest@507aa91b]" name="BuyingAdditionalExternalNumberCloseWindowTest_C15110" duration-ms="16421" started-at="2013-01-15T09:56:28Z" finished-at="2013-01-15T09:56:44Z">
+        <test-method status="PASS" signature="employeesGeneratePasswordTest_C15267()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesGeneratePasswordTest@649be74f]" name="employeesGeneratePasswordTest_C15267" duration-ms="36737" started-at="2013-01-17T17:34:00Z" finished-at="2013-01-17T17:34:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BuyingAdditionalExternalNumberCloseWindowTest_C15110 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.BuyingAdditionalExternalNumberCloseWindowTest@507aa91b]" name="closeSession" is-config="true" duration-ms="2240" started-at="2013-01-15T09:56:44Z" finished-at="2013-01-15T09:56:46Z">
+        </test-method> <!-- employeesGeneratePasswordTest_C15267 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesGeneratePasswordTest@649be74f]" name="closeSession" is-config="true" duration-ms="2914" started-at="2013-01-17T17:34:37Z" finished-at="2013-01-17T17:34:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.BuyingAdditionalExternalNumberCloseWindowTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesGeneratePasswordTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

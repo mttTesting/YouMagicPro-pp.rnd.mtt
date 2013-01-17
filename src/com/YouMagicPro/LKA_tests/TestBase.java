@@ -158,7 +158,14 @@ import org.testng.annotations.BeforeTest;
 
 	    	
 	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
-	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	  
+	    	try {
+	    		Thread.sleep(5000);
+	    	} catch (InterruptedException e) {
+	    		// TODO Auto-generated catch block
+	    		e.printStackTrace();
+	    	}
+	    	driver.findElement(By.xpath("//div[@id='instructionContent']/div/div[4]/a")).click();
 	    }
 	    
 	    

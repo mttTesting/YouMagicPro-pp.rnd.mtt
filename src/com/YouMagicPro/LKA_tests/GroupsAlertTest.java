@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class GroupsAlertTest extends TestBase {
 	@Test
-	public void GroupsAlertTest_C15184() {
+	public void groupsAlertTest_C15184() {
 	waitAdminPageToLoad();
 	
 	driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"

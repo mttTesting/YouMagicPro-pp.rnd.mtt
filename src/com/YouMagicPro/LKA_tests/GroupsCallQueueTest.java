@@ -34,10 +34,8 @@ public class GroupsCallQueueTest extends TestBase {
 
 	driver.findElement(By.id("edit-submit")).click();
 	
-	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@id='bgroup_1']/div/table/tbody/tr/td[8]/div/a/span")));//ждем загрузку страницы
-	driver.findElement(By.xpath("//div[@id='bgroup_1']/div/table/tbody/tr/td[8]/div/a/span")).click(); //удаляем группу
-	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td/a/div/span")));//ждем загрузку страницы
-	driver.findElement(By.xpath("//td/a/div/span")).click();
+	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/div/div[2]/div/div")));//ждем загрузку страницы
+
 	
 	}
 }
