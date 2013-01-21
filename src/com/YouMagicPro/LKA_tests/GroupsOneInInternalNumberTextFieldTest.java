@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class GroupsOneInInternalNumberTextFieldTest extends TestBase {
 	@Test
 	public void groupsOneInInternalNumberTextFieldTest_C15188() {
-	waitAdminPageToLoadSecondAccount();
+	waitAdminPageToLoad();
 	
 	driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"
 	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
