@@ -14,17 +14,17 @@ public class VoiceMenuSetNumber3ToAnotherMenuTest extends TestBase {
 	
 	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
 	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-	//driver.findElement(By.xpath("//td[2]/div/span")).click();
-	
+
 	driver.findElement(By.xpath("//div[4]/a/div")).click();
-	
+
 	driver.findElement(By.xpath("//div[3]/div/a/span")).click();
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/label")));
 	assertEquals(driver.findElement(By.xpath("//div/label")).getText(), "Название");
 	
-	driver.findElement(By.id("edit-ivr-name")).sendKeys("Меню");
+	driver.findElement(By.id("edit-ivr-name")).sendKeys("Меню111");
 	
 	driver.findElement(By.xpath("//div[@id='ivr-action-3']/span")).click();
+	sleep();
 	driver.findElement(By.xpath("//div[@id='edit-group-3-ivr-action-3-wrapper']/span/span/span")).click();
 	driver.findElement(By.xpath("//div[@id='edit-group-3-ivr-action-3-wrapper']/span/ul/li[4]")).click();
 	

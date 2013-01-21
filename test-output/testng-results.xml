@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41805" started-at="2013-01-21T09:58:36Z" finished-at="2013-01-21T09:59:18Z">
+  <suite name="Default suite" duration-ms="47639" started-at="2013-01-21T12:26:30Z" finished-at="2013-01-21T12:27:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41805" started-at="2013-01-21T09:58:36Z" finished-at="2013-01-21T09:59:18Z">
+    <test name="Default test" duration-ms="47639" started-at="2013-01-21T12:26:30Z" finished-at="2013-01-21T12:27:17Z">
       <class name="com.YouMagicPro.LKA_tests.VoiceMenuSetNumber3ToAnotherMenuTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuSetNumber3ToAnotherMenuTest@376f2723]" name="startWebDriver" is-config="true" duration-ms="1702" started-at="2013-01-21T13:58:36Z" finished-at="2013-01-21T13:58:38Z">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuSetNumber3ToAnotherMenuTest@2a77997]" name="startWebDriver" is-config="true" duration-ms="1791" started-at="2013-01-21T16:26:30Z" finished-at="2013-01-21T16:26:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="voiceMenuSetNumber3ToAnotherMenuTest_C15343()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuSetNumber3ToAnotherMenuTest@376f2723]" name="voiceMenuSetNumber3ToAnotherMenuTest_C15343" duration-ms="37390" started-at="2013-01-21T13:58:38Z" finished-at="2013-01-21T13:59:16Z">
+        <test-method status="PASS" signature="voiceMenuSetNumber3ToAnotherMenuTest_C15343()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuSetNumber3ToAnotherMenuTest@2a77997]" name="voiceMenuSetNumber3ToAnotherMenuTest_C15343" duration-ms="43025" started-at="2013-01-21T16:26:32Z" finished-at="2013-01-21T16:27:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- voiceMenuSetNumber3ToAnotherMenuTest_C15343 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuSetNumber3ToAnotherMenuTest@376f2723]" name="closeSession" is-config="true" duration-ms="2701" started-at="2013-01-21T13:59:16Z" finished-at="2013-01-21T13:59:18Z">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.VoiceMenuSetNumber3ToAnotherMenuTest@2a77997]" name="closeSession" is-config="true" duration-ms="2820" started-at="2013-01-21T16:27:15Z" finished-at="2013-01-21T16:27:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->

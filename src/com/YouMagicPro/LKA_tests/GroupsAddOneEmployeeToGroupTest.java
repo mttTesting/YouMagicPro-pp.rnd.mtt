@@ -21,8 +21,10 @@ public class GroupsAddOneEmployeeToGroupTest extends TestBase {
 	sleep();
 	
 	driver.findElement(By.xpath("//td[5]/a/span")).click();
-	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/div[2]/span[2]")));//ждем загрузки страницы
-	driver.findElement(By.xpath("//div[3]/div[2]/span[2]")).click();//нажимаем на плюс, чтобы сотрудник переместился в группу
+	sleep();
+	
+	driver.findElement(By.xpath("//div[3]/div/span[2]")).click();//нажимаем на плюс, чтобы сотрудник переместился в группу
+	sleep();
 	driver.findElement(By.xpath("//div[2]/div[2]/span[2]")).click();//нажимаем на минус, чтобы сотрудник удалился из группы
 	driver.findElement(By.xpath("//center/input")).click();//сабмит
 	
