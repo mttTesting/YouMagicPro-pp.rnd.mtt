@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.BlacklistAddBannedNumberTest">
+      <class name="com.YouMagicPro.LKA_tests.SupportChooseTopicWriteTextTest">
         <methods>
           <include name="startWebDriver"/>
+          <include name="supportChooseTopicWriteTextTest_C15200"/>
           <include name="closeSession"/>
-          <include name="BlacklistChooseMainNumberTest_C15150"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.BlacklistAddBannedNumberTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.SupportChooseTopicWriteTextTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

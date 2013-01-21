@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41682" started-at="2013-01-18T12:26:56Z" finished-at="2013-01-18T12:27:38Z">
+  <suite name="Default suite" duration-ms="42116" started-at="2013-01-21T09:20:25Z" finished-at="2013-01-21T09:21:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41682" started-at="2013-01-18T12:26:56Z" finished-at="2013-01-18T12:27:38Z">
-      <class name="com.YouMagicPro.LKA_tests.BlacklistAddBannedNumberTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.BlacklistAddBannedNumberTest@376f2723]" name="startWebDriver" is-config="true" duration-ms="1325" started-at="2013-01-18T16:26:56Z" finished-at="2013-01-18T16:26:58Z">
+    <test name="Default test" duration-ms="42116" started-at="2013-01-21T09:20:25Z" finished-at="2013-01-21T09:21:07Z">
+      <class name="com.YouMagicPro.LKA_tests.SupportChooseTopicWriteTextTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.SupportChooseTopicWriteTextTest@62728743]" name="startWebDriver" is-config="true" duration-ms="1255" started-at="2013-01-21T13:20:25Z" finished-at="2013-01-21T13:20:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="BlacklistChooseMainNumberTest_C15150()[pri:0, instance:com.YouMagicPro.LKA_tests.BlacklistAddBannedNumberTest@376f2723]" name="BlacklistChooseMainNumberTest_C15150" duration-ms="37614" started-at="2013-01-18T16:26:58Z" finished-at="2013-01-18T16:27:35Z">
+        <test-method status="PASS" signature="supportChooseTopicWriteTextTest_C15200()[pri:0, instance:com.YouMagicPro.LKA_tests.SupportChooseTopicWriteTextTest@62728743]" name="supportChooseTopicWriteTextTest_C15200" duration-ms="37900" started-at="2013-01-21T13:20:26Z" finished-at="2013-01-21T13:21:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BlacklistChooseMainNumberTest_C15150 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.BlacklistAddBannedNumberTest@376f2723]" name="closeSession" is-config="true" duration-ms="2739" started-at="2013-01-18T16:27:35Z" finished-at="2013-01-18T16:27:38Z">
+        </test-method> <!-- supportChooseTopicWriteTextTest_C15200 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.SupportChooseTopicWriteTextTest@62728743]" name="closeSession" is-config="true" duration-ms="2959" started-at="2013-01-21T13:21:04Z" finished-at="2013-01-21T13:21:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.BlacklistAddBannedNumberTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.SupportChooseTopicWriteTextTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
