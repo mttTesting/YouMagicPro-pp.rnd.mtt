@@ -10,9 +10,7 @@ public class AddAndDeleteMenusTest extends TestBaseReg{
 	public void addAndDeleteMenusTest_C15292() throws Exception {
 		openAndLogin();
 	
-		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
-		selenium.click("css=span.modal_cansel_button_text");
-		
+
 		selenium.click("link=Настройки"); //Переход в меню "Настройки"->" Голосовое меню"
 		selenium.waitForPageToLoad("60000");
 		selenium.click("//div[4]/a/div");

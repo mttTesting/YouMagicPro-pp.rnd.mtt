@@ -40,5 +40,21 @@ public class TestBaseReg {
 		selenium.type("id=edit-pass-1", "1234");
 		selenium.click("id=edit-submit-1"); //нажатие "¬ход"
 		selenium.waitForPageToLoad("60000");
+		
+		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
+		sleep();
+		selenium.click("css=span.modal_cansel_button_text");
+		sleep();
+	}
+	public void sleep()
+	{
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
 	}
 }
