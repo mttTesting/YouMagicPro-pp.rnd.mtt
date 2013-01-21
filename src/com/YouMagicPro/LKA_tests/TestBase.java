@@ -141,9 +141,11 @@ import org.testng.annotations.BeforeTest;
 	    	driver.findElement(By.id("edit-name-1")).sendKeys("100235");//ввод логина, пароля
 	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");
 	    	driver.findElement(By.id("edit-submit-1")).click();
-	    
+	    	
+	    	sleep();
 	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
 	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	    	sleep();
 	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    }
 	    public static void waitAdminPageToLoadSecondAccount()
@@ -156,15 +158,10 @@ import org.testng.annotations.BeforeTest;
 	    	
 	    	driver.findElement(By.id("edit-submit-1")).click();
 
-	    	
+	    	sleep();
 	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
-	  
-	    	try {
-	    		Thread.sleep(5000);
-	    	} catch (InterruptedException e) {
-	    		// TODO Auto-generated catch block
-	    		e.printStackTrace();
-	    	}
+	    	sleep();
+	    	
 	    	driver.findElement(By.xpath("//div[@id='instructionContent']/div/div[4]/a")).click();
 	    }
 	    
@@ -176,15 +173,25 @@ import org.testng.annotations.BeforeTest;
 	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");
 	    	driver.findElement(By.id("edit-submit-1")).click();
 	    	
+	    	sleep();
 	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
 	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
 	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    	
 	    	driver.findElement(By.xpath("//div[5]/div[2]/span/a")).click(); //Нажатие "Оформить"
+	    	sleep();
 	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
 	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    	
 	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
 
+	    }
+	    public static void sleep(){
+	    	try {
+	    		Thread.sleep(4000);
+	    	} catch (InterruptedException e) {
+	    		// TODO Auto-generated catch block
+	    		e.printStackTrace();
+	    	}
 	    }
 	}

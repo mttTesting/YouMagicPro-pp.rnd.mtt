@@ -4,9 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 
-public class VoiceMenuAddTest extends TestBase {
+public class VoiceMenuSetNumber7ToRetryOfListeningTest extends TestBase {
 	@Test
-	public void voiceMenuAddTest_C15292() {
+	public void voiceMenuSetNumber7ToRetryOfListeningTest_C15347() {
 	waitAdminPageToLoad();
 	
 	driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"
@@ -24,5 +24,19 @@ public class VoiceMenuAddTest extends TestBase {
 	driver.findElement(By.xpath("//div[3]/div/a/span")).click();
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/label")));
 	assertEquals(driver.findElement(By.xpath("//div/label")).getText(), "Название");
+	
+	driver.findElement(By.id("edit-ivr-name")).sendKeys("Меню");
+	
+	driver.findElement(By.xpath("//div[@id='ivr-action-7']/span")).click();
+	driver.findElement(By.xpath("//div[7]/div/span/span/span")).click();
+	driver.findElement(By.xpath("//div[@id='edit-group-7-ivr-action-7-wrapper']/span/ul/li[7]")).click();
+	
+	
+	sleep();
+	driver.findElement(By.id("edit-submit")).click();
+	sleep();
+	driver.findElement(By.xpath("//a[2]/span")).click();
+	driver.findElement(By.xpath("//a/div/span")).click();
+	
 	}
 }

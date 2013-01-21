@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41463" started-at="2013-01-17T13:33:58Z" finished-at="2013-01-17T13:34:40Z">
+  <suite name="Default suite" duration-ms="41682" started-at="2013-01-18T12:26:56Z" finished-at="2013-01-18T12:27:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41463" started-at="2013-01-17T13:33:58Z" finished-at="2013-01-17T13:34:40Z">
-      <class name="com.YouMagicPro.LKA_tests.EmployeesGeneratePasswordTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesGeneratePasswordTest@649be74f]" name="startWebDriver" is-config="true" duration-ms="1809" started-at="2013-01-17T17:33:58Z" finished-at="2013-01-17T17:34:00Z">
+    <test name="Default test" duration-ms="41682" started-at="2013-01-18T12:26:56Z" finished-at="2013-01-18T12:27:38Z">
+      <class name="com.YouMagicPro.LKA_tests.BlacklistAddBannedNumberTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.BlacklistAddBannedNumberTest@376f2723]" name="startWebDriver" is-config="true" duration-ms="1325" started-at="2013-01-18T16:26:56Z" finished-at="2013-01-18T16:26:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="employeesGeneratePasswordTest_C15267()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesGeneratePasswordTest@649be74f]" name="employeesGeneratePasswordTest_C15267" duration-ms="36737" started-at="2013-01-17T17:34:00Z" finished-at="2013-01-17T17:34:37Z">
+        <test-method status="PASS" signature="BlacklistChooseMainNumberTest_C15150()[pri:0, instance:com.YouMagicPro.LKA_tests.BlacklistAddBannedNumberTest@376f2723]" name="BlacklistChooseMainNumberTest_C15150" duration-ms="37614" started-at="2013-01-18T16:26:58Z" finished-at="2013-01-18T16:27:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- employeesGeneratePasswordTest_C15267 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesGeneratePasswordTest@649be74f]" name="closeSession" is-config="true" duration-ms="2914" started-at="2013-01-17T17:34:37Z" finished-at="2013-01-17T17:34:40Z">
+        </test-method> <!-- BlacklistChooseMainNumberTest_C15150 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.BlacklistAddBannedNumberTest@376f2723]" name="closeSession" is-config="true" duration-ms="2739" started-at="2013-01-18T16:27:35Z" finished-at="2013-01-18T16:27:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesGeneratePasswordTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.BlacklistAddBannedNumberTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

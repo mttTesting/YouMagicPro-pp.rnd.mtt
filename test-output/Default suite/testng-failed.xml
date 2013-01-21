@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.EmployeesLimitsOfFundsTest">
+      <class name="com.YouMagicPro.LKA_tests.BlacklistAddBannedNumberTest">
         <methods>
           <include name="startWebDriver"/>
           <include name="closeSession"/>
-          <include name="employeesLimitsOfFundsTest_C15270"/>
+          <include name="BlacklistChooseMainNumberTest_C15150"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesLimitsOfFundsTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.BlacklistAddBannedNumberTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
