@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.VoiceMenuSetNumber3ToAnotherMenuTest">
+      <class name="com.YouMagicPro.LKA_tests.VoiceMailPageTest">
         <methods>
-          <include name="startWebDriver"/>
-          <include name="voiceMenuSetNumber3ToAnotherMenuTest_C15343"/>
-          <include name="closeSession"/>
+          <include name="voiceMailPageTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.VoiceMenuSetNumber3ToAnotherMenuTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.VoiceMailPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
