@@ -9,9 +9,7 @@ public class CallForwardingPageTest extends TestBaseReg{
 	@Test
 	public void clickOnAvatarTest () throws Exception {	 
 		openAndLogin();
-		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
-		selenium.click("css=span.modal_cansel_button_text");
-		
+
 		selenium.click("//div[2]/div/div/div/span/a"); //Переход на страницу переадресации
 		selenium.waitForPageToLoad("30000");
 		

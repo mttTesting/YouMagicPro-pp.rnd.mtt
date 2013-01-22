@@ -9,8 +9,7 @@ public class PaymentsPageTest extends TestBaseReg{
 	@Test
 	public void soundFilesTest() throws Exception {
 		openAndLogin();
-		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
-		selenium.click("css=span.modal_cansel_button_text");
+
 	
 		selenium.click("link=Платежи"); //Переход в меню "Платежи"->"Платежи и документы"
 		Thread.sleep(3000);

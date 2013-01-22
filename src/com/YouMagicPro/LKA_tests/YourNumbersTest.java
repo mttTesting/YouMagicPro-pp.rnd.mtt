@@ -9,8 +9,6 @@ public class YourNumbersTest  extends TestBaseReg{
 	@Test
 	public void yourNumbersTest() throws Exception {
 		openAndLogin();
-		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
-		selenium.click("css=span.modal_cansel_button_text");
 	
 		selenium.click("link=Настройки");// Переход в меню "Настройки"
 		Thread.sleep(8000);

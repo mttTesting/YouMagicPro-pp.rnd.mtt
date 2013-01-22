@@ -9,9 +9,7 @@ public class DetalizationPageTest  extends TestBaseReg{
 	@Test
 	public void detalizationPageTest() throws Exception {
 		openAndLogin();
-		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
-		selenium.click("css=span.modal_cansel_button_text");	
-		
+
 		selenium.click("link=Платежи");
 		Thread.sleep(3000);
 		

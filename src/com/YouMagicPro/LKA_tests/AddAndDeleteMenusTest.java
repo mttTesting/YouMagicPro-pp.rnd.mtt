@@ -10,7 +10,6 @@ public class AddAndDeleteMenusTest extends TestBaseReg{
 	public void addAndDeleteMenusTest_C15292() throws Exception {
 		openAndLogin();
 	
-
 		selenium.click("link=Настройки"); //Переход в меню "Настройки"->" Голосовое меню"
 		selenium.waitForPageToLoad("60000");
 		selenium.click("//div[4]/a/div");

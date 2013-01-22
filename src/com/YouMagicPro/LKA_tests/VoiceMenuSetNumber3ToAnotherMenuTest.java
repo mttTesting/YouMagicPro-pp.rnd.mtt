@@ -18,6 +18,7 @@ public class VoiceMenuSetNumber3ToAnotherMenuTest extends TestBase {
 	driver.findElement(By.xpath("//div[4]/a/div")).click();
 
 	driver.findElement(By.xpath("//div[3]/div/a/span")).click();
+	sleep();
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/label")));
 	assertEquals(driver.findElement(By.xpath("//div/label")).getText(), "Название");
 	

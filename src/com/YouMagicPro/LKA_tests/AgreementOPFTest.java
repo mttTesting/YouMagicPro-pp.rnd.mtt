@@ -8,9 +8,7 @@ public class AgreementOPFTest extends TestBaseReg{
 	@Test
 	public void agreementOPFTest_C14983() throws Exception {
 		openAndLogin();
-		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
-		selenium.click("css=span.modal_cansel_button_text");
-		
+
 		selenium.click("link=ќформить");
 		selenium.waitForPageToLoad("30000");
 		selenium.click("css=span.text");

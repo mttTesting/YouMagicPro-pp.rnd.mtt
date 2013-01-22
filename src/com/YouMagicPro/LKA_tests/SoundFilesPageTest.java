@@ -9,9 +9,7 @@ public class SoundFilesPageTest extends TestBaseReg{
 	@Test
 	public void soundFilesTest() throws Exception {
 		openAndLogin();
-		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
-		selenium.click("css=span.modal_cansel_button_text");
-		
+
 		//selenium.click("//td[2]/div/span");
 		//selenium.click("//div[4]/a");
 		selenium.click("//div/span[3]/a"); // Переход в меню "Файлы"->"Звуковые файлы"
