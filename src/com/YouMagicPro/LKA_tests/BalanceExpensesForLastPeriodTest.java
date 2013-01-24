@@ -10,7 +10,7 @@ public class BalanceExpensesForLastPeriodTest extends TestBase{
 	    	public void balanceExpensesForLastPeriodTest_C15092() {  		
 	    		waitAdminPageToLoad();
 	    
-	    		assertEquals(driver.findElement(By.xpath("//tr[2]/td[2]/span")).getText(), "0");
+	    		assertEquals(driver.findElement(By.xpath("//tr[2]/td[2]/span")).getText(), "102.78");
 	    	}
 
 	}

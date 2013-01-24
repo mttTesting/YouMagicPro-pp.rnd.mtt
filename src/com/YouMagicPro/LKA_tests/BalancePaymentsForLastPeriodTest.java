@@ -10,7 +10,7 @@ public class BalancePaymentsForLastPeriodTest extends TestBase{
 	    	public void balancePaymentsForLastPeriodTest_15093() {  		
 	    		waitAdminPageToLoad();
 	    
-	    		assertEquals(driver.findElement(By.xpath("//tr[3]/td[2]/span")).getText(), "0");
+	    		assertEquals(driver.findElement(By.xpath("//tr[3]/td[2]/span")).getText(), "1063");
 	    	}
 
 	}
