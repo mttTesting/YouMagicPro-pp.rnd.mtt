@@ -18,7 +18,7 @@ public class RegistrationMobilePhoneConfirmationButtonTest extends TestBaseReg{
 		selenium.click("id=confirm-link");
 		AssertJUnit.assertTrue(selenium.isTextPresent("Номер мобильного телефона"));
 		selenium.type("id=edit-personal-phone", "899878787878");
-		selenium.click("id=confirm-link");
+		selenium.click("id=edit-next");
 		AssertJUnit.assertTrue(selenium.isTextPresent("В течение нескольких"));
 	}
 }

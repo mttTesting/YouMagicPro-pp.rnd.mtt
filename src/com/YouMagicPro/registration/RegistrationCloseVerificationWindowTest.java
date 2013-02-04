@@ -15,7 +15,7 @@ public class RegistrationCloseVerificationWindowTest extends TestBaseReg{
 		selenium.click("id=edit-next");
 		selenium.waitForPageToLoad("30000");
 		selenium.type("id=edit-personal-phone", "1234");
-		selenium.click("id=confirm-link");
+		selenium.click("id=edit-next");
 		selenium.click("css=span.ui-icon.ui-icon-closethick");
 }
 }

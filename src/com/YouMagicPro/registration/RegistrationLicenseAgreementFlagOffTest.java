@@ -19,10 +19,10 @@ public class RegistrationLicenseAgreementFlagOffTest  extends TestBaseReg{
 		selenium.type("id=edit-middle-name", "1234");
 		selenium.type("id=edit-mail", "111@com.com");
 		selenium.type("id=edit-personal-phone", "1234");
-		selenium.click("id=confirm-link");
+		selenium.click("id=edit-next");
 		selenium.type("name=smscode", "1234");
 		selenium.click("css=span.phone_confirm_text.conf_text");
-		selenium.click("edit-next");
+		selenium.click("id=edit-next");
 		AssertJUnit.assertTrue(selenium.isTextPresent("Персональная информация"));
 	
 	}

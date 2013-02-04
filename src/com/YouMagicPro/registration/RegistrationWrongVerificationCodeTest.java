@@ -16,7 +16,7 @@ public class RegistrationWrongVerificationCodeTest extends TestBaseReg{
 		selenium.click("id=edit-next");
 		selenium.waitForPageToLoad("30000");
 		selenium.type("id=edit-personal-phone", "1234");
-		selenium.click("id=confirm-link");
+		selenium.click("id=edit-next");
 		selenium.type("name=smscode", "12212");
 		selenium.click("css=span.phone_confirm_text.conf_text");
 		Thread.sleep(2000);

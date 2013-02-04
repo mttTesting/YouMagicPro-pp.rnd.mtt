@@ -14,7 +14,7 @@ public class RegistrationCancelVerificationButtonEmptyFieldTest extends TestBase
 		selenium.click("//label/input");
 		selenium.click("id=edit-next");
 		selenium.waitForPageToLoad("30000");
-		selenium.click("id=confirm-link");
+		selenium.click("id=edit-next");
 		selenium.type("name=smscode", "1234");
 		selenium.click("css=span.modal_cansel_button_text");
 
