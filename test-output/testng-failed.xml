@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKS_tests.PhoneAddContactAndDeleteTest">
+      <class name="com.YouMagicPro.registration.RegistrationMobilePhoneConfirmationButtonTest">
         <methods>
+          <include name="registrationMobilePhoneConfirmationButtonTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="PhoneAddContactAndDeleteTest_C15324"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKS_tests.PhoneAddContactAndDeleteTest -->
+      </class> <!-- com.YouMagicPro.registration.RegistrationMobilePhoneConfirmationButtonTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

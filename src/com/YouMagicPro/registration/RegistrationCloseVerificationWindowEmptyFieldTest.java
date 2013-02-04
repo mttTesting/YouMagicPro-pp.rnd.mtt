@@ -16,6 +16,6 @@ public class RegistrationCloseVerificationWindowEmptyFieldTest  extends TestBase
 		selenium.waitForPageToLoad("30000");
 		selenium.type("id=edit-personal-phone", "1234");
 		selenium.click("id=edit-next");
-		selenium.click("css=span.ui-icon.ui-icon-closethick");
+		selenium.click("//td[2]/div/span");
 }
 }
