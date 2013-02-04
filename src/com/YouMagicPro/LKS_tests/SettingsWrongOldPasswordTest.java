@@ -1,0 +1,23 @@
+package com.YouMagicPro.LKS_tests;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.annotations.Test;
+
+import com.registration.tests.TestBaseReg;
+
+public class SettingsWrongOldPasswordTest  extends TestBase{
+	@Test
+	public void SettingsWrongOldPasswordTest_C15283 () throws Exception {	 
+		waitEmployeePageToLoad();
+
+		driver.findElement(By.xpath("//a[contains(@href, '/private/my-office/nojs/settings')]")).click();
+		sleep();//ожидание загрузки страницы
+		driver.findElement(By.id("edit-user-password")).sendKeys("34");
+		driver.findElement(By.id("edit-pass1")).sendKeys("1234");
+		driver.findElement(By.id("edit-pass2")).sendKeys("1234");
+		driver.findElement(By.id("edit-submit")).click();
+		
+		sleep();
+		assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), "Введен неверный пароль");
+	}
+}

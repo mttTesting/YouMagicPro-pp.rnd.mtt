@@ -12,12 +12,12 @@ public class GroupsMelodyTest extends TestBase {
 	driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"
 	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
 	sleep();
-	driver.findElement(By.xpath("//td[2]/div/span")).click();
-	sleep();
+	//driver.findElement(By.xpath("//td[2]/div/span")).click();
+	//sleep();
 	
 	driver.findElement(By.xpath("//div[3]/a/div")).click();//нажимаем "группы
-	sleep();
-	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	//sleep();
+	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	sleep();
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td[6]/a/span")));//ждем загрузки страницы
 	

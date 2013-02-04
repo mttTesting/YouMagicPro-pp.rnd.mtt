@@ -146,7 +146,7 @@ import org.testng.annotations.BeforeTest;
 	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
 	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
 	    	sleep();
-	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    }
 	    public static void waitAdminPageToLoadSecondAccount()
 	    {
@@ -178,13 +178,13 @@ import org.testng.annotations.BeforeTest;
 	    	
 	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
 	    	sleep();
-	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    	
 	    	driver.findElement(By.xpath("//div[5]/div[2]/span/a")).click(); //Ќажатие "ќформить"
 	    	sleep();
 	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
 	    	sleep();
-	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    	
 	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
 

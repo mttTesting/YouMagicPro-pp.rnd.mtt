@@ -14,12 +14,12 @@ public class VoiceMenuSetNumber7ToRetryOfListeningTest extends TestBase {
 	
 	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
 	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	
 	driver.findElement(By.xpath("//div[4]/a/div")).click();
 	
-	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td[2]/div/span")));//ожидание загрузки страницы
-	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	//wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td[2]/div/span")));//ожидание загрузки страницы
+	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	
 	driver.findElement(By.xpath("//div[3]/div/a/span")).click();
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/label")));

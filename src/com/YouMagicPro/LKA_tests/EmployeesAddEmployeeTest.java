@@ -15,11 +15,11 @@ public class EmployeesAddEmployeeTest extends TestBase{
 		
 		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
     	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-    	driver.findElement(By.xpath("//td[2]/div/span")).click();
+    //	driver.findElement(By.xpath("//td[2]/div/span")).click();
     	
 		driver.findElement(By.xpath("//div[2]/a/div")).click();//нажимаем "Сотрудники"
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/a/span")));//ожидание загрузки страницы
-		driver.findElement(By.xpath("//td[2]/div/span")).click();
+	//	driver.findElement(By.xpath("//td[2]/div/span")).click();
 		
 		driver.findElement(By.xpath("//div[6]/a/span")).click();
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//form/div/div/div/span")));

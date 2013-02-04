@@ -18,7 +18,7 @@ public class ContractCorAccount19NumbersTest extends TestBase{
 	driver.findElement(By.id("edit-bank-details-kor-account")).clear();
 	driver.findElement(By.id("edit-bank-details-kor-account")).sendKeys("1234567890123456789");	//Вводим keys в поле ввода ИНН
 	driver.findElement(By.id("edit-submit")).click();
-	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bDocWrap > h1")));//ожидание загрузки страницы
+	//wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bDocWrap > h1")));//ожидание загрузки страницы
 	assertEquals(driver.findElement(By.cssSelector("div.section-title")).getText(), "Проверьте правильность заполнения договора и подпишите");
 	
 	}
