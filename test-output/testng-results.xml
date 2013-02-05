@@ -2,29 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20129" started-at="2013-02-04T10:20:35Z" finished-at="2013-02-04T10:20:55Z">
+  <suite name="Default suite" duration-ms="26240" started-at="2013-02-04T13:12:36Z" finished-at="2013-02-04T13:13:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20129" started-at="2013-02-04T10:20:35Z" finished-at="2013-02-04T10:20:55Z">
-      <class name="com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest@b0cf230]" name="setUp" is-config="true" duration-ms="5417" started-at="2013-02-04T14:20:35Z" finished-at="2013-02-04T14:20:40Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="26240" started-at="2013-02-04T13:12:36Z" finished-at="2013-02-04T13:13:02Z">
+      <class name="com.YouMagicPro.LKS_tests.PhoneSearchByNumbers">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneSearchByNumbers@df8388a]" name="startWebDriver" is-config="true" duration-ms="2375" started-at="2013-02-04T17:12:36Z" finished-at="2013-02-04T17:12:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registrationStabilityOfNumbersTest()[pri:0, instance:com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest@b0cf230]" name="registrationStabilityOfNumbersTest" duration-ms="14352" started-at="2013-02-04T14:20:40Z" finished-at="2013-02-04T14:20:55Z">
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="phoneSearchByNumbers_C15337()[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneSearchByNumbers@df8388a]" name="phoneSearchByNumbers_C15337" duration-ms="19071" started-at="2013-02-04T17:12:39Z" finished-at="2013-02-04T17:12:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationStabilityOfNumbersTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest@b0cf230]" name="tearDown" is-config="true" duration-ms="359" started-at="2013-02-04T14:20:55Z" finished-at="2013-02-04T14:20:55Z">
+        </test-method> <!-- phoneSearchByNumbers_C15337 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneSearchByNumbers@df8388a]" name="closeSession" is-config="true" duration-ms="4791" started-at="2013-02-04T17:12:58Z" finished-at="2013-02-04T17:13:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest -->
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKS_tests.PhoneSearchByNumbers -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
