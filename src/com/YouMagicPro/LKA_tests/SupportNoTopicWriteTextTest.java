@@ -22,6 +22,6 @@ public class SupportNoTopicWriteTextTest extends TestBase{
 		sleep();
 		//driver.findElement(By.xpath("//div[@id='umagicproConfirmDialog-d7db61d4eaa86fd123239ffe2246b1db']/div/div[2]/table/tbody/tr/td[2]/div/span")).click();
 		
-		assertEquals(driver.findElement(By.xpath("//td[3]/div/div/div/div/div")).getText(), "Пожалуйста, выберите тему вопроса");
+		assertEquals(driver.findElement(By.xpath("//td[3]/div/div/div/div")).getText(), "Пожалуйста, выберите тему вопроса");
 	}
 }

@@ -20,6 +20,6 @@ public class HistorySwitchOnlyYearAndMonth extends TestBaseReg{
 		selenium.click("id=edit-from-date-datepicker-popup-0");//Выбор месяца
 		selenium.click("link=Янв");//
 		selenium.click("id=edit-from-date-datepicker-popup-0");//Выбор дня
-		AssertJUnit.assertEquals(selenium.getValue("id=edit-from-date-datepicker-popup-0"), "2013-01-01"); //проверка
+		AssertJUnit.assertEquals(selenium.getValue("id=edit-from-date-datepicker-popup-0"), "2013-02-01"); //проверка
 	}
 }

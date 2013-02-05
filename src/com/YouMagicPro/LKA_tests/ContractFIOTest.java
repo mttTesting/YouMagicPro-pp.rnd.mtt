@@ -12,7 +12,7 @@ public class ContractFIOTest  extends TestBase{
 	    		
 	    		driver.findElement(By.id("edit-submit")).click();
 	    		
-	    		assertEquals(driver.findElement(By.cssSelector("div.bDocWrap > p > span.input")).getText(), "ФИО: Мухин Вадим Николаевич\nТел. +7 (985) 729-74-09\nE-mail b915966@rmqkr.net");
+	    		assertEquals(driver.findElement(By.xpath("//div[@id='account-charges']/div[2]/div/table[2]/tbody/tr[3]/td[2]/span")).getText(), "Мухин Вадим Николаевич");
 	    		
 	    		
 	    		

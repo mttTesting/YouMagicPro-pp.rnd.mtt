@@ -19,7 +19,7 @@ public class EmployeesFiveFreeNumbersTest extends TestBase{
     	
 		driver.findElement(By.xpath("//div[2]/a/div")).click();//нажимаем "—отрудники"
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/a/span")));//ожидание загрузки страницы
-		driver.findElement(By.xpath("//td[2]/div/span")).click();
+		//driver.findElement(By.xpath("//td[2]/div/span")).click();
 		
 		driver.findElement(By.xpath("//div[3]/div/div[2]")).click();
 		driver.findElement(By.xpath("//div[@id='main_enter']/div/div[3]/div[2]")).click();

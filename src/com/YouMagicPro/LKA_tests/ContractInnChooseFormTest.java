@@ -34,7 +34,7 @@ public class ContractInnChooseFormTest  extends TestBase{
 		driver.findElement(By.xpath("//span/span/span")).click();
 		driver.findElement(By.xpath(xPathDropdownList)).click();
 		driver.findElement(By.id("edit-submit")).click();
-		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bDocWrap > h1")));//ожидание загрузки страницы
+		sleep();
 		assertEquals(driver.findElement(By.cssSelector("div.section-title")).getText(), errorString);
 	}
 	

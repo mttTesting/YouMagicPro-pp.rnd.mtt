@@ -19,7 +19,7 @@ public class EmployeesEditProfileTest extends TestBase{
     	
 		driver.findElement(By.xpath("//div[2]/a/div")).click();//нажимаем "Сотрудники"
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/a/span")));//ожидание загрузки страницы
-		driver.findElement(By.xpath("//td[2]/div/span")).click();
+		//driver.findElement(By.xpath("//td[2]/div/span")).click();
 		
 		driver.findElement(By.xpath("//div[3]/a/span")).click();
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/label")));//ожидание загрузки страницы
