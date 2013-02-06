@@ -18,6 +18,6 @@ public class SettingsWrongOldPasswordTest  extends TestBase{
 		driver.findElement(By.id("edit-submit")).click();
 		
 		sleep();
-		assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), "Введен неверный пароль");
+		assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), "Неправильно указан старый пароль");
 	}
 }
