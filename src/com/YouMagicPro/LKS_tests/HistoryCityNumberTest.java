@@ -13,12 +13,12 @@ public class HistoryCityNumberTest  extends TestBase{
 
 		driver.findElement(By.xpath("//a[contains(@href, '/private/my-office/nojs/history')]")).click();
 		sleep();//ожидание загрузки страницы
-		driver.findElement(By.id("edit-account-filter")).sendKeys("74997090101");
+		driver.findElement(By.id("edit-account-filter")).sendKeys("79857297409");
 		sleep();
 		driver.findElement(By.id("edit-submit")).click();
 		sleep();//ожидание загрузки страницы
-		assertEquals(driver.findElement(By.xpath("//td[3]/span[2]")).getText(), "74997090101");
-		assertEquals(driver.findElement(By.xpath("//td[4]")).getText(), "00:06");
+		assertEquals(driver.findElement(By.xpath("//td[3]/span[2]")).getText(), "79857297409");
+		assertEquals(driver.findElement(By.xpath("//td[4]")).getText(), "00:03");
 	}
 }
 

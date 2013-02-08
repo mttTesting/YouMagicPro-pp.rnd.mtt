@@ -12,7 +12,7 @@ public class PhoneAddNumbersForContactAndDeleteTest extends TestBaseReg{
 		Thread.sleep(4000);
 		selenium.type("id=edit-contact-first-name", "t1");//Ввод имени и 5 номеров для контакта
 		selenium.type("id=edit-contact-telephone1", "001");
-		Thread.sleep(3000);
+		Thread.sleep(7000);
 		selenium.type("id=edit-contact-telephone2", "002");
 
 		selenium.click("id=edit-save");//Нажатие кнопки "Сохранить"

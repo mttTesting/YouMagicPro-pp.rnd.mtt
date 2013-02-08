@@ -11,7 +11,7 @@ public class PhoneCreateEmptyNameGroupTest extends TestBaseReg{
 		openAndLoginLKS();
 		selenium.click("link=Редактировать контакты");//Нажатие на пункт "Редактировать контакты" в меню настроек вебфона
 		Thread.sleep(15000);
-		selenium.click("link=Добавить группу");//Нажатие на кнопку "Добавить группу"
+		selenium.click("//form[@id='umagicpro-contacts-edit-area-form']/div/div/a");//Нажатие на кнопку "Добавить группу"
 		Thread.sleep(3000);
 		selenium.click("id=edit-save");//Нажатие кнопки "Сохранить"
 		Thread.sleep(3000);

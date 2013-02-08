@@ -11,8 +11,8 @@ public class PhoneSearchByNumbers  extends TestBase{
 	public void  phoneSearchByNumbers_C15337 () throws Exception {	 
 		waitEmployeePageToLoad();
 
-		driver.findElement(By.id("smallSearchInput")).sendKeys("111");
+		driver.findElement(By.id("smallSearchInput")).sendKeys("333");
 		sleep();
-		assertEquals(driver.findElement(By.xpath("//div[@id='contacts-block-wrapper']/dl[2]/dd")).getText(), "www x1\n111");
+		assertEquals(driver.findElement(By.xpath("//div[@id='contacts-block-wrapper']/dl[3]/dd")).getText(), "x3 B1\n333");
 	}
 }

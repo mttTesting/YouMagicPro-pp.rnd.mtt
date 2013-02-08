@@ -16,18 +16,18 @@ public class AddAndDeleteContactTest extends TestBaseReg{
 		
 		selenium.click("//td[2]/a");//нажатие кнопки добавления контакта
 		Thread.sleep(7000);
-		selenium.type("//form/div/div/div[2]/input", "x3");// ввод данных контакта
-		selenium.type("id=edit-contact-telephone1", "333");
+		selenium.type("//form/div/div/div[2]/input", "x5");// ввод данных контакта
+		selenium.type("id=edit-contact-telephone1", "555");
 		selenium.click("id=edit-save"); //"сохранить"
 		Thread.sleep(5000);
-		AssertJUnit.assertTrue(selenium.isTextPresent("333")); //проверка на наличие номера "333" в списках контактов
-		AssertJUnit.assertTrue(selenium.isTextPresent("x3"));
+		AssertJUnit.assertTrue(selenium.isTextPresent("555")); //проверка на наличие номера "555" в списках контактов
+		AssertJUnit.assertTrue(selenium.isTextPresent("x5"));
 		selenium.click("link=Редактировать контакты"); //нажатие на кнопку редактирования контактов
 		Thread.sleep(5000);
-		selenium.click("xpath=//table[@id='contacts-overview']/tbody/tr[4]/td[2]/a[2]"); //удаление контакта
+		selenium.click("xpath=(//a[contains(text(),'уд.')])[3]"); //удаление контакта
 		selenium.click("id=edit-submit");//"сохранить"
 		Thread.sleep(10000);
-		AssertJUnit.assertFalse(selenium.isTextPresent("333")); //проверка на наличие номера "333" в списках контактов
+		AssertJUnit.assertFalse(selenium.isTextPresent("555")); //проверка на наличие номера "555" в списках контактов
 
 	}
 }

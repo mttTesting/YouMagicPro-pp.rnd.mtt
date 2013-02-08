@@ -18,6 +18,6 @@ public class SettingsNoPasswordsTest  extends TestBase{
 		driver.findElement(By.id("edit-submit")).click();
 		
 		sleep();
-		assertEquals(driver.findElement(By.cssSelector("li")).getText(), "Поле \"старый пароль\" обязательно для заполнения");
+		assertEquals(driver.findElement(By.cssSelector("li")).getText(), "Поле Старый пароль обязательно для заполнения.");
 	}
 }

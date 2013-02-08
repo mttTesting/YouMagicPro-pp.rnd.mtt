@@ -13,6 +13,6 @@ public class PhoneSearchBySymbols  extends TestBase{
 
 		driver.findElement(By.id("smallSearchInput")).sendKeys("x");
 		sleep();
-		assertEquals(driver.findElement(By.xpath("//div[@id='contacts-block-wrapper']/dl[2]/dd")).getText(), "www x1\n111");
+		assertEquals(driver.findElement(By.xpath("//div[@id='contacts-block-wrapper']/dl[3]/dd")).getText(), "x3 B1\n333");
 	}
 }

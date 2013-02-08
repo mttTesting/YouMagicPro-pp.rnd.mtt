@@ -13,11 +13,11 @@ public class HistoryFullNumberTest  extends TestBase{
 
 		driver.findElement(By.xpath("//a[contains(@href, '/private/my-office/nojs/history')]")).click();
 		sleep();//ожидание загрузки страницы
-		driver.findElement(By.id("edit-account-filter")).sendKeys("883140776028001");
+		driver.findElement(By.id("edit-account-filter")).sendKeys("883140505801870");
 		sleep();
 		driver.findElement(By.id("edit-submit")).click();
 		sleep();//ожидание загрузки страницы
-		assertEquals(driver.findElement(By.xpath("//td[3]/span[2]")).getText(), "883140776028001");
+		assertEquals(driver.findElement(By.xpath("//td[3]/span[2]")).getText(), "883140505801870");
 	}
 }
 

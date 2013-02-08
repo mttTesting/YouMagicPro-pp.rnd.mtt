@@ -10,8 +10,8 @@
 		public void  PhoneAddGroupWithEmptyNameTest_C15327 () throws Exception {	 
 			openAndLoginLKS();
 			selenium.click("link=Редактировать контакты");//Нажатие на пункт "Редактировать контакты" в меню настроек вебфона
-			Thread.sleep(3000);
-			selenium.click("link=Добавить группу");//Нажатие на кнопку "Добавить группу"
+			Thread.sleep(7000);
+			selenium.click("//form[@id='umagicpro-contacts-edit-area-form']/div/div/a");//Нажатие на кнопку "Добавить группу"
 			Thread.sleep(3000);
 			selenium.type("id=edit-group-name", "");//Ввод имени группы ("g1")
 			selenium.click("id=edit-save");

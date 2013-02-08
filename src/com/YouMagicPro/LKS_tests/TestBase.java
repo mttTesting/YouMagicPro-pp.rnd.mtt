@@ -130,7 +130,7 @@ import com.thoughtworks.selenium.Selenium;
 	    }
 	    public static void sleep(){
 	    	try {
-	    		Thread.sleep(4000);
+	    		Thread.sleep(8000);
 	    	} catch (InterruptedException e) {
 	    		e.printStackTrace();
 	    	}
