@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40829" started-at="2013-02-08T07:38:10Z" finished-at="2013-02-08T07:38:51Z">
+  <suite name="Default suite" duration-ms="48048" started-at="2013-02-08T07:41:29Z" finished-at="2013-02-08T07:42:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40829" started-at="2013-02-08T07:38:10Z" finished-at="2013-02-08T07:38:51Z">
-      <class name="com.YouMagicPro.LKS_tests.PhoneSearchByNumbers">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneSearchByNumbers@df8388a]" name="startWebDriver" is-config="true" duration-ms="1303" started-at="2013-02-08T11:38:10Z" finished-at="2013-02-08T11:38:12Z">
+    <test name="Default test" duration-ms="48048" started-at="2013-02-08T07:41:29Z" finished-at="2013-02-08T07:42:17Z">
+      <class name="com.YouMagicPro.LKS_tests.SettingsRightOldPasswordEmptyNewPassword">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKS_tests.SettingsRightOldPasswordEmptyNewPassword@5298db1f]" name="startWebDriver" is-config="true" duration-ms="1775" started-at="2013-02-08T11:41:29Z" finished-at="2013-02-08T11:41:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="phoneSearchByNumbers_C15337()[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneSearchByNumbers@df8388a]" name="phoneSearchByNumbers_C15337" duration-ms="36862" started-at="2013-02-08T11:38:12Z" finished-at="2013-02-08T11:38:48Z">
+        <test-method status="PASS" signature="settingsRightOldPasswordEmptyNewPassword_C15287()[pri:0, instance:com.YouMagicPro.LKS_tests.SettingsRightOldPasswordEmptyNewPassword@5298db1f]" name="settingsRightOldPasswordEmptyNewPassword_C15287" duration-ms="43657" started-at="2013-02-08T11:41:30Z" finished-at="2013-02-08T11:42:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- phoneSearchByNumbers_C15337 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneSearchByNumbers@df8388a]" name="closeSession" is-config="true" duration-ms="2652" started-at="2013-02-08T11:38:48Z" finished-at="2013-02-08T11:38:51Z">
+        </test-method> <!-- settingsRightOldPasswordEmptyNewPassword_C15287 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKS_tests.SettingsRightOldPasswordEmptyNewPassword@5298db1f]" name="closeSession" is-config="true" duration-ms="2604" started-at="2013-02-08T11:42:14Z" finished-at="2013-02-08T11:42:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKS_tests.PhoneSearchByNumbers -->
+      </class> <!-- com.YouMagicPro.LKS_tests.SettingsRightOldPasswordEmptyNewPassword -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

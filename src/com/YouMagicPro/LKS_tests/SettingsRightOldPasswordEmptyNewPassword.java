@@ -18,6 +18,6 @@ public class SettingsRightOldPasswordEmptyNewPassword  extends TestBase{
 		driver.findElement(By.id("edit-submit")).click();
 		
 		sleep();
-		assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), "Поле Новый пароль обязательно для заполнения. Введенные пароли не совпадают");
+		assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), "Поле Новый пароль обязательно для заполнения.\nВведенные пароли не совпадают");
 	}
 }

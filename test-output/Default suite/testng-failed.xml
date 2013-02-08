@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKS_tests.PhoneSearchByNumbers">
+      <class name="com.YouMagicPro.LKS_tests.SettingsRightOldPasswordEmptyNewPassword">
         <methods>
           <include name="closeSession"/>
           <include name="startWebDriver"/>
-          <include name="phoneSearchByNumbers_C15337"/>
+          <include name="settingsRightOldPasswordEmptyNewPassword_C15287"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKS_tests.PhoneSearchByNumbers -->
+      </class> <!-- com.YouMagicPro.LKS_tests.SettingsRightOldPasswordEmptyNewPassword -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
