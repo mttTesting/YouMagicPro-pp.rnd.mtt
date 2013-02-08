@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKS_tests.PhoneAddFiveNumbersForContactTest">
+      <class name="com.YouMagicPro.LKS_tests.PhoneChangeContactFirstNameTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="ChangeContactFirstNameTest"/>
           <include name="setUp"/>
-          <include name="phoneAddFiveNumbersForContactTest_C15316_C15320_C15319"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKS_tests.PhoneAddFiveNumbersForContactTest -->
+      </class> <!-- com.YouMagicPro.LKS_tests.PhoneChangeContactFirstNameTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
