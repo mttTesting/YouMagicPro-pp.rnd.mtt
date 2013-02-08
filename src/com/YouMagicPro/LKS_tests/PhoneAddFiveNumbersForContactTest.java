@@ -32,7 +32,7 @@ public class PhoneAddFiveNumbersForContactTest extends TestBaseReg{
 		selenium.click("//div[@onclick='$(\"#webphone-widjet\").webphone(\"outerCall\", \"001\"); return false;']");
 		selenium.click("link=Редактировать контакты");//Нажатие на пункт "Редактировать контакты" в меню настроек вебфона
 		Thread.sleep(5000);
-		selenium.click("//td[2]/a[2]");//Удаление контакта
+		selenium.click("//tr[5]/td[2]/a[2]");//Удаление контакта
 		selenium.click("id=edit-submit");
 		Thread.sleep(3000);
 	}
