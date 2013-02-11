@@ -51,11 +51,22 @@ public class TestBaseReg {
 		// TODO Auto-generated method stub
 		selenium.open("http://umagicpro-pp.rnd.mtt/"); //¬ход на сайт http://umagicpro-pp/
 		selenium.click("link=—отрудник");
-		selenium.waitForPageToLoad("60000");
+		try {
+			Thread.sleep(9000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 		selenium.type("id=edit-name-1", "0776008257"); //ввод логина и парол€
 		selenium.type("id=edit-pass-1", "1234");
 		selenium.click("id=edit-submit-1"); //нажатие "¬ход"
-		selenium.waitForPageToLoad("60000");
+		try {
+			Thread.sleep(9000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
 		try {
 			Thread.sleep(3000);
