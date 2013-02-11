@@ -24,7 +24,7 @@ public class AddAndDeleteContactTest extends TestBaseReg{
 		AssertJUnit.assertTrue(selenium.isTextPresent("x5"));
 		selenium.click("link=Редактировать контакты"); //нажатие на кнопку редактирования контактов
 		Thread.sleep(5000);
-		selenium.click("xpath=(//a[contains(text(),'уд.')])[3]"); //удаление контакта
+		selenium.click("//tr[5]/td[2]/a[2]"); //удаление контакта
 		selenium.click("id=edit-submit");//"сохранить"
 		Thread.sleep(10000);
 		AssertJUnit.assertFalse(selenium.isTextPresent("555")); //проверка на наличие номера "555" в списках контактов

@@ -20,7 +20,7 @@ public class PhoneAddNumbersForContactAndDeleteTest extends TestBaseReg{
 		
 		selenium.click("//div[4]/nobr/a");
 		Thread.sleep(3000);
-		selenium.click("//tr[5]/td[2]/a");
+		selenium.click("//tr[4]/td[2]/a");
 		Thread.sleep(3000);
 		selenium.type("id=edit-contact-telephone2", "");
 		Thread.sleep(3000);

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKS_tests.PhoneSearchBySymbols">
+      <class name="com.YouMagicPro.LKS_tests.PhoneAddNumberToContactTest">
         <methods>
-          <include name="closeSession"/>
-          <include name="startWebDriver"/>
-          <include name="phoneSearchBySymbols_C15338"/>
+          <include name="phoneAddNumberToContactTest_C15321"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKS_tests.PhoneSearchBySymbols -->
+      </class> <!-- com.YouMagicPro.LKS_tests.PhoneAddNumberToContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
