@@ -28,5 +28,7 @@ public class PhoneChangeContactFirstNameTest extends TestBaseReg{
 		Thread.sleep(4000);
 		selenium.click("id=edit-submit");//сохранить
 		Thread.sleep(4000);
+		
+		
 	}
 }

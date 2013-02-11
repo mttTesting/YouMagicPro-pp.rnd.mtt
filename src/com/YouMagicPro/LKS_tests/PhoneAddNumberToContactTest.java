@@ -10,7 +10,7 @@ public class PhoneAddNumberToContactTest extends TestBaseReg{
 		openAndLoginLKS();
 		selenium.click("//div[4]/nobr/a");// Нажатие на пункт меню "Редактирование контактов"
 		Thread.sleep(4000);
-		selenium.click("//tr[5]/td[2]/a");//Выбор контакта и нажатие кнопки редактировать
+		selenium.click("//tr[4]/td[2]/a");//Выбор контакта и нажатие кнопки редактировать
 		Thread.sleep(4000);
 		selenium.type("id=edit-contact-telephone3", "333");//Добавление номера
 		selenium.click("id=edit-save");//Нажатие кнопки "Сохранить"
@@ -22,7 +22,7 @@ public class PhoneAddNumberToContactTest extends TestBaseReg{
 		//selenium.click("css=span.ui-icon.ui-icon-closethick");
 		selenium.click("//div[4]/nobr/a");
 		Thread.sleep(4000);
-		selenium.click("//tr[5]/td[2]/a");
+		selenium.click("//tr[4]/td[2]/a");
 		Thread.sleep(4000);
 		selenium.type("id=edit-contact-telephone3", "");
 		selenium.click("id=edit-save");//Нажатие кнопки "Сохранить"

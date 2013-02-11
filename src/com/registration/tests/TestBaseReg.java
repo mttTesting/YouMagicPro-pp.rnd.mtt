@@ -12,8 +12,8 @@ public class TestBaseReg {
 	@Parameters({"browser"})
 	@BeforeClass
 	public void setUp(@Optional String browser) throws Exception {
-		//if (browser == null) browser = "*googlechrome C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe";
-		if (browser == null) browser = "*firefox";
+		if (browser == null) browser = "*googlechrome C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe";
+		//if (browser == null) browser = "*firefox";
 		selenium = new DefaultSelenium("localhost", 4444, browser, "http://umagicpro-pp.rnd.mtt/");
 		selenium.start();
 		//selenium = (LoggingDefaultSelenium) SeleniumHelper.getSelenium(this.getClass().getSimpleName(),
@@ -51,22 +51,12 @@ public class TestBaseReg {
 		// TODO Auto-generated method stub
 		selenium.open("http://umagicpro-pp.rnd.mtt/"); //¬ход на сайт http://umagicpro-pp/
 		selenium.click("link=—отрудник");
-		try {
-			Thread.sleep(9000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		selenium.waitForPageToLoad("90000");
 
 		selenium.type("id=edit-name-1", "0776008257"); //ввод логина и парол€
 		selenium.type("id=edit-pass-1", "1234");
 		selenium.click("id=edit-submit-1"); //нажатие "¬ход"
-		try {
-			Thread.sleep(9000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		selenium.waitForPageToLoad("90000");
 		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
 		try {
 			Thread.sleep(3000);
