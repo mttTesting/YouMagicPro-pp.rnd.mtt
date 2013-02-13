@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKS_tests.PhoneEmptySearch">
+      <class name="com.YouMagicPro.LKS_tests.PhoneAddGroupAndCancelTest">
         <methods>
-          <include name="closeSession"/>
-          <include name="startWebDriver"/>
-          <include name="phoneEmptySearch_C15339"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="phoneAddGroupAndCancelTest_C15354"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKS_tests.PhoneEmptySearch -->
+      </class> <!-- com.YouMagicPro.LKS_tests.PhoneAddGroupAndCancelTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

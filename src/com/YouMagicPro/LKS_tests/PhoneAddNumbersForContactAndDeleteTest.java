@@ -26,7 +26,7 @@ public class PhoneAddNumbersForContactAndDeleteTest extends TestBaseReg{
 		Thread.sleep(3000);
 		selenium.click("id=edit-save");
 		Thread.sleep(3000);
-		selenium.click("//tr[5]/td[2]/a[2]");
+		selenium.click("//tr[4]/td[2]/a[2]");
 		Thread.sleep(3000);
 	}
 }

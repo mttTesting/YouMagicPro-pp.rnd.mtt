@@ -13,9 +13,8 @@ public class PhoneAddGroupAndCancelTest extends TestBaseReg{
 		Thread.sleep(3000);
 		selenium.click("link=Добавить группу");//Нажатие на кнопку "Добавить группу"
 		Thread.sleep(3000);
-		selenium.type("//div[2]/input", "g2");//Ввод имени группы ("g1")
-		selenium.click("css=a.bPopup__eClose.close");//Нажатие кнопки "Отменить"
-		selenium.click("//div[@id='contacts-block-wrapper']/dl[2]/dt/div");
+		selenium.type("id=edit-group-name", "g2");//Ввод имени группы ("g1")
+		selenium.click("id=edit-cancel");//Нажатие кнопки "Отменить"
 		AssertJUnit.assertFalse(selenium.isTextPresent("g2"));//Проверка, есть ли на странице текст "g1"
 	}
 }

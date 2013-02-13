@@ -11,7 +11,7 @@ public class PhoneChangeContactFirstNameTest extends TestBaseReg{
 		openAndLoginLKS();
 		selenium.click("//td[2]/a");//нажатие кнопки добавления контакта
 		Thread.sleep(7000);
-		selenium.type("//form/div/div/div[2]/input", "x1");// ввод данных контакта
+		selenium.type("//form/div/div/div[2]/input", "z1");// ввод данных контакта
 		selenium.type("id=edit-contact-telephone1", "1");
 		selenium.click("id=edit-save"); //"сохранить"
 		Thread.sleep(4000);
