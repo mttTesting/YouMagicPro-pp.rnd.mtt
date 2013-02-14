@@ -43,7 +43,7 @@ public class TestBaseReg {
 		
 		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
 		sleep();
-		//selenium.click("css=span.modal_cansel_button_text");
+		//selenium.click("css=span.ui-icon.ui-icon-closethick");
 		//sleep();
 	}
 	
