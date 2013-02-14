@@ -2,29 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27460" started-at="2013-02-14T06:42:13Z" finished-at="2013-02-14T06:42:41Z">
+  <suite name="Default suite" duration-ms="39318" started-at="2013-02-14T08:51:51Z" finished-at="2013-02-14T08:52:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27460" started-at="2013-02-14T06:42:13Z" finished-at="2013-02-14T06:42:41Z">
-      <class name="com.YouMagicPro.LKA_tests.ClickOnInternalNumbersTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.YouMagicPro.LKA_tests.ClickOnInternalNumbersTest@30339b07]" name="setUp" is-config="true" duration-ms="5564" started-at="2013-02-14T10:42:13Z" finished-at="2013-02-14T10:42:19Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="39318" started-at="2013-02-14T08:51:51Z" finished-at="2013-02-14T08:52:30Z">
+      <class name="com.YouMagicPro.LKA_tests.GroupsAlertTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAlertTest@3a64b5ab]" name="startWebDriver" is-config="true" duration-ms="965" started-at="2013-02-14T12:51:51Z" finished-at="2013-02-14T12:51:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickOnInternalNumbersTest()[pri:0, instance:com.YouMagicPro.LKA_tests.ClickOnInternalNumbersTest@30339b07]" name="clickOnInternalNumbersTest" duration-ms="21492" started-at="2013-02-14T10:42:19Z" finished-at="2013-02-14T10:42:41Z">
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="groupsAlertTest_C15184()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAlertTest@3a64b5ab]" name="groupsAlertTest_C15184" duration-ms="35248" started-at="2013-02-14T12:51:52Z" finished-at="2013-02-14T12:52:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnInternalNumbersTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YouMagicPro.LKA_tests.ClickOnInternalNumbersTest@30339b07]" name="tearDown" is-config="true" duration-ms="395" started-at="2013-02-14T10:42:41Z" finished-at="2013-02-14T10:42:41Z">
+        </test-method> <!-- groupsAlertTest_C15184 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAlertTest@3a64b5ab]" name="closeSession" is-config="true" duration-ms="3096" started-at="2013-02-14T12:52:27Z" finished-at="2013-02-14T12:52:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ClickOnInternalNumbersTest -->
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.GroupsAlertTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

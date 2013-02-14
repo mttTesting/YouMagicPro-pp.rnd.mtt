@@ -14,7 +14,7 @@ public class BlacklistAddBannedNumberTest extends TestBase {
 	
 	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
 	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-//	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	driver.findElement(By.xpath("//td[2]/div/span")).click();
 	
 	driver.findElement(By.xpath("//div[6]/a/div")).click();//нажимаем "Черный Список"
 //	driver.findElement(By.xpath("//td[2]/div/span")).click();

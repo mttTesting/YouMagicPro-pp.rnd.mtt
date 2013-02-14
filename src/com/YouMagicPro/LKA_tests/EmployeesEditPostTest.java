@@ -22,7 +22,7 @@ public class EmployeesEditPostTest extends TestBase{
     		// TODO Auto-generated catch block
     		e.printStackTrace();
     	}
-    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
+    	driver.findElement(By.xpath("//td[2]/div/span")).click();
     	
 		driver.findElement(By.xpath("//div[2]/a/div")).click();//нажимаем "—отрудники"
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/a/span")));//ожидание загрузки страницы
