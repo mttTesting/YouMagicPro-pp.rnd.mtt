@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39318" started-at="2013-02-14T08:51:51Z" finished-at="2013-02-14T08:52:30Z">
+  <suite name="Default suite" duration-ms="25846" started-at="2013-02-14T12:26:04Z" finished-at="2013-02-14T12:26:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39318" started-at="2013-02-14T08:51:51Z" finished-at="2013-02-14T08:52:30Z">
-      <class name="com.YouMagicPro.LKA_tests.GroupsAlertTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAlertTest@3a64b5ab]" name="startWebDriver" is-config="true" duration-ms="965" started-at="2013-02-14T12:51:51Z" finished-at="2013-02-14T12:51:52Z">
+    <test name="Default test" duration-ms="25846" started-at="2013-02-14T12:26:04Z" finished-at="2013-02-14T12:26:30Z">
+      <class name="com.YouMagicPro.LKA_tests.EmployeesFiveFreeNumbersTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesFiveFreeNumbersTest@17b90c55]" name="startWebDriver" is-config="true" duration-ms="1932" started-at="2013-02-14T16:26:05Z" finished-at="2013-02-14T16:26:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="groupsAlertTest_C15184()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAlertTest@3a64b5ab]" name="groupsAlertTest_C15184" duration-ms="35248" started-at="2013-02-14T12:51:52Z" finished-at="2013-02-14T12:52:27Z">
+        <test-method status="PASS" signature="employeesFiveFreeNumbersTest_C15251()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesFiveFreeNumbersTest@17b90c55]" name="employeesFiveFreeNumbersTest_C15251" duration-ms="20790" started-at="2013-02-14T16:26:06Z" finished-at="2013-02-14T16:26:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- groupsAlertTest_C15184 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAlertTest@3a64b5ab]" name="closeSession" is-config="true" duration-ms="3096" started-at="2013-02-14T12:52:27Z" finished-at="2013-02-14T12:52:30Z">
+        </test-method> <!-- employeesFiveFreeNumbersTest_C15251 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesFiveFreeNumbersTest@17b90c55]" name="closeSession" is-config="true" duration-ms="3112" started-at="2013-02-14T16:26:27Z" finished-at="2013-02-14T16:26:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.GroupsAlertTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesFiveFreeNumbersTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

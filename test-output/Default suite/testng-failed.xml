@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.AgreementOPFTest">
+      <class name="com.YouMagicPro.LKA_tests.EmployeesEditInternalNumberTest">
         <methods>
-          <include name="agreementOPFTest_C14983"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="startWebDriver"/>
+          <include name="employeesEditInternalNumberTest_C15254"/>
+          <include name="closeSession"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.AgreementOPFTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesEditInternalNumberTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
