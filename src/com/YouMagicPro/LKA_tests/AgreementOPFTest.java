@@ -18,8 +18,6 @@ public class AgreementOPFTest extends TestBaseReg{
 		selenium.click("css=span.text");
 		selenium.click("//div[@id='edit-buisness-form-buisness-form-select-wrapper']/span/ul/li[4]"); //Выбор в выпадающем списке "ИП"
 		selenium.click("css=span.text");
-		selenium.click("//div[@id='edit-buisness-form-buisness-form-select-wrapper']/span/ul/li[5]"); //Выбор в выпадающем списке "Другая"
-		selenium.click("css=span.text");
 		selenium.click("css=ul.dropdown > li"); //Выбор в выпадающем списке "ООО"
 	}
 }

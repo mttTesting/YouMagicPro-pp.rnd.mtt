@@ -22,9 +22,9 @@ public class OrderByPickUpOrderWithoutDocTypeCheckedTest  extends TestBase{
 		driver.findElement(By.xpath("//div[4]/span")).click();
 		driver.findElement(By.xpath("//div[5]/span")).click();
 		
-		driver.findElement(By.xpath("//form/div/div/div/div[3]/input")).click();//нажатие на "сохранить"
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/div/div[2]/div/div/div/div")));//ожидание загрузки страницы
-		assertEquals(driver.findElement(By.xpath("//div/div/div[2]/div/div/div/div")).getText(), "Ќеобходимо выбрать тип документа.");
+		driver.findElement(By.xpath("//input[@id='edit-submit']")).click();//нажатие на "сохранить"
+		sleep();
+		assertEquals(driver.findElement(By.cssSelector("div.errors_for_messages.error")).getText(), "Ќеобходимо выбрать тип документа");
 
 		
 	}

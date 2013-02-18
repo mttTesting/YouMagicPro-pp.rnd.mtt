@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.EmployeesEditInternalNumberTest">
+      <class name="com.YouMagicPro.LKA_tests.OrderToAdressNoTextFieldFilledTest">
         <methods>
           <include name="startWebDriver"/>
-          <include name="employeesEditInternalNumberTest_C15254"/>
+          <include name="OrderToAdressNoTextFieldFilledTest_C25679"/>
           <include name="closeSession"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesEditInternalNumberTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.OrderToAdressNoTextFieldFilledTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

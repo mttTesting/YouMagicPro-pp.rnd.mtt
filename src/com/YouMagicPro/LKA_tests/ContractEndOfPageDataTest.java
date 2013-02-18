@@ -13,12 +13,9 @@ import org.testng.annotations.Test;
     	//	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
 	    //	driver.findElement(By.xpath("//td[2]/div/span")).click();
 
-    		assertEquals(driver.findElement(By.xpath("//strong")).getText(), "79857297409"); //проверка мобильного номера пользователя
-    		assertEquals(driver.findElement(By.xpath("//tr[2]/td/div/div/strong")).getText(), "74997045371"); //проверка номера аккаунта YM.Pro 
-    		assertEquals(driver.findElement(By.xpath("//tr[3]/td/div/div/strong")).getText(), "AT с поддержкой SIP");//Тип абонентского устройства
-    		assertEquals(driver.findElement(By.xpath("//td[2]/div/strong")).getText(), "ОАО «МТТ»");//Выбор оператора связи
-    		assertEquals(driver.findElement(By.xpath("//tr[2]/td[2]/div/strong")).getText(), "Простой");//Тарифный план
-    		assertEquals(driver.findElement(By.xpath("//tr[3]/td[2]/div/strong")).getText(), "Авансовая");//Форма расчетов
+    		assertEquals(driver.findElement(By.xpath("//div[@id='account-charges']/div[2]/div/table[2]/tbody/tr[3]/td[2]/span")).getText(), "Мухин Вадим Николаевич"); //проверка мобильного номера пользователя
+    		assertEquals(driver.findElement(By.xpath("//div[@id='account-charges']/div[2]/div/table[2]/tbody/tr[3]/td[2]/span[2]")).getText(), "+7 (985) 729-74-09"); //проверка номера аккаунта YM.Pro 
+    		assertEquals(driver.findElement(By.xpath("//div[@id='account-charges']/div[2]/div/table[2]/tbody/tr[3]/td[2]/span[3]")).getText(), "b915966@rmqkr.net");//Тип абонентского устройства
     	}
     	
 

@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25846" started-at="2013-02-14T12:26:04Z" finished-at="2013-02-14T12:26:30Z">
+  <suite name="Default suite" duration-ms="46770" started-at="2013-02-18T08:41:58Z" finished-at="2013-02-18T08:42:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25846" started-at="2013-02-14T12:26:04Z" finished-at="2013-02-14T12:26:30Z">
-      <class name="com.YouMagicPro.LKA_tests.EmployeesFiveFreeNumbersTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesFiveFreeNumbersTest@17b90c55]" name="startWebDriver" is-config="true" duration-ms="1932" started-at="2013-02-14T16:26:05Z" finished-at="2013-02-14T16:26:06Z">
+    <test name="Default test" duration-ms="46770" started-at="2013-02-18T08:41:58Z" finished-at="2013-02-18T08:42:45Z">
+      <class name="com.YouMagicPro.LKA_tests.EmployeesEditPasswordTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditPasswordTest@5e9815f3]" name="startWebDriver" is-config="true" duration-ms="1889" started-at="2013-02-18T12:41:58Z" finished-at="2013-02-18T12:42:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="employeesFiveFreeNumbersTest_C15251()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesFiveFreeNumbersTest@17b90c55]" name="employeesFiveFreeNumbersTest_C15251" duration-ms="20790" started-at="2013-02-14T16:26:06Z" finished-at="2013-02-14T16:26:27Z">
+        <test-method status="PASS" signature="employeesEditPasswordTest_C15265()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditPasswordTest@5e9815f3]" name="employeesEditPasswordTest_C15265" duration-ms="41403" started-at="2013-02-18T12:42:00Z" finished-at="2013-02-18T12:42:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- employeesFiveFreeNumbersTest_C15251 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesFiveFreeNumbersTest@17b90c55]" name="closeSession" is-config="true" duration-ms="3112" started-at="2013-02-14T16:26:27Z" finished-at="2013-02-14T16:26:30Z">
+        </test-method> <!-- employeesEditPasswordTest_C15265 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditPasswordTest@5e9815f3]" name="closeSession" is-config="true" duration-ms="3467" started-at="2013-02-18T12:42:41Z" finished-at="2013-02-18T12:42:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesFiveFreeNumbersTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesEditPasswordTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

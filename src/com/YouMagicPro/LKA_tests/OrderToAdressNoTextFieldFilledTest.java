@@ -13,9 +13,17 @@ public class OrderToAdressNoTextFieldFilledTest  extends TestBase{
 		driver.findElement(By.xpath("//div[6]/div[2]/span/a")).click();
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td/div/label")));//ожидание загрузки страницы
 		
+		driver.findElement(By.xpath("//input[@id='edit-address-postcode']")).sendKeys("");
+		driver.findElement(By.id("edit-address-street")).sendKeys("11111");
+		driver.findElement(By.id("edit-address-house")).sendKeys("11111");
+		driver.findElement(By.id("edit-address-apartment")).sendKeys("11111");
+		driver.findElement(By.id("edit-address-city")).sendKeys("11111");
+		
+		
 		driver.findElement(By.xpath("//form/div/div/div/div[3]/input")).click();//нажатие на "сохранить"
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[2]/div/div/div/div/ul/li")));//ожидание загрузки страницы
-		assertEquals(driver.findElement(By.xpath("//div[2]/div/div/div/div/ul/li")).getText(), "Заполните поле индекс.");//проверяем, вывелось ли предупреждение о незаполненных полях	
+		sleep();
+		assertEquals(driver.findElement(By.cssSelector("div.errors_for_messages.error")).getText(), "Поле Индекс обязательно к заполнению");//проверяем, вывелось ли предупреждение о незаполненных полях	
 	}
 
 }
+

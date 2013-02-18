@@ -17,12 +17,7 @@ public class EmployeesEditInternalNumberTest extends TestBase{
 		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
     	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
     	
-    	try {
-    		Thread.sleep(5000);
-    	} catch (InterruptedException e) {
-    		// TODO Auto-generated catch block
-    		e.printStackTrace();
-    	}
+    	sleep();
     	//driver.findElement(By.xpath("//td[2]/div/span")).click();
     	
 		driver.findElement(By.xpath("//div[2]/a/div")).click();//нажимаем "—отрудники"
@@ -31,12 +26,7 @@ public class EmployeesEditInternalNumberTest extends TestBase{
 		driver.findElement(By.xpath("//div[2]/div[3]/a/span")).click();
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[2]/div[3]/a/span")));
 		
-		try {
-    		Thread.sleep(5000);
-    	} catch (InterruptedException e) {
-    		// TODO Auto-generated catch block
-    		e.printStackTrace();
-    	}
+		sleep();
 		
 		Assert.assertTrue(driver.findElement(By.id("edit-employee-extension")).getText() != null);
 		
