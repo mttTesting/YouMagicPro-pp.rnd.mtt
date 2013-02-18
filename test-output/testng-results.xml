@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46770" started-at="2013-02-18T08:41:58Z" finished-at="2013-02-18T08:42:45Z">
+  <suite name="Default suite" duration-ms="46335" started-at="2013-02-18T09:20:27Z" finished-at="2013-02-18T09:21:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46770" started-at="2013-02-18T08:41:58Z" finished-at="2013-02-18T08:42:45Z">
-      <class name="com.YouMagicPro.LKA_tests.EmployeesEditPasswordTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditPasswordTest@5e9815f3]" name="startWebDriver" is-config="true" duration-ms="1889" started-at="2013-02-18T12:41:58Z" finished-at="2013-02-18T12:42:00Z">
+    <test name="Default test" duration-ms="46335" started-at="2013-02-18T09:20:27Z" finished-at="2013-02-18T09:21:13Z">
+      <class name="com.YouMagicPro.LKS_tests.SettingsRightOldPasswordNewPasswordsNotMatchTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKS_tests.SettingsRightOldPasswordNewPasswordsNotMatchTest@a52a72a]" name="startWebDriver" is-config="true" duration-ms="2076" started-at="2013-02-18T13:20:27Z" finished-at="2013-02-18T13:20:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="employeesEditPasswordTest_C15265()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditPasswordTest@5e9815f3]" name="employeesEditPasswordTest_C15265" duration-ms="41403" started-at="2013-02-18T12:42:00Z" finished-at="2013-02-18T12:42:41Z">
+        <test-method status="PASS" signature="SettingsRightOldPasswordNewPasswordsNotMatchTest_C15284()[pri:0, instance:com.YouMagicPro.LKS_tests.SettingsRightOldPasswordNewPasswordsNotMatchTest@a52a72a]" name="SettingsRightOldPasswordNewPasswordsNotMatchTest_C15284" duration-ms="41707" started-at="2013-02-18T13:20:29Z" finished-at="2013-02-18T13:21:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- employeesEditPasswordTest_C15265 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.EmployeesEditPasswordTest@5e9815f3]" name="closeSession" is-config="true" duration-ms="3467" started-at="2013-02-18T12:42:41Z" finished-at="2013-02-18T12:42:45Z">
+        </test-method> <!-- SettingsRightOldPasswordNewPasswordsNotMatchTest_C15284 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKS_tests.SettingsRightOldPasswordNewPasswordsNotMatchTest@a52a72a]" name="closeSession" is-config="true" duration-ms="2540" started-at="2013-02-18T13:21:10Z" finished-at="2013-02-18T13:21:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.EmployeesEditPasswordTest -->
+      </class> <!-- com.YouMagicPro.LKS_tests.SettingsRightOldPasswordNewPasswordsNotMatchTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

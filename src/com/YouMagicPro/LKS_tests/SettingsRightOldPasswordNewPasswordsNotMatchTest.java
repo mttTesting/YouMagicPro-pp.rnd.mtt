@@ -18,6 +18,6 @@ public class SettingsRightOldPasswordNewPasswordsNotMatchTest  extends TestBase{
 		driver.findElement(By.id("edit-submit")).click();
 		
 		sleep();
-		assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), "¬веденные пароли не совпадают");
+		assertEquals(driver.findElement(By.cssSelector("div.errors_for_messages.error")).getText(), "¬веденные пароли не совпадают");
 	}
 }
