@@ -12,10 +12,10 @@ public class VoiceMenuAddAddAndDeleteTest extends TestBase {
 	driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"
 	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
 	
-	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
+	sleep();
 	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
 	driver.findElement(By.xpath("//td[2]/div/span")).click();
-	
+	sleep();
 	driver.findElement(By.xpath("//div[4]/a/div")).click();
 	
 	//wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td[2]/div/span")));//ожидание загрузки страницы

@@ -31,13 +31,7 @@ public class GroupsChangeInternalNumberTest extends TestBase {
 	driver.findElement(By.id("edit-group-id")).clear();
 	driver.findElement(By.id("edit-group-id")).sendKeys("126");
 	driver.findElement(By.id("edit-submit")).click();
-	
-	try {
-		Thread.sleep(10000);
-	} catch (InterruptedException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
+	sleep();
 	
 	assertEquals(driver.findElement(By.xpath("//td[4]/div/span")).getText(), "6126");
 	
@@ -46,11 +40,6 @@ public class GroupsChangeInternalNumberTest extends TestBase {
 	driver.findElement(By.id("edit-group-id")).clear();
 	driver.findElement(By.id("edit-group-id")).sendKeys("127");
 	driver.findElement(By.id("edit-submit")).click();
-	try {
-		Thread.sleep(10000);
-	} catch (InterruptedException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
+	sleep();
 	}
 }
