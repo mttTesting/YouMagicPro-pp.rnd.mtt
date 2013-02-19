@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.GroupsChangeInternalNumberTest">
+      <class name="com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest">
         <methods>
           <include name="startWebDriver"/>
+          <include name="groupsAddAndDeleteGroupTest_C15195C15186C25629"/>
           <include name="closeSession"/>
-          <include name="groupsChangeInternalNumberTest_C15192"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.GroupsChangeInternalNumberTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

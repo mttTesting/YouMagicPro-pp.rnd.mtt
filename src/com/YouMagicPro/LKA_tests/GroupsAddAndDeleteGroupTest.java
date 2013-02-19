@@ -17,8 +17,8 @@ public class GroupsAddAndDeleteGroupTest extends TestBase {
 	
 	driver.findElement(By.xpath("//div[3]/a/div")).click();//нажимаем "группы
 	sleep();
-	driver.findElement(By.xpath("//td[2]/div/span")).click();
-	sleep();
+	//driver.findElement(By.xpath("//td[2]/div/span")).click();
+	//sleep();
 	driver.findElement(By.xpath("id('main_enter')/div[1]/a/div/span[1]")).click();
 
 	
