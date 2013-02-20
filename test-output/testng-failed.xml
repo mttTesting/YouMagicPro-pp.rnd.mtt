@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest">
+      <class name="com.YouMagicPro.registration.RegistrationCancelVerificationButtonEmptyFieldTest">
         <methods>
-          <include name="registrationStabilityOfNumbersTest"/>
-          <include name="tearDown"/>
+          <include name="registrationCancelVerificationButtonEmptyFieldTest_C14967"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest -->
+      </class> <!-- com.YouMagicPro.registration.RegistrationCancelVerificationButtonEmptyFieldTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
