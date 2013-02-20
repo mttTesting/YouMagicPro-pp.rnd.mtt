@@ -2,24 +2,29 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57459" started-at="2013-02-19T09:59:17Z" finished-at="2013-02-19T10:00:15Z">
+  <suite name="Default suite" duration-ms="25865" started-at="2013-02-20T10:55:23Z" finished-at="2013-02-20T10:55:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57459" started-at="2013-02-19T09:59:17Z" finished-at="2013-02-19T10:00:15Z">
-      <class name="com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest@15ea6975]" name="startWebDriver" is-config="true" duration-ms="2305" started-at="2013-02-19T13:59:17Z" finished-at="2013-02-19T13:59:20Z">
+    <test name="Default test" duration-ms="25865" started-at="2013-02-20T10:55:23Z" finished-at="2013-02-20T10:55:49Z">
+      <class name="com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest@1fe5a771]" name="setUp" is-config="true" duration-ms="10715" started-at="2013-02-20T14:55:23Z" finished-at="2013-02-20T14:55:34Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="groupsAddAndDeleteGroupTest_C15195C15186C25629()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest@15ea6975]" name="groupsAddAndDeleteGroupTest_C15195C15186C25629" duration-ms="51921" started-at="2013-02-19T13:59:20Z" finished-at="2013-02-19T14:00:12Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registrationStabilityOfNumbersTest_C14943()[pri:0, instance:com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest@1fe5a771]" name="registrationStabilityOfNumbersTest_C14943" duration-ms="14825" started-at="2013-02-20T14:55:34Z" finished-at="2013-02-20T14:55:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- groupsAddAndDeleteGroupTest_C15195C15186C25629 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest@15ea6975]" name="closeSession" is-config="true" duration-ms="3221" started-at="2013-02-19T14:00:12Z" finished-at="2013-02-19T14:00:15Z">
+        </test-method> <!-- registrationStabilityOfNumbersTest_C14943 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest@1fe5a771]" name="tearDown" is-config="true" duration-ms="314" started-at="2013-02-20T14:55:49Z" finished-at="2013-02-20T14:55:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

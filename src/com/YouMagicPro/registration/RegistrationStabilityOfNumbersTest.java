@@ -7,7 +7,7 @@ import com.registration.tests.TestBaseReg;
 
 public class RegistrationStabilityOfNumbersTest extends TestBaseReg{
 	@Test
-	public void  registrationStabilityOfNumbersTest() throws Exception {
+	public void  registrationStabilityOfNumbersTest_C14943() throws Exception {
 		open();
 		selenium.click("//li[4]/a");
 		selenium.waitForPageToLoad("30000");

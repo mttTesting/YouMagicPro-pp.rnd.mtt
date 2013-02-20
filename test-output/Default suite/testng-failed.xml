@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest">
+      <class name="com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest">
         <methods>
-          <include name="startWebDriver"/>
-          <include name="groupsAddAndDeleteGroupTest_C15195C15186C25629"/>
-          <include name="closeSession"/>
+          <include name="registrationStabilityOfNumbersTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest -->
+      </class> <!-- com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
