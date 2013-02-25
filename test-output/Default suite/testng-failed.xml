@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.registration.RegistrationCancelVerificationButtonEmptyFieldTest">
+      <class name="com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest">
         <methods>
-          <include name="registrationCancelVerificationButtonEmptyFieldTest_C14967"/>
-          <include name="setUp"/>
+          <include name="contractChooseBirthDateTest_C32037"/>
+          <include name="startWebDriver"/>
+          <include name="closeSession"/>
         </methods>
-      </class> <!-- com.YouMagicPro.registration.RegistrationCancelVerificationButtonEmptyFieldTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

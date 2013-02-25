@@ -1,4 +1,4 @@
-package com.YouMagicPro.LKA_tests;
+package com.YouMagicPro.LKM_tests;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -188,27 +188,6 @@ import org.testng.annotations.BeforeTest;
 	    	
 	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
 
-	    }
-	    public static void  waitContractPageToLoadThirdAccount(){
-driver.get("http://account.umagicpro-pp.rnd.mtt/user/login");//открытие портала  	    	
-	    	
-	    	driver.findElement(By.id("edit-name-1")).sendKeys("100322");//ввод логина, парол€
-	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");
-	    	driver.findElement(By.id("edit-submit-1")).click();
-	    	
-	    	sleep();
-	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
-	    	
-	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-	    	sleep();
-	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
-	    	
-	    	driver.findElement(By.xpath("//div[5]/div[2]/span/a")).click(); //Ќажатие "ќформить"
-	    	sleep();
-	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-	    	sleep();
-	    	driver.findElement(By.xpath("//div[2]/div/div[2]/table/tbody/tr/td[2]/div/span")).click();
-	    	sleep();
 	    }
 	    public static void sleep(){
 	    	try {

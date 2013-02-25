@@ -2,29 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17731" started-at="2013-02-20T11:20:28Z" finished-at="2013-02-20T11:20:45Z">
+  <suite name="Default suite" duration-ms="49647" started-at="2013-02-25T08:38:37Z" finished-at="2013-02-25T08:39:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17731" started-at="2013-02-20T11:20:28Z" finished-at="2013-02-20T11:20:45Z">
-      <class name="com.YouMagicPro.registration.RegistrationCancelVerificationButtonEmptyFieldTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.YouMagicPro.registration.RegistrationCancelVerificationButtonEmptyFieldTest@1e53fc13]" name="setUp" is-config="true" duration-ms="7963" started-at="2013-02-20T15:20:28Z" finished-at="2013-02-20T15:20:36Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="49647" started-at="2013-02-25T08:38:37Z" finished-at="2013-02-25T08:39:26Z">
+      <class name="com.YouMagicPro.LKA_tests.ContractNoFieldsFLTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractNoFieldsFLTest@3ca83695]" name="startWebDriver" is-config="true" duration-ms="2001" started-at="2013-02-25T12:38:37Z" finished-at="2013-02-25T12:38:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registrationCancelVerificationButtonEmptyFieldTest_C14967()[pri:0, instance:com.YouMagicPro.registration.RegistrationCancelVerificationButtonEmptyFieldTest@1e53fc13]" name="registrationCancelVerificationButtonEmptyFieldTest_C14967" duration-ms="8394" started-at="2013-02-20T15:20:36Z" finished-at="2013-02-20T15:20:44Z">
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="contractNoFieldsFLTest_C32044()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractNoFieldsFLTest@3ca83695]" name="contractNoFieldsFLTest_C32044" duration-ms="44554" started-at="2013-02-25T12:38:39Z" finished-at="2013-02-25T12:39:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationCancelVerificationButtonEmptyFieldTest_C14967 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YouMagicPro.registration.RegistrationCancelVerificationButtonEmptyFieldTest@1e53fc13]" name="tearDown" is-config="true" duration-ms="1364" started-at="2013-02-20T15:20:44Z" finished-at="2013-02-20T15:20:45Z">
+        </test-method> <!-- contractNoFieldsFLTest_C32044 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractNoFieldsFLTest@3ca83695]" name="closeSession" is-config="true" duration-ms="3081" started-at="2013-02-25T12:39:23Z" finished-at="2013-02-25T12:39:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.YouMagicPro.registration.RegistrationCancelVerificationButtonEmptyFieldTest -->
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractNoFieldsFLTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
