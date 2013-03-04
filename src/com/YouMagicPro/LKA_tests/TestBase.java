@@ -192,7 +192,7 @@ import org.testng.annotations.BeforeTest;
 	    public static void  waitContractPageToLoadThirdAccount(){
 driver.get("http://account.umagicpro-pp.rnd.mtt/user/login");//открытие портала  	    	
 	    	
-	    	driver.findElement(By.id("edit-name-1")).sendKeys("100322");//ввод логина, пароля
+	    	driver.findElement(By.id("edit-name-1")).sendKeys("100335");//ввод логина, пароля
 	    	driver.findElement(By.id("edit-pass-1")).sendKeys("1234");
 	    	driver.findElement(By.id("edit-submit-1")).click();
 	    	

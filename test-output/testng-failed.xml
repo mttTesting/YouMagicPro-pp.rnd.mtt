@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest">
+      <class name="com.YouMagicPro.LKM_tests.InviteStatusTest">
         <methods>
-          <include name="contractChooseBirthDateTest_C32037"/>
+          <include name="inviteStatusTest_C22641"/>
           <include name="startWebDriver"/>
           <include name="closeSession"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest -->
+      </class> <!-- com.YouMagicPro.LKM_tests.InviteStatusTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
