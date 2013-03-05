@@ -2,28 +2,46 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27719" started-at="2013-02-28T09:14:57Z" finished-at="2013-02-28T09:15:25Z">
+  <suite name="Default suite" duration-ms="34351" started-at="2013-03-04T13:39:34Z" finished-at="2013-03-04T13:40:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27719" started-at="2013-02-28T09:14:57Z" finished-at="2013-02-28T09:15:25Z">
-      <class name="com.YouMagicPro.LKM_tests.InviteStatusTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKM_tests.InviteStatusTest@17d05cdb]" name="startWebDriver" is-config="true" duration-ms="1450" started-at="2013-02-28T13:14:57Z" finished-at="2013-02-28T13:14:58Z">
+    <test name="Default test" duration-ms="34351" started-at="2013-03-04T13:39:34Z" finished-at="2013-03-04T13:40:08Z">
+      <class name="com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest@3a64b5ab]" name="startWebDriver" is-config="true" duration-ms="1705" started-at="2013-03-04T17:39:34Z" finished-at="2013-03-04T17:39:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="FAIL" signature="inviteStatusTest_C22641()[pri:0, instance:com.YouMagicPro.LKM_tests.InviteStatusTest@17d05cdb]" name="inviteStatusTest_C22641" duration-ms="24191" started-at="2013-02-28T13:14:58Z" finished-at="2013-02-28T13:15:23Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="FAIL" signature="contractChooseBirthDateTest_C32037()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest@3a64b5ab]" name="contractChooseBirthDateTest_C32037" duration-ms="29572" started-at="2013-03-04T17:39:36Z" finished-at="2013-03-04T17:40:05Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[expected [блокирован] but found [Запросить инвайт]]]>
+              <![CDATA[The element could not be found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 34 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 1ffaf62a864f4a7eb7b86e35b010cf33]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [блокирован] but found [Запросить инвайт]
-	at org.testng.Assert.fail(Assert.java:89)
-	at org.testng.Assert.failNotEquals(Assert.java:489)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:160)
-	at com.YouMagicPro.LKM_tests.TestBase.assertEquals(TestBase.java:50)
-	at com.YouMagicPro.LKM_tests.InviteStatusTest.inviteStatusTest_C22641(InviteStatusTest.java:16)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: The element could not be found (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 34 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 1ffaf62a864f4a7eb7b86e35b010cf33
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:301)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:330)
+	at org.openqa.selenium.By$ById.findElement(By.java:215)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:293)
+	at com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest.contractChooseBirthDateTest_C32037(ContractChooseBirthDateTest.java:13)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -50,15 +68,15 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- inviteStatusTest_C22641 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKM_tests.InviteStatusTest@17d05cdb]" name="closeSession" is-config="true" duration-ms="2064" started-at="2013-02-28T13:15:23Z" finished-at="2013-02-28T13:15:25Z">
+        </test-method> <!-- contractChooseBirthDateTest_C32037 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest@3a64b5ab]" name="closeSession" is-config="true" duration-ms="3045" started-at="2013-03-04T17:40:05Z" finished-at="2013-03-04T17:40:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKM_tests.InviteStatusTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
