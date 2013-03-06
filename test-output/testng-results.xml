@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34351" started-at="2013-03-04T13:39:34Z" finished-at="2013-03-04T13:40:08Z">
+  <suite name="Default suite" duration-ms="54346" started-at="2013-03-05T12:59:46Z" finished-at="2013-03-05T13:00:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34351" started-at="2013-03-04T13:39:34Z" finished-at="2013-03-04T13:40:08Z">
-      <class name="com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest@3a64b5ab]" name="startWebDriver" is-config="true" duration-ms="1705" started-at="2013-03-04T17:39:34Z" finished-at="2013-03-04T17:39:36Z">
+    <test name="Default test" duration-ms="54346" started-at="2013-03-05T12:59:46Z" finished-at="2013-03-05T13:00:40Z">
+      <class name="com.YouMagicPro.LKS_tests.HistoryCityNumberTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKS_tests.HistoryCityNumberTest@df8388a]" name="startWebDriver" is-config="true" duration-ms="4274" started-at="2013-03-05T16:59:46Z" finished-at="2013-03-05T16:59:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="FAIL" signature="contractChooseBirthDateTest_C32037()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest@3a64b5ab]" name="contractChooseBirthDateTest_C32037" duration-ms="29572" started-at="2013-03-04T17:39:36Z" finished-at="2013-03-04T17:40:05Z">
+        <test-method status="FAIL" signature="historyCityNumberTest_C15275()[pri:0, instance:com.YouMagicPro.LKS_tests.HistoryCityNumberTest@df8388a]" name="historyCityNumberTest_C15275" duration-ms="47074" started-at="2013-03-05T16:59:50Z" finished-at="2013-03-05T17:00:37Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[The element could not be found (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 34 milliseconds
+Command duration or timeout: 33 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
 System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
 Driver info: driver.version: RemoteWebDriver
-Session ID: 1ffaf62a864f4a7eb7b86e35b010cf33]]>
+Session ID: 2b64548a69e7e55fa3826fdfcf1262e1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: The element could not be found (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 34 milliseconds
+Command duration or timeout: 33 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.26.0', revision: '18040', time: '2012-11-02 09:44:45'
 System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
 Driver info: driver.version: RemoteWebDriver
-Session ID: 1ffaf62a864f4a7eb7b86e35b010cf33
+Session ID: 2b64548a69e7e55fa3826fdfcf1262e1
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -38,10 +38,10 @@ Session ID: 1ffaf62a864f4a7eb7b86e35b010cf33
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:301)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:330)
-	at org.openqa.selenium.By$ById.findElement(By.java:215)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:386)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:343)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:293)
-	at com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest.contractChooseBirthDateTest_C32037(ContractChooseBirthDateTest.java:13)
+	at com.YouMagicPro.LKS_tests.HistoryCityNumberTest.historyCityNumberTest_C15275(HistoryCityNumberTest.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -71,12 +71,12 @@ Session ID: 1ffaf62a864f4a7eb7b86e35b010cf33
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contractChooseBirthDateTest_C32037 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest@3a64b5ab]" name="closeSession" is-config="true" duration-ms="3045" started-at="2013-03-04T17:40:05Z" finished-at="2013-03-04T17:40:08Z">
+        </test-method> <!-- historyCityNumberTest_C15275 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKS_tests.HistoryCityNumberTest@df8388a]" name="closeSession" is-config="true" duration-ms="2927" started-at="2013-03-05T17:00:37Z" finished-at="2013-03-05T17:00:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractChooseBirthDateTest -->
+      </class> <!-- com.YouMagicPro.LKS_tests.HistoryCityNumberTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
