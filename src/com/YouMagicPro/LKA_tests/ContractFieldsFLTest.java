@@ -31,7 +31,7 @@ public class ContractFieldsFLTest extends TestBase{
 	    		sleep();
 	    		driver.findElement(By.xpath("//input[@id='edit-submit']")).click();
 	    		sleep();
-	    		assertEquals(driver.findElement(By.cssSelector("div.section-title > h1")).getText(), "днцнбнп на нйюгюмхх сяксц ябъгх\n╧ 100322");
+	    		assertEquals(driver.findElement(By.cssSelector("div.section-title > h1")).getText(), "днцнбнп на нйюгюмхх сяксц ябъгх\n╧ 100341");
 	    	}
 
 	}

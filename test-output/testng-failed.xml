@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKM_tests.RegistrationAccTypeCheckTest">
+      <class name="com.YouMagicPro.LKA_tests.ContractFieldsFillAndCancelFLTest">
         <methods>
+          <include name="contractFieldsFillAndCancelFLTest_C32047"/>
           <include name="startWebDriver"/>
           <include name="closeSession"/>
-          <include name="registrationAccTypeCheckTest_C32018"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKM_tests.RegistrationAccTypeCheckTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractFieldsFillAndCancelFLTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
