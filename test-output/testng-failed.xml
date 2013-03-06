@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKS_tests.HistoryCityNumberTest">
+      <class name="com.YouMagicPro.LKM_tests.RegistrationAccTypeCheckTest">
         <methods>
-          <include name="closeSession"/>
-          <include name="historyCityNumberTest_C15275"/>
           <include name="startWebDriver"/>
+          <include name="closeSession"/>
+          <include name="registrationAccTypeCheckTest_C32018"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKS_tests.HistoryCityNumberTest -->
+      </class> <!-- com.YouMagicPro.LKM_tests.RegistrationAccTypeCheckTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

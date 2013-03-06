@@ -9,7 +9,10 @@ public class AddNewClientRegistrationTest extends TestBase{
 		waitManagerPageToLoad();
 	
 		driver.findElement(By.xpath("//a[contains(@href, '/admin/manager-cabinet/business/contract-add')]")).click();
-		driver.findElement(By.id("edit-submit")).click();
+		driver.findElement(By.id("edit-next")).click();
+		sleep();
+		driver.findElement(By.id("edit-return")).click();
+		sleep();
 		
 		assertEquals(driver.findElement(By.xpath("//td/div/div[2]/div")).getText(), "Внимание! Вы находитесь в режиме МТТ Бизнес.");
 	}

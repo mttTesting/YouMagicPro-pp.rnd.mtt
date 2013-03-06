@@ -128,7 +128,7 @@ import org.testng.annotations.BeforeTest;
 		    }
 		    driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
 			sleep();
-			driver.findElement(By.id("umagicproConfirmDialog-a4b0242cc47fb62a50418b628f7c1deb-umagicpro-cansel-dialog-action")).click();
+			driver.findElement(By.xpath("//td[2]/div/span")).click();
 			sleep();
 		    
 	}

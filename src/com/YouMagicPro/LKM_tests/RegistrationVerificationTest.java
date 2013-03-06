@@ -9,7 +9,9 @@ public class RegistrationVerificationTest extends TestBase{
 		waitManagerPageToLoad();
 	
 		driver.findElement(By.xpath("//a[contains(@href, '/admin/manager-cabinet/business/contract-add')]")).click();
-		driver.findElement(By.id("edit-submit")).click();
+		driver.findElement(By.id("edit-next")).click();
+		sleep();
+		driver.findElement(By.id("edit-return")).click();
 		sleep();
 		
 		driver.findElement(By.xpath("//div[@id='result-wrapper-1']/div/ul/div/li/label/span")).click();
