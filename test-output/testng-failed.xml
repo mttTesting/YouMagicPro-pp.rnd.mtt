@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.ContractFieldsFillAndCancelFLTest">
+      <class name="com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest">
         <methods>
-          <include name="contractFieldsFillAndCancelFLTest_C32047"/>
-          <include name="startWebDriver"/>
-          <include name="closeSession"/>
+          <include name="registrationStabilityOfNumbersTest_C14943"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractFieldsFillAndCancelFLTest -->
+      </class> <!-- com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
