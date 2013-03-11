@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67889" started-at="2013-03-06T13:50:55Z" finished-at="2013-03-06T13:52:03Z">
+  <suite name="Default suite" duration-ms="49844" started-at="2013-03-11T08:32:17Z" finished-at="2013-03-11T08:33:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67889" started-at="2013-03-06T13:50:55Z" finished-at="2013-03-06T13:52:03Z">
-      <class name="com.YouMagicPro.LKA_tests.ContractFieldsFillAndCancelFLTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractFieldsFillAndCancelFLTest@2ed37507]" name="startWebDriver" is-config="true" duration-ms="11690" started-at="2013-03-06T17:50:55Z" finished-at="2013-03-06T17:51:06Z">
+    <test name="Default test" duration-ms="49844" started-at="2013-03-11T08:32:17Z" finished-at="2013-03-11T08:33:07Z">
+      <class name="com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@312d0089]" name="startWebDriver" is-config="true" duration-ms="5488" started-at="2013-03-11T12:32:17Z" finished-at="2013-03-11T12:32:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractFieldsFillAndCancelFLTest_C32047()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractFieldsFillAndCancelFLTest@2ed37507]" name="contractFieldsFillAndCancelFLTest_C32047" duration-ms="53103" started-at="2013-03-06T17:51:06Z" finished-at="2013-03-06T17:51:59Z">
+        <test-method status="PASS" signature="contractEndOfPageDataTest_C15062()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@312d0089]" name="contractEndOfPageDataTest_C15062" duration-ms="40237" started-at="2013-03-11T12:32:23Z" finished-at="2013-03-11T12:33:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contractFieldsFillAndCancelFLTest_C32047 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractFieldsFillAndCancelFLTest@2ed37507]" name="closeSession" is-config="true" duration-ms="3091" started-at="2013-03-06T17:51:59Z" finished-at="2013-03-06T17:52:03Z">
+        </test-method> <!-- contractEndOfPageDataTest_C15062 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@312d0089]" name="closeSession" is-config="true" duration-ms="4116" started-at="2013-03-11T12:33:03Z" finished-at="2013-03-11T12:33:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractFieldsFillAndCancelFLTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

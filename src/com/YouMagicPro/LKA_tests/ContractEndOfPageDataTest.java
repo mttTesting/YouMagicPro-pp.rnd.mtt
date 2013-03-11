@@ -12,10 +12,21 @@ import org.testng.annotations.Test;
     		waitContractPageToLoad();
     	//	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
 	    //	driver.findElement(By.xpath("//td[2]/div/span")).click();
-
-    		assertEquals(driver.findElement(By.xpath("//div[@id='account-charges']/div[2]/div/table[2]/tbody/tr[3]/td[2]/span")).getText(), "Мухин Вадим Николаевич"); //проверка мобильного номера пользователя
-    		assertEquals(driver.findElement(By.xpath("//div[@id='account-charges']/div[2]/div/table[2]/tbody/tr[3]/td[2]/span[2]")).getText(), "+7 (985) 729-74-09"); //проверка номера аккаунта YM.Pro 
-    		assertEquals(driver.findElement(By.xpath("//div[@id='account-charges']/div[2]/div/table[2]/tbody/tr[3]/td[2]/span[3]")).getText(), "b915966@rmqkr.net");//Тип абонентского устройства
+    		
+    		
+    		driver.findElement(By.id("edit-submit")).click();
+    		sleep();
+    		
+    		
+    		assertEquals(driver.findElement(By.xpath("//p[3]/span[2]")).getText(), "+7 (985) 729-74-09"); //проверка мобильного номера пользователя
+    		assertEquals(driver.findElement(By.xpath("//table[6]/tbody/tr[2]/td/span")).getText(), "74997045371"); 
+    		assertEquals(driver.findElement(By.xpath("//table[6]/tbody/tr[3]/td/span")).getText(), "Компьютер"); 
+    		assertEquals(driver.findElement(By.xpath("//table[6]/tbody/tr[4]/td/span")).getText(), "Индивидуальная"); 
+    		assertEquals(driver.findElement(By.xpath("//table[6]/tbody/tr[5]/td/span")).getText(), "Индивидуальная"); 
+    		assertEquals(driver.findElement(By.xpath("//table[6]/tbody/tr[8]/td/span")).getText(), "ОАО «МТТ»"); 
+    		assertEquals(driver.findElement(By.xpath("//table[6]/tbody/tr[9]/td/span")).getText(), "Простой"); 
+    		assertEquals(driver.findElement(By.xpath("//table[6]/tbody/tr[10]/td/span")).getText(), "Авансовая"); 
+    		
     	}
     	
 
