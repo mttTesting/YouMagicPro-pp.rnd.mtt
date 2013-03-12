@@ -16,10 +16,11 @@ public class PhoneAddNumberToContactTest extends TestBaseReg{
 		selenium.click("id=edit-save"); //"сохранить"
 		Thread.sleep(4000);
 		
-		selenium.click("//div[4]/nobr/a");
+		
+		selenium.click("//div[4]/nobr/a");//нажатие на пункт меню - редактирование контактов
 		Thread.sleep(4000);
-		selenium.click("//tr[4]/td[2]/a");
-		Thread.sleep(4000);	
+		selenium.click("//tr[4]/td[2]/a");//нажатие на карандаш напротив контакта
+		Thread.sleep(4000);
 		
 		selenium.type("id=edit-contact-telephone2", "333");//Добавление номера
 		selenium.click("id=edit-save");//Нажатие кнопки "Сохранить"
@@ -28,11 +29,11 @@ public class PhoneAddNumberToContactTest extends TestBaseReg{
 		Thread.sleep(4000);
 		
 		
-		selenium.click("//div[4]/nobr/a");
+		selenium.click("//div[4]/nobr/a");//нажатие на пункт меню - редактирование контактов
 		Thread.sleep(4000);
-		selenium.click("//td[2]/a[2]");
+		selenium.click("//td[2]/a[2]");//нажатие на кнопку удаления контакта
 		Thread.sleep(3000);
-		selenium.click("xpath=(//input[@id='edit-submit'])[2]");
+		selenium.click("xpath=(//input[@id='edit-submit'])[2]");//нажатие на 'сохранить'
 		Thread.sleep(3000);
 		
 	}

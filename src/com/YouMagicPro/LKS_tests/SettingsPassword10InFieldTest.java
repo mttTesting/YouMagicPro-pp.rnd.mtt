@@ -12,16 +12,16 @@ public class SettingsPassword10InFieldTest extends TestBase{
 
 		driver.findElement(By.xpath("//a[contains(@href, '/private/my-office/nojs/settings')]")).click();
 		sleep();//ожидание загрузки страницы
-		driver.findElement(By.id("edit-user-password")).sendKeys("1234");
-		driver.findElement(By.id("edit-pass1")).sendKeys("123456789012345678900");
-		driver.findElement(By.id("edit-pass2")).sendKeys("123456789012345678900");
-		driver.findElement(By.id("edit-submit")).click();
+		driver.findElement(By.id("edit-user-password")).sendKeys("1234");//ввод старого пароля 1234
+		driver.findElement(By.id("edit-pass1")).sendKeys("123456789012345678900");//ввод нового 10-тизначного пароля
+		driver.findElement(By.id("edit-pass2")).sendKeys("123456789012345678900");//подтверждение нового 10-тизначного пароля
+		driver.findElement(By.id("edit-submit")).click();//сохранить
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//a[contains(@href, '/private/my-office/nojs/voicemail')]")).click();
 		sleep();
 		driver.findElement(By.xpath("//a[contains(@href, '/private/my-office/nojs/settings')]")).click();
 		sleep();
-		driver.findElement(By.id("edit-user-password")).sendKeys("123456789012345678900");
+		driver.findElement(By.id("edit-user-password")).sendKeys("123456789012345678900");//ввод старого 10-тизначного пароля
 		driver.findElement(By.id("edit-pass1")).sendKeys("1234");
 		driver.findElement(By.id("edit-pass2")).sendKeys("1234");
 		driver.findElement(By.id("edit-submit")).click();

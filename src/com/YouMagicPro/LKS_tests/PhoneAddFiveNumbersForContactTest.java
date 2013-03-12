@@ -15,35 +15,35 @@ public class PhoneAddFiveNumbersForContactTest extends TestBaseReg{
 		selenium.click("id=edit-save"); //"сохранить"
 		Thread.sleep(4000);
 		
-		selenium.click("//div[4]/nobr/a");
+		selenium.click("//div[4]/nobr/a");//нажатие на пункт меню - редактирование контактов
 		Thread.sleep(4000);
-		selenium.click("//tr[4]/td[2]/a");
+		selenium.click("//tr[4]/td[2]/a");//нажатие на карандаш напротив контакта
 		Thread.sleep(4000);
 		
-		selenium.type("id=edit-contact-telephone1", "001");
+		selenium.type("id=edit-contact-telephone1", "001");//добавление пяти номеров
 		selenium.type("id=edit-contact-telephone2", "002");
 		selenium.type("id=edit-contact-telephone3", "003");
 		selenium.type("id=edit-contact-telephone4", "004");
 		selenium.type("id=edit-contact-telephone5", "005");
-		selenium.click("//input[@id='edit-save']");
+		selenium.click("//input[@id='edit-save']");//Сохранить
 		Thread.sleep(3000);
 		
-		selenium.click("//div[4]/nobr/a");
+		selenium.click("//div[4]/nobr/a");//нажатие на пункт меню - редактирование контактов
 		Thread.sleep(4000);
-		selenium.click("//tr[4]/td[2]/a");
+		selenium.click("//tr[4]/td[2]/a");//нажатие на карандаш напротив контакта
 		Thread.sleep(4000);
 		
-		selenium.type("id=edit-contact-telephone1", "1");
+		selenium.type("id=edit-contact-telephone1", "1");//редактирование контакта
 		selenium.type("id=edit-contact-telephone5", "");
 		selenium.type("id=edit-contact-telephone4", "");
 		selenium.type("id=edit-contact-telephone3", "");
 		selenium.type("id=edit-contact-telephone2", "");
-		selenium.click("//input[@id='edit-save']");
+		selenium.click("//input[@id='edit-save']");//Сохранить
 		Thread.sleep(3000);
 		
-		selenium.click("//tr[4]/td[2]/a[2]");
+		selenium.click("//tr[4]/td[2]/a[2]");//нажатие на мусорное ведро для удаления контакта
 		Thread.sleep(3000);
-		selenium.click("xpath=(//input[@id='edit-submit'])[2]");
+		selenium.click("xpath=(//input[@id='edit-submit'])[2]");//нажатие 'сохранить'
 		Thread.sleep(3000);
 	}
 }

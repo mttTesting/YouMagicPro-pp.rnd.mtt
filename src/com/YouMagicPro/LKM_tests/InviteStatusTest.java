@@ -14,7 +14,7 @@ public class InviteStatusTest extends TestBase{
 		sleep();
 		
 		assertEquals(driver.findElement(By.xpath("//td[7]/a")).getText(), "Запросить инвайт");//проверка статуса клиента
-		assertEquals(driver.findElement(By.xpath("//tr[2]/td[7]/a")).getText(), "Отменить инвайт");//проверка статуса клиента
+		assertEquals(driver.findElement(By.xpath("//tr[2]/td[7]/a")).getText(), "Запросить инвайт");//проверка статуса клиента
 		
 	}
 }

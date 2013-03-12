@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55432" started-at="2013-03-12T11:13:37Z" finished-at="2013-03-12T11:14:32Z">
+  <suite name="Default suite" duration-ms="43684" started-at="2013-03-12T11:25:07Z" finished-at="2013-03-12T11:25:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55432" started-at="2013-03-12T11:13:37Z" finished-at="2013-03-12T11:14:32Z">
-      <class name="com.YouMagicPro.LKS_tests.HistoryCityNumberTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKS_tests.HistoryCityNumberTest@33462704]" name="startWebDriver" is-config="true" duration-ms="1669" started-at="2013-03-12T15:13:37Z" finished-at="2013-03-12T15:13:39Z">
+    <test name="Default test" duration-ms="43684" started-at="2013-03-12T11:25:07Z" finished-at="2013-03-12T11:25:51Z">
+      <class name="com.YouMagicPro.LKM_tests.InviteStatusTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKM_tests.InviteStatusTest@34f4a7b6]" name="startWebDriver" is-config="true" duration-ms="1691" started-at="2013-03-12T15:25:07Z" finished-at="2013-03-12T15:25:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="historyCityNumberTest_C15275()[pri:0, instance:com.YouMagicPro.LKS_tests.HistoryCityNumberTest@33462704]" name="historyCityNumberTest_C15275" duration-ms="51200" started-at="2013-03-12T15:13:39Z" finished-at="2013-03-12T15:14:30Z">
+        <test-method status="PASS" signature="inviteStatusTest_C22641()[pri:0, instance:com.YouMagicPro.LKM_tests.InviteStatusTest@34f4a7b6]" name="inviteStatusTest_C22641" duration-ms="40171" started-at="2013-03-12T15:25:09Z" finished-at="2013-03-12T15:25:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- historyCityNumberTest_C15275 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKS_tests.HistoryCityNumberTest@33462704]" name="closeSession" is-config="true" duration-ms="2552" started-at="2013-03-12T15:14:30Z" finished-at="2013-03-12T15:14:32Z">
+        </test-method> <!-- inviteStatusTest_C22641 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKM_tests.InviteStatusTest@34f4a7b6]" name="closeSession" is-config="true" duration-ms="1811" started-at="2013-03-12T15:25:49Z" finished-at="2013-03-12T15:25:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKS_tests.HistoryCityNumberTest -->
+      </class> <!-- com.YouMagicPro.LKM_tests.InviteStatusTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

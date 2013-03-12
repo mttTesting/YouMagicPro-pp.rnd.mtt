@@ -9,7 +9,7 @@ public class PhoneEmptyNumberCallTest  extends TestBaseReg{
 	@Test
 	public void phoneEmptyNumberCallTest_C15313 () throws Exception {	 
 		openAndLoginLKS();
-		selenium.click("css=div.mWp__call");
+		selenium.click("css=div.mWp__call");//нажатие на звонок
 		sleep();
 		//AssertJUnit.assertTrue(selenium.isTextPresent("Ќеправильно набран номер"));
 	}

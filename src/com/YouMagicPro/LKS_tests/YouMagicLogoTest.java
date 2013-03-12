@@ -10,8 +10,8 @@ public class YouMagicLogoTest extends TestBase{
 	public void youMagicLogoTest_C15006 () throws Exception {	 
 		waitEmployeePageToLoad();
 		
-		driver.findElement(By.xpath("//a[@href='http://umagicpro-pp.rnd.mtt']")).click();
+		driver.findElement(By.xpath("//a[@href='http://umagicpro-pp.rnd.mtt']")).click();//клик на лого
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//table[@id='forward']/tbody/tr/td[2]/h3/a")));//ожидание загрузки страницы
-		assertEquals(driver.findElement(By.xpath("//table[@id='forward']/tbody/tr/td[2]/h3/a")).getText(), "Прямой городской номер");
+		assertEquals(driver.findElement(By.xpath("//table[@id='forward']/tbody/tr/td[2]/h3/a")).getText(), "Прямой городской номер");//проверяем, что мы перешли на главную страницу
 }
 }
