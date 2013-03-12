@@ -13,8 +13,8 @@ public class CallForwardingNoCallForwardingButtonsTest  extends TestBase{
 
 		driver.findElement(By.xpath("//a[contains(@href, '/private/my-office/nojs/forwarding')]")).click();//заходим на вкладку Переадресация вызовов
 		sleep();//ожидание загрузки страницы
-		driver.findElement(By.xpath("//div[@id='schedule-global-wrapper']/div[4]/div/input")).click();
+		driver.findElement(By.xpath("//div[@id='schedule-global-wrapper']/div[4]/div/input")).click();//нажимаем кнопку Сохранить
 		sleep();//ожидание загрузки страницы
-		driver.findElement(By.xpath("//div[@id='schedule-global-wrapper']/div[4]/div[2]/input")).click();
+		driver.findElement(By.xpath("//div[@id='schedule-global-wrapper']/div[4]/div[2]/input")).click();//нажимаем кнопку Отменить
 	}
 }

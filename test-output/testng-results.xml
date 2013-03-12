@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35419" started-at="2013-03-12T10:57:09Z" finished-at="2013-03-12T10:57:45Z">
+  <suite name="Default suite" duration-ms="55432" started-at="2013-03-12T11:13:37Z" finished-at="2013-03-12T11:14:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35419" started-at="2013-03-12T10:57:09Z" finished-at="2013-03-12T10:57:45Z">
-      <class name="com.YouMagicPro.LKM_tests.AgreementStatusTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKM_tests.AgreementStatusTest@616c54b7]" name="startWebDriver" is-config="true" duration-ms="1631" started-at="2013-03-12T14:57:09Z" finished-at="2013-03-12T14:57:11Z">
+    <test name="Default test" duration-ms="55432" started-at="2013-03-12T11:13:37Z" finished-at="2013-03-12T11:14:32Z">
+      <class name="com.YouMagicPro.LKS_tests.HistoryCityNumberTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKS_tests.HistoryCityNumberTest@33462704]" name="startWebDriver" is-config="true" duration-ms="1669" started-at="2013-03-12T15:13:37Z" finished-at="2013-03-12T15:13:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="agreementStatusTest_C22637()[pri:0, instance:com.YouMagicPro.LKM_tests.AgreementStatusTest@616c54b7]" name="agreementStatusTest_C22637" duration-ms="31854" started-at="2013-03-12T14:57:11Z" finished-at="2013-03-12T14:57:43Z">
+        <test-method status="PASS" signature="historyCityNumberTest_C15275()[pri:0, instance:com.YouMagicPro.LKS_tests.HistoryCityNumberTest@33462704]" name="historyCityNumberTest_C15275" duration-ms="51200" started-at="2013-03-12T15:13:39Z" finished-at="2013-03-12T15:14:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- agreementStatusTest_C22637 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKM_tests.AgreementStatusTest@616c54b7]" name="closeSession" is-config="true" duration-ms="1924" started-at="2013-03-12T14:57:43Z" finished-at="2013-03-12T14:57:45Z">
+        </test-method> <!-- historyCityNumberTest_C15275 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKS_tests.HistoryCityNumberTest@33462704]" name="closeSession" is-config="true" duration-ms="2552" started-at="2013-03-12T15:14:30Z" finished-at="2013-03-12T15:14:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKM_tests.AgreementStatusTest -->
+      </class> <!-- com.YouMagicPro.LKS_tests.HistoryCityNumberTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -13,11 +13,11 @@ public class HistoryFullNumberTest  extends TestBase{
 
 		driver.findElement(By.xpath("//a[contains(@href, '/private/my-office/nojs/history')]")).click();
 		sleep();//ожидание загрузки страницы
-		driver.findElement(By.id("edit-account-filter")).sendKeys("883140505801870");
+		driver.findElement(By.id("edit-account-filter")).sendKeys("883140776020539");//вводим номер YouMagic для поиска
 		sleep();
-		driver.findElement(By.id("edit-submit")).click();
+		driver.findElement(By.id("edit-submit")).click();//нажимаем Найти
 		sleep();//ожидание загрузки страницы
-		assertEquals(driver.findElement(By.xpath("//td[3]/span[2]")).getText(), "883140505801870");
+		assertEquals(driver.findElement(By.xpath("//td[2]/span[2]")).getText(), "883140776020539");//проверяем наличие на странице номера
 	}
 }
 

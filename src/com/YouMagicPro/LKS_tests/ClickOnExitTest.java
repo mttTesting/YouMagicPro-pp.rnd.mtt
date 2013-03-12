@@ -13,7 +13,6 @@ public class ClickOnExitTest  extends TestBaseReg{
 		openAndLoginLKS();
 		
 		selenium.click("//span[3]/a"); //нажатие кнопки "Выход"
-		selenium.waitForPageToLoad("30000");
 		Thread.sleep(7000);
 		AssertJUnit.assertTrue(selenium.isTextPresent("Полноценная виртуальная офисная АТС за несколько минут!"));//проверка наличия на странице текста "Полноценная виртуальная офисная АТС за несколько минут!"
 	}

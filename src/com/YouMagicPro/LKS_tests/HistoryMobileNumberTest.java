@@ -13,12 +13,11 @@ public class HistoryMobileNumberTest  extends TestBase{
 
 		driver.findElement(By.xpath("//a[contains(@href, '/private/my-office/nojs/history')]")).click();
 		sleep();//ожидание загрузки страницы
-		driver.findElement(By.id("edit-account-filter")).sendKeys("79857297409");
+		driver.findElement(By.id("edit-account-filter")).sendKeys("79857297409");//вводим номер для поиска
 		sleep();
-		driver.findElement(By.id("edit-submit")).click();
+		driver.findElement(By.id("edit-submit")).click();//нажимаем Найти
 		sleep();//ожидание загрузки страницы
-		assertEquals(driver.findElement(By.xpath("//td[3]/span[2]")).getText(), "79857297409");
-		assertEquals(driver.findElement(By.xpath("//td[4]")).getText(), "00:03");
+		assertEquals(driver.findElement(By.xpath("//td[3]/span[2]")).getText(), "79857297409");//проверяем наличие на странице номера
 	}
 }
 

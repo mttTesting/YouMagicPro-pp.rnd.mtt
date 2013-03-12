@@ -13,12 +13,12 @@ public class HistoryNotFullNumberTest  extends TestBase{
 
 		driver.findElement(By.xpath("//a[contains(@href, '/private/my-office/nojs/history')]")).click();
 		sleep();//ожидание загрузки страницы
-		driver.findElement(By.id("edit-account-filter")).sendKeys("88314");
+		driver.findElement(By.id("edit-account-filter")).sendKeys("88314");//вводим цифры
 		sleep();
-		driver.findElement(By.id("edit-submit")).click();
+		driver.findElement(By.id("edit-submit")).click();//нажимаем Найти
 		sleep();//ожидание загрузки страницы
 		
-		assertEquals(driver.findElement(By.xpath("//p")).getText(), "Нет данных");
+		assertEquals(driver.findElement(By.xpath("//p")).getText(), "Нет данных");//проверяем что ничего не нашлось
 	}
 }
 

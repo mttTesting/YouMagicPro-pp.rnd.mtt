@@ -10,6 +10,6 @@ public class CityAndYouMagicNumbersTest extends TestBase{
 	public void cityAndYouMagicNumbersTest_C15009 () throws Exception {	 
 		waitEmployeePageToLoad();
 
-		assertEquals(driver.findElement(By.cssSelector("span.bHeader__eTopRight")).getText(), "Номер:+7 (499) 704-53-71, доб. 531, YM.Pro: +88314 (077) 600-82-57  Выйти");
+		assertEquals(driver.findElement(By.cssSelector("span.bHeader__eTopRight")).getText(), "Номер:+7 (499) 704-53-71, доб. 531, YM.Pro: +88314 (077) 600-82-57  Выйти");//проверяем наличие номеров
 }
 }

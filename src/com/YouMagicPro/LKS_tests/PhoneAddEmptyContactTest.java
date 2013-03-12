@@ -15,6 +15,6 @@ public class PhoneAddEmptyContactTest extends TestBaseReg{
 		selenium.type("id=edit-contact-first-name", "A1");//—оздать новый контакт(A1), не заполнив данные
 		selenium.click("id=edit-save");//сохранить
 		Thread.sleep(3000);
-		AssertJUnit.assertTrue(selenium.isTextPresent("ƒолжен быть указан хот€ бы один номер телефона"));
+		AssertJUnit.assertTrue(selenium.isTextPresent("ƒолжен быть указан хот€ бы один номер телефона"));//так как данные пустые, провер€ем наличие предупреждени€
 	}
 }

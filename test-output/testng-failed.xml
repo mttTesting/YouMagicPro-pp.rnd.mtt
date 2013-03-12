@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKM_tests.AgreementStatusTest">
+      <class name="com.YouMagicPro.LKS_tests.HistoryFullNumberTest">
         <methods>
-          <include name="startWebDriver"/>
-          <include name="agreementStatusTest_C22637"/>
           <include name="closeSession"/>
+          <include name="historyFullNumberTest_C15177"/>
+          <include name="startWebDriver"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKM_tests.AgreementStatusTest -->
+      </class> <!-- com.YouMagicPro.LKS_tests.HistoryFullNumberTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
