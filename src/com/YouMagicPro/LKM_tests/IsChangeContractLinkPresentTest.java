@@ -7,7 +7,7 @@ public class IsChangeContractLinkPresentTest extends TestBase{
 	@Test
 	public void isChangeContractLinkPresentTest_C22605() {
 		waitManagerPageToLoad();
-		
+		//проверяем, есть ли на странице ссылка на редактирование контракта
 		driver.findElement(By.xpath("//td[5]/a")).isDisplayed();
 		driver.findElement(By.xpath("//tr[2]/td[5]/a")).isDisplayed();
 	}

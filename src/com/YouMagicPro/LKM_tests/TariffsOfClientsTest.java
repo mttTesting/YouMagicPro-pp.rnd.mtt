@@ -8,7 +8,7 @@ public class TariffsOfClientsTest extends TestBase{
 	public void tariffsOfClientsTest_C22609() {
 		waitManagerPageToLoad();
 		
-		assertEquals(driver.findElement(By.xpath("//td[3]")).getText(), "Бизнес IP. Секунда");
+		assertEquals(driver.findElement(By.xpath("//td[3]")).getText(), "Бизнес IP. Минута");//находим на странице у первого и второго клиента тарифы и сверяем
 		assertEquals(driver.findElement(By.xpath("//tr[2]/td[3]")).getText(), "Бизнес IP. Минута");
 	}
 }

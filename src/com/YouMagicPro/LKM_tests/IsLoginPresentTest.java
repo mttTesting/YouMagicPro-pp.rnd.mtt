@@ -8,7 +8,7 @@ public class IsLoginPresentTest extends TestBase{
 	public void isLoginPresentTest_C22618() {
 		waitManagerPageToLoad();
 		
-		
+		//проверяем, можно ли выйти из аккаунта
 		assertEquals(driver.findElement(By.xpath("//a[contains(@href, '/logout')]")).getText(), "Log out mtt-business-test");
 	}
 }

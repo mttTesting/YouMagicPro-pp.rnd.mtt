@@ -2,29 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22973" started-at="2013-03-11T08:42:11Z" finished-at="2013-03-11T08:42:34Z">
+  <suite name="Default suite" duration-ms="35419" started-at="2013-03-12T10:57:09Z" finished-at="2013-03-12T10:57:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22973" started-at="2013-03-11T08:42:11Z" finished-at="2013-03-11T08:42:34Z">
-      <class name="com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest@1e53fc13]" name="setUp" is-config="true" duration-ms="5834" started-at="2013-03-11T12:42:11Z" finished-at="2013-03-11T12:42:17Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="35419" started-at="2013-03-12T10:57:09Z" finished-at="2013-03-12T10:57:45Z">
+      <class name="com.YouMagicPro.LKM_tests.AgreementStatusTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKM_tests.AgreementStatusTest@616c54b7]" name="startWebDriver" is-config="true" duration-ms="1631" started-at="2013-03-12T14:57:09Z" finished-at="2013-03-12T14:57:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="registrationStabilityOfNumbersTest_C14943()[pri:0, instance:com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest@1e53fc13]" name="registrationStabilityOfNumbersTest_C14943" duration-ms="15522" started-at="2013-03-11T12:42:17Z" finished-at="2013-03-11T12:42:32Z">
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="agreementStatusTest_C22637()[pri:0, instance:com.YouMagicPro.LKM_tests.AgreementStatusTest@616c54b7]" name="agreementStatusTest_C22637" duration-ms="31854" started-at="2013-03-12T14:57:11Z" finished-at="2013-03-12T14:57:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registrationStabilityOfNumbersTest_C14943 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest@1e53fc13]" name="tearDown" is-config="true" duration-ms="1615" started-at="2013-03-11T12:42:32Z" finished-at="2013-03-11T12:42:34Z">
+        </test-method> <!-- agreementStatusTest_C22637 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKM_tests.AgreementStatusTest@616c54b7]" name="closeSession" is-config="true" duration-ms="1924" started-at="2013-03-12T14:57:43Z" finished-at="2013-03-12T14:57:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest -->
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.LKM_tests.AgreementStatusTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -7,7 +7,7 @@ public class IsAddNewClientButtonPresentTest extends TestBase{
 	@Test
 	public void isAddNewClientButtonPresentTest_C23923() {
 		waitManagerPageToLoad();
-		
+		//проверяем, есть ли на странице ссылка на добавление клиента
 		driver.findElement(By.xpath("//a[contains(@href, '/admin/manager-cabinet/business/contract-add')]")).isDisplayed();
 	}
 }

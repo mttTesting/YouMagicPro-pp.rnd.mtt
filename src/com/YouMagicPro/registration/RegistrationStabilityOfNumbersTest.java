@@ -9,21 +9,22 @@ public class RegistrationStabilityOfNumbersTest extends TestBaseReg{
 	@Test
 	public void  registrationStabilityOfNumbersTest_C14943() throws Exception {
 		open();
-		selenium.click("//li[4]/a");
+		selenium.click("//li[4]/a");//нажимаем кнопку Регистрация
 		Thread.sleep(4000);
+		
 		selenium.click("css=span.text");
-		selenium.click("//div[@id='edit-city-wrapper']/span/ul/li[3]");
+		selenium.click("//div[@id='edit-city-wrapper']/span/ul/li[3]");//выбираем город
 		Thread.sleep(5000);
-		selenium.click("link=Бронзовые");
+		selenium.click("link=Бронзовые");//проходим по вкладкам типов номеров
 		selenium.click("link=Платиновые");
 		selenium.click("link=Обычные");
-		AssertJUnit.assertTrue(selenium.isTextPresent("(383)"));
+		AssertJUnit.assertTrue(selenium.isTextPresent("(383)"));//проверка, есть ли на странице код выбранного города
 		selenium.click("css=span.text");
-		selenium.click("//div[@id='edit-city-wrapper']/span/ul/li[7]");
+		selenium.click("//div[@id='edit-city-wrapper']/span/ul/li[7]");//выбираем город
 		Thread.sleep(5000);
-		selenium.click("link=Платиновые");
+		selenium.click("link=Платиновые");//проходим по вкладкам типов номеров
 		selenium.click("link=Бронзовые");
 		selenium.click("link=Обычные");
-		AssertJUnit.assertTrue(selenium.isTextPresent("(863)"));
+		AssertJUnit.assertTrue(selenium.isTextPresent("(863)"));//проверка, есть ли на странице код выбранного города
 	}
 }

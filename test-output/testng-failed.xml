@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest">
+      <class name="com.YouMagicPro.LKM_tests.AgreementStatusTest">
         <methods>
-          <include name="registrationStabilityOfNumbersTest_C14943"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="startWebDriver"/>
+          <include name="agreementStatusTest_C22637"/>
+          <include name="closeSession"/>
         </methods>
-      </class> <!-- com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest -->
+      </class> <!-- com.YouMagicPro.LKM_tests.AgreementStatusTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

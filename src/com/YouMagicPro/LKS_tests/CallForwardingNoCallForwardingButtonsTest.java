@@ -11,10 +11,10 @@ public class CallForwardingNoCallForwardingButtonsTest  extends TestBase{
 	public void CallForwardingNoCallForwardingButtonsTest_C15035_C15036 () throws Exception {	 
 		waitEmployeePageToLoad();
 
-		driver.findElement(By.xpath("//a[contains(@href, '/private/my-office/nojs/forwarding')]")).click();
+		driver.findElement(By.xpath("//a[contains(@href, '/private/my-office/nojs/forwarding')]")).click();//заходим на вкладку Переадресация вызовов
 		sleep();//ожидание загрузки страницы
 		driver.findElement(By.xpath("//div[@id='schedule-global-wrapper']/div[4]/div/input")).click();
-		sleep();
+		sleep();//ожидание загрузки страницы
 		driver.findElement(By.xpath("//div[@id='schedule-global-wrapper']/div[4]/div[2]/input")).click();
 	}
 }

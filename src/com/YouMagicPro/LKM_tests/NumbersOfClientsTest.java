@@ -8,7 +8,7 @@ public class NumbersOfClientsTest extends TestBase{
 	public void numbersOfClientsTest_C23924() {
 		waitManagerPageToLoad();
 		
-		assertEquals(driver.findElement(By.xpath("//strong")).getText(), "#100319");
-		assertEquals(driver.findElement(By.xpath("//tr[2]/td/strong")).getText(), "#100324");
+		assertEquals(driver.findElement(By.xpath("//strong")).getText(), "#100324");//проверяем номера клиентов, первых двух
+		assertEquals(driver.findElement(By.xpath("//tr[2]/td/strong")).getText(), "#100325");
 	}
 }

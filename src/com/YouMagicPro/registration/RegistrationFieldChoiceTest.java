@@ -8,8 +8,9 @@ public class RegistrationFieldChoiceTest extends TestBaseReg{
 	@Test
 	public void  registrationFieldChoiceTest() throws Exception {
 		open();
-		selenium.click("//li[4]/a");
+		selenium.click("//li[4]/a");//нажимаем кнопку Регистрация
 		selenium.waitForPageToLoad("30000");
+		//выбираем все номера телефонов по очереди
 		selenium.click("css=div.bLayout__eBody");
 		selenium.click("css=span.text");
 		selenium.click("css=li");

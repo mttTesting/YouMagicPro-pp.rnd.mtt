@@ -8,6 +8,6 @@ public class IsReportButtonPresentTest extends TestBase{
 	public void isReportButtonPresentTest_C22612() {
 		waitManagerPageToLoad();
 		
-		driver.findElement(By.xpath("//a[contains(text(),'Отчёты')]")).isDisplayed();
+		driver.findElement(By.xpath("//a[contains(text(),'Отчёты')]")).isDisplayed();//проверяем, есть ли вкладка "Отчеты"
 	}
 }

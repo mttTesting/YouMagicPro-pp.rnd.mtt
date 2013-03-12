@@ -8,13 +8,13 @@ public class InviteStatusTest extends TestBase{
 	public void inviteStatusTest_C22641() {
 		waitManagerPageToLoad();
 	
-		driver.findElement(By.xpath("//a[contains(text(),'Статусы клиента')]")).click();
+		driver.findElement(By.xpath("//a[contains(text(),'Статусы клиента')]")).click();//раскрытие вкладок со статусами
 		sleep();
-		driver.findElement(By.xpath("(//a[contains(text(),'Статусы клиента')])[2]")).click();
+		driver.findElement(By.xpath("(//a[contains(text(),'Статусы клиента')])[2]")).click();//раскрытие вкладок со статусами
 		sleep();
 		
-		assertEquals(driver.findElement(By.xpath("//td[7]/a")).getText(), "Запросить инвайт");
-		assertEquals(driver.findElement(By.xpath("//tr[2]/td[7]/a")).getText(), "Запросить инвайт");
+		assertEquals(driver.findElement(By.xpath("//td[7]/a")).getText(), "Запросить инвайт");//проверка статуса клиента
+		assertEquals(driver.findElement(By.xpath("//tr[2]/td[7]/a")).getText(), "Отменить инвайт");//проверка статуса клиента
 		
 	}
 }
