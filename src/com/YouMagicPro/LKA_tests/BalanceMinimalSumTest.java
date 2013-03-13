@@ -10,7 +10,7 @@ public class BalanceMinimalSumTest extends TestBase{
 	    	public void balanceMinimalSumTest_15095() {  		
 	    		waitAdminPageToLoad();
 	    
-	    		assertEquals(driver.findElement(By.xpath("//tr[6]/td[2]/span")).getText(), "101.78");
+	    		assertEquals(driver.findElement(By.xpath("//tr[6]/td[2]/span")).getText(), "102");//Минимальная сумма к оплате
 	    	}
 
 	}

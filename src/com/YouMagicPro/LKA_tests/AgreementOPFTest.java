@@ -9,7 +9,7 @@ public class AgreementOPFTest extends TestBaseReg{
 	public void agreementOPFTest_C14983() throws Exception {
 		openAndLogin();
 
-		selenium.click("link=Оформить");
+		selenium.click("link=Оформить");//нажимаем 'оформить'
 		selenium.waitForPageToLoad("30000");
 		selenium.click("css=span.text");
 		selenium.click("//div[@id='edit-buisness-form-buisness-form-select-wrapper']/span/ul/li[2]"); //Выбор в выпадающем списке "ОАО"

@@ -10,6 +10,6 @@ public class BalanceAmountOfAdvancePaymentTest  extends TestBase{
 	public void balanceAmountOfAdvancePaymentTest_C15091() {
 		waitAdminPageToLoad();
 		
-		assertEquals(driver.findElement(By.cssSelector("span.tProperty__value")).getText(), "354");
+		assertEquals(driver.findElement(By.cssSelector("span.tProperty__value")).getText(), "354");//ищем "Сумма авансового платежа по вашему тарифу"
 	}	
 }

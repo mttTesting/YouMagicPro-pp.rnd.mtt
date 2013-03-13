@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKS_tests.HistoryFullNumberTest">
+      <class name="com.YouMagicPro.LKS_tests.CallForwardingAddAndDeleteNumberTest">
         <methods>
           <include name="closeSession"/>
-          <include name="historyFullNumberTest_C15177"/>
           <include name="startWebDriver"/>
+          <include name="callForwardingAddAndDeleteNumberTest_C15076_C15077"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKS_tests.HistoryFullNumberTest -->
+      </class> <!-- com.YouMagicPro.LKS_tests.CallForwardingAddAndDeleteNumberTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

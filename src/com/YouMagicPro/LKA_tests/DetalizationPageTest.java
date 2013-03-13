@@ -10,12 +10,11 @@ public class DetalizationPageTest  extends TestBaseReg{
 	public void detalizationPageTest() throws Exception {
 		openAndLogin();
 
-		selenium.click("link=Платежи");
+		selenium.click("link=Платежи");//нажимаем на "Платежи"
 		Thread.sleep(3000);
 		
-		//selenium.click("//div[2]/a/div");
 		selenium.waitForPageToLoad("30000");
-		AssertJUnit.assertTrue(selenium.isElementPresent("id=edit-from-date-datepicker-popup-0"));
+		AssertJUnit.assertTrue(selenium.isElementPresent("id=edit-from-date-datepicker-popup-0"));//проверяем, есть ли элементы выбора даты
 		AssertJUnit.assertTrue(selenium.isElementPresent("id=edit-to-date-datepicker-popup-0"));
 		AssertJUnit.assertTrue(selenium.isElementPresent("id=edit-submit"));
 }

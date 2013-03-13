@@ -12,12 +12,13 @@ public class SettingsWrongOldPasswordTest  extends TestBase{
 
 		driver.findElement(By.xpath("//a[contains(@href, '/private/my-office/nojs/settings')]")).click();
 		sleep();//ожидание загрузки страницы
-		driver.findElement(By.id("edit-user-password")).sendKeys("34");
-		driver.findElement(By.id("edit-pass1")).sendKeys("1234");
+		driver.findElement(By.id("edit-user-password")).sendKeys("34");//вводим неправильный старый пароль
+		driver.findElement(By.id("edit-pass1")).sendKeys("1234");//вводим верные новый пароль и его подтверждение
 		driver.findElement(By.id("edit-pass2")).sendKeys("1234");
-		driver.findElement(By.id("edit-submit")).click();
+		driver.findElement(By.id("edit-submit")).click();//сохраняем
 		
 		sleep();
+		//проверяем, что вывелось предупреждение
 		assertEquals(driver.findElement(By.cssSelector("div.messages.error")).getText(), "Неправильно указан старый пароль");
 	}
 }

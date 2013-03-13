@@ -13,11 +13,12 @@ public class SettingsRightPasswordChangeTest  extends TestBase{
 		driver.findElement(By.xpath("//a[contains(@href, '/private/my-office/nojs/settings')]")).click();
 		sleep();//ожидание загрузки страницы
 		driver.findElement(By.id("edit-user-password")).sendKeys("1234");//ввод старого пароля 1234
-		driver.findElement(By.id("edit-pass1")).sendKeys("1234");
+		driver.findElement(By.id("edit-pass1")).sendKeys("1234");//ввод нового пароля 1234
 		driver.findElement(By.id("edit-pass2")).sendKeys("1234");
-		driver.findElement(By.id("edit-submit")).click();
+		driver.findElement(By.id("edit-submit")).click();//сохраняем
 		
 		sleep();
+		//проверяем, что вывелось предупреждение
 		assertEquals(driver.findElement(By.cssSelector("div.messages.status")).getText(), "Спасибо, ваш пароль успешно изменен");
 	}
 }
