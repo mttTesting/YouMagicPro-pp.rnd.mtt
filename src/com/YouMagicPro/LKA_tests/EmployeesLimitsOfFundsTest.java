@@ -27,7 +27,7 @@ public class EmployeesLimitsOfFundsTest extends TestBase{
 		driver.findElement(By.xpath("//div[2]/a/div")).click();//нажимаем "Сотрудники"
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/a/span")));//ожидание загрузки страницы
 		
-		driver.findElement(By.xpath("//div[2]/div[3]/a/span")).click();
+		driver.findElement(By.xpath("//div[2]/div[3]/a/span")).click();//нажимаем на редактирование сотрудника
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[2]/div[3]/a/span")));
 		
 		try {
@@ -37,9 +37,9 @@ public class EmployeesLimitsOfFundsTest extends TestBase{
     		e.printStackTrace();
     	}
 		driver.findElement(By.id("edit-credit-limit")).clear();
-
-		driver.findElement(By.id("edit-credit-limit")).sendKeys("222");
-		driver.findElement(By.xpath("//td[2]/input")).click();
+		driver.findElement(By.id("edit-credit-limit")).sendKeys("222");//вводим кредитный лимит
+		
+		driver.findElement(By.xpath("//td[2]/input")).click();//нажимаем "сохранить"
 		
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[2]/div[3]/a/span")));
 		}

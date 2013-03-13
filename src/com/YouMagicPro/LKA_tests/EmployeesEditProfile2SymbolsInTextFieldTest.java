@@ -21,12 +21,12 @@ public class EmployeesEditProfile2SymbolsInTextFieldTest extends TestBase{
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/a/span")));//ожидание загрузки страницы
 	//	driver.findElement(By.xpath("//td[2]/div/span")).click();
 		
-		driver.findElement(By.xpath("//div[3]/a/span")).click();
+		driver.findElement(By.xpath("//div[3]/a/span")).click();//нажимаем на редактирование сотрудника
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("edit-employee-extension")));//ожидание загрузки страницы
 		
 		driver.findElement(By.id("edit-employee-extension")).clear();
-		driver.findElement(By.id("edit-employee-extension")).sendKeys("53");
-		driver.findElement(By.id("edit-submit")).click();
+		driver.findElement(By.id("edit-employee-extension")).sendKeys("53");//вводим
+		driver.findElement(By.id("edit-submit")).click();//нажимаем "сохранить"
 		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.errors_for_messages.error")));
 		assertEquals(driver.findElement(By.cssSelector("div.errors_for_messages.error")).getText(), "Длина внутреннего номера должна быть от 3 до 4 цифр.");
 		}

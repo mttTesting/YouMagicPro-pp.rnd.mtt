@@ -17,7 +17,7 @@ public class HistoryMobileNumberTest  extends TestBase{
 		sleep();
 		driver.findElement(By.id("edit-submit")).click();//нажимаем Найти
 		sleep();//ожидание загрузки страницы
-		assertEquals(driver.findElement(By.xpath("//td[3]/span[2]")).getText(), "79857297409");//проверяем наличие на странице номера
+		assertEquals(driver.findElement(By.xpath("//td[2]/span[2]")).getText(), "79857297409");//проверяем наличие на странице номера
 	}
 }
 

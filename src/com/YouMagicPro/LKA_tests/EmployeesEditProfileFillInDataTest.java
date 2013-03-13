@@ -21,7 +21,7 @@ public class EmployeesEditProfileFillInDataTest extends TestBase{
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/a/span")));//ожидание загрузки страницы
 		//driver.findElement(By.xpath("//td[2]/div/span")).click();
 		
-		driver.findElement(By.xpath("//div[2]/div[3]/a/span")).click();
+		driver.findElement(By.xpath("//div[2]/div[3]/a/span")).click();//нажимаем на редактирование сотрудника
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("edit-employee-middlename")));//ожидание загрузки страницы
 
 		driver.findElement(By.id("edit-employee-lastname")).clear();
@@ -42,7 +42,7 @@ public class EmployeesEditProfileFillInDataTest extends TestBase{
 		driver.findElement(By.xpath("//div[2]/input")).sendKeys("1234");
 		
 		
-		driver.findElement(By.id("edit-submit")).click();
+		driver.findElement(By.id("edit-submit")).click();//нажимаем "сохранить"
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td[3]/div/div[2]/div/div/div")));
 		
 		assertEquals(driver.findElement(By.xpath("//td[3]/div/div[2]/div/div/div")).getText(), "Сотрудники");

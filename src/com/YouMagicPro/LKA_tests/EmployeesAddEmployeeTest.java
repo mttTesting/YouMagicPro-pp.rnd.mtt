@@ -21,8 +21,8 @@ public class EmployeesAddEmployeeTest extends TestBase{
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/a/span")));//ожидание загрузки страницы
 	//	driver.findElement(By.xpath("//td[2]/div/span")).click();
 		
-		driver.findElement(By.xpath("//div[6]/a/span")).click();
+		driver.findElement(By.xpath("//div[6]/a/span")).click();//нажимаем на кнопку добавления сотрудника
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//form/div/div/div/span")));
-		assertEquals(driver.findElement(By.xpath("//form/div/div/div/span")).getText(), "Купить внутренние номера");
+		assertEquals(driver.findElement(By.xpath("//form/div/div/div/span")).getText(), "Купить внутренние номера");//проверяем открылось ли окошко добавления новых сотрудников
 		}
 }

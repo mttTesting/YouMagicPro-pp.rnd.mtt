@@ -14,12 +14,12 @@ public class EmployeesCheckInfoTest extends TestBase{
 		
 		
 		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
-    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//всплывающие окна
     	driver.findElement(By.xpath("//td[2]/div/span")).click();
     	
 		driver.findElement(By.xpath("//div[2]/a/div")).click();//нажимаем "Сотрудники"
 		
-		driver.findElement(By.cssSelector("span.bEmployer_InnerName")).isDisplayed();
+		driver.findElement(By.cssSelector("span.bEmployer_InnerName")).isDisplayed();//проверяем, отобразилась ли информация
 		driver.findElement(By.cssSelector("span.bEmployer_basketPicture")).isDisplayed();
 		driver.findElement(By.cssSelector("span.bSongEdit.bEmploer_margins_right")).isDisplayed();
 		driver.findElement(By.xpath("//div[2]/div[2]/span[2]")).isDisplayed();

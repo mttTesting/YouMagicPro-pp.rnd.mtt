@@ -21,7 +21,7 @@ public class EmployeesEditProfileTest extends TestBase{
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/a/span")));//ожидание загрузки страницы
 		//driver.findElement(By.xpath("//td[2]/div/span")).click();
 		
-		driver.findElement(By.xpath("//div[3]/a/span")).click();
+		driver.findElement(By.xpath("//div[3]/a/span")).click();//нажимаем на редактирование сотрудника
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/label")));//ожидание загрузки страницы
 		assertEquals(driver.findElement(By.xpath("//div/label")).getText(), "Фамилия *");
 		}

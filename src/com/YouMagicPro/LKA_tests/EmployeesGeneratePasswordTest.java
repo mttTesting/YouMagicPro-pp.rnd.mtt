@@ -28,7 +28,7 @@ public class EmployeesGeneratePasswordTest extends TestBase{
 		driver.findElement(By.xpath("//div[2]/a/div")).click();//нажимаем "Сотрудники"
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/a/span")));//ожидание загрузки страницы
 		
-		driver.findElement(By.xpath("//div[2]/div[3]/a/span")).click();
+		driver.findElement(By.xpath("//div[2]/div[3]/a/span")).click();//нажимаем на редактирование сотрудника
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[2]/div[3]/a/span")));
 		
 		try {
@@ -42,7 +42,7 @@ public class EmployeesGeneratePasswordTest extends TestBase{
 		driver.findElement(By.xpath("//td[2]/div/div/div/a")).click();
 		Assert.assertTrue(driver.findElement(By.id("edit-employee-extension")).getText() != null);
 		
-		driver.findElement(By.xpath("//td[2]/input")).click();
+		driver.findElement(By.xpath("//td[2]/input")).click();//нажимаем "сохранить"
 		
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[2]/div[3]/a/span")));
 		}
