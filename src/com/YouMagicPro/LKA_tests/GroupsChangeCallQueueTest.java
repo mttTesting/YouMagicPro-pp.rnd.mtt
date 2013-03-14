@@ -18,20 +18,19 @@ public class GroupsChangeCallQueueTest extends TestBase {
 	driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"
 	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
 	sleep();
-	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	driver.findElement(By.xpath("//td[2]/div/span")).click();//закрываем всплывающие окна
 	sleep();
 	driver.findElement(By.xpath("//div[3]/a/div")).click();//нажимаем "группы
 	sleep();
-	//driver.findElement(By.xpath("//td[2]/div/span")).click();
-	//sleep();
+
 	
-	driver.findElement(By.xpath("//td[7]/div/a/span")).click();
+	driver.findElement(By.xpath("//td[7]/div/a/span")).click();//нажимаем на редактирование группы
 	wait.until(ExpectedConditions.elementToBeClickable(By.id("edit-group-name")));//ждем загрузки страницы
 	
-	driver.findElement(By.xpath("//span/span/span")).click();
-	driver.findElement(By.xpath("//div[@id='edit-hunt-sequence-wrapper']/span/ul/li[2]")).click();
+	driver.findElement(By.xpath("//span/span/span")).click();//открываем выпадающий список
+	driver.findElement(By.xpath("//div[@id='edit-hunt-sequence-wrapper']/span/ul/li[2]")).click();//выбираем некий пункт выпадающего списка
 	
-	driver.findElement(By.id("edit-submit")).click();
+	driver.findElement(By.id("edit-submit")).click();//сохранить
 	
 	try {
 		Thread.sleep(10000);
@@ -40,11 +39,11 @@ public class GroupsChangeCallQueueTest extends TestBase {
 		e.printStackTrace();
 	}
 	
-	driver.findElement(By.xpath("//td[7]/div/a/span")).click();
+	driver.findElement(By.xpath("//td[7]/div/a/span")).click();//нажимаем на редактирование группы
 	wait.until(ExpectedConditions.elementToBeClickable(By.id("edit-group-name")));//ждем загрузки страницы
-	driver.findElement(By.xpath("//span/span/span")).click();
-	driver.findElement(By.xpath("//div[@id='edit-hunt-sequence-wrapper']/span/ul/li[4]")).click();
-	driver.findElement(By.id("edit-submit")).click();
+	driver.findElement(By.xpath("//span/span/span")).click();//открываем выпадающий список
+	driver.findElement(By.xpath("//div[@id='edit-hunt-sequence-wrapper']/span/ul/li[4]")).click();//выбираем некий пункт выпадающего списка
+	driver.findElement(By.id("edit-submit")).click();//сохранить
 	try {
 		Thread.sleep(10000);
 	} catch (InterruptedException e) {

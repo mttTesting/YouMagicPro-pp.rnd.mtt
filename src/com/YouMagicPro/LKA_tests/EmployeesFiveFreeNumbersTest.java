@@ -22,7 +22,7 @@ public class EmployeesFiveFreeNumbersTest extends TestBase{
 		//driver.findElement(By.xpath("//td[2]/div/span")).click();
 		
 		driver.findElement(By.xpath("//div[3]/div/div[2]")).click();//нажимаем на редактирование сотрудника
-		driver.findElement(By.xpath("//div[@id='main_enter']/div/div[3]/div[2]")).click();
+		driver.findElement(By.xpath("//div[@id='main_enter']/div/div[3]/div[2]")).click();//проверяем, что 5 бесплатных внутренних номеров входят в базовый пакет 
 		driver.findElement(By.xpath("//div[@id='main_enter']/div/div[3]/div[3]")).click();
 		driver.findElement(By.xpath("//div[@id='main_enter']/div/div[3]/div[4]")).click();
 		driver.findElement(By.xpath("//div[@id='main_enter']/div/div[3]/div[5]")).click();

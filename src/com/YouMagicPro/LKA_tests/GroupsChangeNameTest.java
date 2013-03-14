@@ -18,20 +18,20 @@ public class GroupsChangeNameTest extends TestBase {
 	driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"
 	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
 	sleep();
-	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	driver.findElement(By.xpath("//td[2]/div/span")).click();//закрываем всплывающие окна
 	sleep();
 	
-	driver.findElement(By.xpath("//div[3]/a/div")).click();//нажимаем "группы
+	driver.findElement(By.xpath("//div[3]/a/div")).click();//нажимаем "группы"
 	sleep();
 	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	//sleep();
 	
-	driver.findElement(By.xpath("//td[7]/div/a/span")).click();
+	driver.findElement(By.xpath("//td[7]/div/a/span")).click();//нажимаем на редактирование группы
 	wait.until(ExpectedConditions.elementToBeClickable(By.id("edit-group-name")));//ждем загрузки страницы
 	
 	driver.findElement(By.id("edit-group-name")).clear();
-	driver.findElement(By.id("edit-group-name")).sendKeys("тест1");
-	driver.findElement(By.id("edit-submit")).click();
+	driver.findElement(By.id("edit-group-name")).sendKeys("тест1");//изменяем название группы
+	driver.findElement(By.id("edit-submit")).click();//сохраняем
 	
 	try {
 		Thread.sleep(10000);
@@ -40,13 +40,13 @@ public class GroupsChangeNameTest extends TestBase {
 		e.printStackTrace();
 	}
 	
-	assertEquals(driver.findElement(By.xpath("//div[@id='bgroup_0']/div/table/tbody/tr/td[2]/span")).getText(), "тест1");
+	assertEquals(driver.findElement(By.xpath("//div[@id='bgroup_0']/div/table/tbody/tr/td[2]/span")).getText(), "тест1");//проверяем, изменилось ли название группы
 	
-	driver.findElement(By.xpath("//td[7]/div/a/span")).click();
+	driver.findElement(By.xpath("//td[7]/div/a/span")).click();//нажимаем на редактирование группы
 	wait.until(ExpectedConditions.elementToBeClickable(By.id("edit-group-name")));//ждем загрузки страницы
 	driver.findElement(By.id("edit-group-name")).clear();
-	driver.findElement(By.id("edit-group-name")).sendKeys("тест");
-	driver.findElement(By.id("edit-submit")).click();
+	driver.findElement(By.id("edit-group-name")).sendKeys("тест");//изменяем название группы
+	driver.findElement(By.id("edit-submit")).click();//сохраняем
 	try {
 		Thread.sleep(10000);
 	} catch (InterruptedException e) {

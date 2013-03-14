@@ -14,7 +14,7 @@ public class EmployeesEditProfile3SymbolsInTextFieldTest extends TestBase{
 		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
 		
 		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
-    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
     	driver.findElement(By.xpath("//td[2]/div/span")).click();
     	
 		driver.findElement(By.xpath("//div[2]/a/div")).click();//нажимаем "Сотрудники"
@@ -29,6 +29,6 @@ public class EmployeesEditProfile3SymbolsInTextFieldTest extends TestBase{
 		driver.findElement(By.id("edit-submit")).click();//нажимаем "сохранить"
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td[3]/div/div[2]/div/div/div")));
 		
-		assertEquals(driver.findElement(By.xpath("//td[3]/div/div[2]/div/div/div")).getText(), "Сотрудники");
+		assertEquals(driver.findElement(By.xpath("//td[3]/div/div[2]/div/div/div")).getText(), "Сотрудники");//ожидание загрузки страницы
 		}
 }

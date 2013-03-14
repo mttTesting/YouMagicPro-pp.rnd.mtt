@@ -12,14 +12,13 @@ public class GroupsOneInInternalNumberTextFieldTest extends TestBase {
 	driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"
 	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
 	sleep();
-	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	driver.findElement(By.xpath("//td[2]/div/span")).click();//закрываем всплывающие окна
 	sleep();
 	
-	driver.findElement(By.xpath("//div[3]/a/div")).click();//нажимаем "группы
-	//sleep();
-	//driver.findElement(By.xpath("//td[2]/div/span")).click();
+	driver.findElement(By.xpath("//div[3]/a/div")).click();//нажимаем "группы"
+
 	sleep();
-	driver.findElement(By.xpath("id('main_enter')/div[1]/a/div/span[1]")).click();
+	driver.findElement(By.xpath("id('main_enter')/div[1]/a/div/span[1]")).click();//нажимаем на редактирование группы
 
 	
 	wait.until(ExpectedConditions.elementToBeClickable(By.id("edit-group-name")));
@@ -29,7 +28,7 @@ public class GroupsOneInInternalNumberTextFieldTest extends TestBase {
 	driver.findElement(By.id("edit-submit")).click();
 	
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/div/div[2]/div/div")));//ждем загрузку страницы
-
+	//проверяем, выдалось ли предупреждение:
 	assertEquals(driver.findElement(By.cssSelector("div.errors_for_messages.error")).getText(), "Длина номера группы должна быть от 3 до 4 цифр.");//проверяем, вывелось ли предупреждение
 	}
 }

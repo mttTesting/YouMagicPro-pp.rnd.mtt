@@ -14,7 +14,7 @@ public class EmployeesEditPostTest extends TestBase{
 		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
 		
 		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
-    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
     	
     	try {
     		Thread.sleep(5000);
@@ -41,6 +41,6 @@ public class EmployeesEditPostTest extends TestBase{
 		driver.findElement(By.id("edit-employee-position")).sendKeys("Инженер");//вводим должность
 		driver.findElement(By.xpath("//td[2]/input")).click();//нажимаем "сохранить"
 		
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[2]/div[3]/a/span")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[2]/div[3]/a/span")));//ожидание загрузки страницы
 		}
 }

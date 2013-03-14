@@ -16,6 +16,6 @@ public class OrderByEmailChangeEmailTest  extends TestBase{
 		driver.findElement(By.xpath("//span/span/span")).click();//клик по выпадающему списку, выбор типа доставки - e-mail
 		driver.findElement(By.xpath("//li[3]")).click();
 		
-		driver.findElement(By.id("edit-email")).sendKeys("1");
+		driver.findElement(By.id("edit-email")).sendKeys("vvvv@mtt.ru");//вводим e-mail
 	}
 }

@@ -14,19 +14,18 @@ public class GroupsAverageLengthOfTalkTest extends TestBase {
 	driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"
 	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
 	sleep();
-	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	driver.findElement(By.xpath("//td[2]/div/span")).click();//закрываем всплывающие окна
 	sleep();
 	
-	driver.findElement(By.xpath("//div[3]/a/div")).click();//нажимаем "группы
+	driver.findElement(By.xpath("//div[3]/a/div")).click();//нажимаем "группы"
 	sleep();
-//	driver.findElement(By.xpath("//td[2]/div/span")).click();
-//	sleep();
-	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a/div/span")));//ждем загрузки страницы
-	driver.findElement(By.xpath("id('main_enter')/div[1]/a/div/span[1]")).click();
-	
-	wait.until(ExpectedConditions.elementToBeClickable(By.id("edit-group-name")));
 
-	Assert.assertEquals("30", driver.findElement(By.id("edit-average-duration")).getAttribute("value"));
+	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a/div/span")));//ждем загрузки страницы
+	driver.findElement(By.xpath("id('main_enter')/div[1]/a/div/span[1]")).click();//нажимаем на редактирование группы
+	
+	wait.until(ExpectedConditions.elementToBeClickable(By.id("edit-group-name")));//ждем загрузки страницы
+
+	Assert.assertEquals("30", driver.findElement(By.id("edit-average-duration")).getAttribute("value"));//проверяем, что средняя длительность разговора по умолчанию 30
 	
 	}
 }

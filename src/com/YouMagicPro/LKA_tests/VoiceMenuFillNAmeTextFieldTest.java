@@ -13,18 +13,16 @@ public class VoiceMenuFillNAmeTextFieldTest extends TestBase {
 	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
 	
 	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
-	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
+	driver.findElement(By.xpath("//td[2]/div/span")).click();//закрываем всплывающие окна
 	
-	driver.findElement(By.xpath("//div[4]/a/div")).click();
-	
-//	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td[2]/div/span")));//ожидание загрузки страницы
-//	driver.findElement(By.xpath("//td[2]/div/span")).click();
-	
-	driver.findElement(By.xpath("//div[3]/div/a/span")).click();
-	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/label")));
+	driver.findElement(By.xpath("//div[4]/a/div")).click();//нажимаем "голосовое меню"
 	
 	
-	driver.findElement(By.xpath("//div/input")).sendKeys("1111");
+	driver.findElement(By.xpath("//div[3]/div/a/span")).click();//нажатие "Добавить меню"
+	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/label")));//ждем
+	
+	
+	driver.findElement(By.xpath("//div/input")).sendKeys("1111");//заполняем поле с именем меню
 	}
 }

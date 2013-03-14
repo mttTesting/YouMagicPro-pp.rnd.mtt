@@ -10,12 +10,12 @@ public class SupportEnterMessageTest extends TestBase{
 		waitAdminPageToLoad();
 		
 		driver.findElement(By.xpath("//span[4]/a")).click();//нажимаем на "ѕоддержка"
-		driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+		driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
     	sleep();
-    	driver.findElement(By.xpath("//div[@id='umagicproConfirmDialog-bf937244a640ee341e7fcc4c86fb5fa7']/div/div[2]/table/tbody/tr/td[2]/div/span")).click();
+    	driver.findElement(By.xpath("//div[@id='umagicproConfirmDialog-bf937244a640ee341e7fcc4c86fb5fa7']/div/div[2]/table/tbody/tr/td[2]/div/span")).click();//закрываем всплывающие окна
     	sleep();
     	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//form/div/div/div/div/div")));//ожидание загрузки страницы
-    	driver.findElement(By.id("bSupport_MessageText")).sendKeys("тестовое сообщение ,@!.;\\/ ");
+    	driver.findElement(By.id("bSupport_MessageText")).sendKeys("тестовое сообщение ,@!.;\\/ ");//вводим текстовое сообщение
     	
 
 	}

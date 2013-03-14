@@ -24,13 +24,6 @@ public class OrderByEmailOrderWithoutDocTypeCheckedTest  extends TestBase{
 		driver.findElement(By.xpath("//div[5]/span")).click();
 		sleep();
 
-		/*
-		driver.findElement(By.xpath("//input[@id='edit-address-postcode']")).sendKeys("11111");
-		driver.findElement(By.id("edit-address-street")).sendKeys("11111");
-		driver.findElement(By.id("edit-address-house")).sendKeys("11111");
-		driver.findElement(By.id("edit-address-apartment")).sendKeys("11111");
-		driver.findElement(By.id("edit-address-city")).sendKeys("11111");
-		*/
 		driver.findElement(By.xpath("//form/div/div/div/div[3]/input")).click();//нажатие на "сохранить"
 		sleep();
 		assertEquals(driver.findElement(By.xpath("//div/div/div[2]/div/div")).getText(), "Необходимо выбрать тип документа");

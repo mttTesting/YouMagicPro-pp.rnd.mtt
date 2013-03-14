@@ -12,6 +12,6 @@ public class SupportPhoneTest extends TestBase{
 		driver.findElement(By.xpath("//span[4]/a")).click();
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//form/div/div/div/div/div")));//ожидание загрузки страницы
 		
-		assertEquals(driver.findElement(By.xpath("//td[2]/div/span")).getText(), "+7 (800) 333-31-40");
+		assertEquals(driver.findElement(By.xpath("//td[2]/div/span")).getText(), "+7 (800) 333-31-40");//проверяем, есть ли на странице номер поодержки
 	}
 }

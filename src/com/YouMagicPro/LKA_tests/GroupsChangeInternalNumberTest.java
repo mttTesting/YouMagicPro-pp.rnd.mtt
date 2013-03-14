@@ -18,28 +18,27 @@ public class GroupsChangeInternalNumberTest extends TestBase {
 	driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"
 	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
 	sleep();
-	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	driver.findElement(By.xpath("//td[2]/div/span")).click();//закрываем всплывающие окна
 	sleep();
 	
 	driver.findElement(By.xpath("//div[3]/a/div")).click();//нажимаем "группы
 	sleep();
-	//driver.findElement(By.xpath("//td[2]/div/span")).click();
-//	sleep();
-	driver.findElement(By.xpath("//td[7]/div/a/span")).click();
+
+	driver.findElement(By.xpath("//td[7]/div/a/span")).click();//нажимаем на редактирование группы
 	wait.until(ExpectedConditions.elementToBeClickable(By.id("edit-group-name")));//ждем загрузки страницы
 	
 	driver.findElement(By.id("edit-group-id")).clear();
-	driver.findElement(By.id("edit-group-id")).sendKeys("126");
+	driver.findElement(By.id("edit-group-id")).sendKeys("126");//изменяем внутренний номер
 	driver.findElement(By.id("edit-submit")).click();
 	sleep();
 	
-	assertEquals(driver.findElement(By.xpath("//td[4]/div/span")).getText(), "6126");
+	assertEquals(driver.findElement(By.xpath("//td[4]/div/span")).getText(), "6126");//проверяем, изменился ли внутренний номер пользователя
 	
-	driver.findElement(By.xpath("//td[7]/div/a/span")).click();
+	driver.findElement(By.xpath("//td[7]/div/a/span")).click();//нажимаем на редактирование группы
 	wait.until(ExpectedConditions.elementToBeClickable(By.id("edit-group-name")));//ждем загрузки страницы
 	driver.findElement(By.id("edit-group-id")).clear();
-	driver.findElement(By.id("edit-group-id")).sendKeys("127");
-	driver.findElement(By.id("edit-submit")).click();
+	driver.findElement(By.id("edit-group-id")).sendKeys("127");//изменяем обратно внутренний номер
+	driver.findElement(By.id("edit-submit")).click();//нажимаем 'сохранить'
 	sleep();
 	}
 }

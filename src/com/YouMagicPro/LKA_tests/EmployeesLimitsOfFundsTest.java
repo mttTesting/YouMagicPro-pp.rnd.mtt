@@ -41,6 +41,6 @@ public class EmployeesLimitsOfFundsTest extends TestBase{
 		
 		driver.findElement(By.xpath("//td[2]/input")).click();//нажимаем "сохранить"
 		
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[2]/div[3]/a/span")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[2]/div[3]/a/span")));//ожидание загрузки страницы
 		}
 }

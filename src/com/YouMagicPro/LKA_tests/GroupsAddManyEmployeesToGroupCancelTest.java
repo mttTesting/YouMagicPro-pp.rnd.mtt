@@ -13,31 +13,29 @@ public class GroupsAddManyEmployeesToGroupCancelTest extends TestBase {
 	driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"
 	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
 	sleep();
-	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	driver.findElement(By.xpath("//td[2]/div/span")).click();//закрываем всплывающие окна
 	sleep();
 	
 	driver.findElement(By.xpath("//div[3]/a/div")).click();//нажимаем "группы
 	sleep();
-	///driver.findElement(By.xpath("//td[2]/div/span")).click();
-	//sleep();
 	
-	driver.findElement(By.xpath("//div[@id='bgroup_0']/div/table/tbody/tr/td[5]/a/span")).click();
+	driver.findElement(By.xpath("//div[@id='bgroup_0']/div/table/tbody/tr/td[5]/a/span")).click();//нажимаем на иконку добавления пользоввателя в группу
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/div[2]/span[2]")));//ждем загрузки страницы
 
-	driver.findElement(By.xpath("//div[3]/div/span[2]")).click();
-	driver.findElement(By.xpath("//div[3]/div/span[2]")).click();
-	driver.findElement(By.xpath("//center/div/a")).click();//сабмит
+	driver.findElement(By.xpath("//div[3]/div/span[2]")).click();//добавляем сотрудника в группу
+	driver.findElement(By.xpath("//div[3]/div/span[2]")).click();//добавляем сотрудника в группу
+	driver.findElement(By.xpath("//center/div/a")).click();//нажимаем отменить
 	try {
 		Thread.sleep(5000);
 	} catch (InterruptedException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
-	driver.findElement(By.xpath("//div[@id='bgroup_0']/div/table/tbody/tr/td[5]/a/span")).click();
+	driver.findElement(By.xpath("//div[@id='bgroup_0']/div/table/tbody/tr/td[5]/a/span")).click();//нажимаем на иконку добавления пользователя в группу
 	
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/div[2]/span[2]")));//ждем загрузки страницы
 	
-	Assert.assertFalse(driver.findElements(By.xpath("//div[2]/div/span[2]")).size() != 0);
+	Assert.assertFalse(driver.findElements(By.xpath("//div[2]/div/span[2]")).size() != 0);//проверяем, что пользователи не добавлены
 	Assert.assertFalse(driver.findElements(By.xpath("//form/div/div[2]/div")).size() != 0);
 	
 	}

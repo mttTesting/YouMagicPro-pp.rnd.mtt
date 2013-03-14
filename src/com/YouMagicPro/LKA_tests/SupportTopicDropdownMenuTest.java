@@ -10,15 +10,15 @@ public class SupportTopicDropdownMenuTest extends TestBase{
 		waitAdminPageToLoad();
 		
 		driver.findElement(By.xpath("//span[4]/a")).click();//нажимаем на "Поддержка"
-		driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+		driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
     	sleep();
-    	driver.findElement(By.xpath("//div[@id='umagicproConfirmDialog-bf937244a640ee341e7fcc4c86fb5fa7']/div/div[2]/table/tbody/tr/td[2]/div/span")).click();
+    	driver.findElement(By.xpath("//div[@id='umagicproConfirmDialog-bf937244a640ee341e7fcc4c86fb5fa7']/div/div[2]/table/tbody/tr/td[2]/div/span")).click();//закрываем всплывающие окна
     	sleep();
     	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//form/div/div/div/div/div")));//ожидание загрузки страницы
 		
 		
 		
-		driver.findElement(By.xpath("//span/span/span")).click();//кликаем по выпадающему списку
+		driver.findElement(By.xpath("//span/span/span")).click();//кликаем по выпадающему списку, проверяем, работает ли он
 		driver.findElement(By.xpath("//div[@id='bSupport_theme-wrapper']/span/ul/li[2]")).click();
 		driver.findElement(By.xpath("//span/span/span")).click();
 		driver.findElement(By.xpath("//div[@id='bSupport_theme-wrapper']/span/ul/li[3]")).click();

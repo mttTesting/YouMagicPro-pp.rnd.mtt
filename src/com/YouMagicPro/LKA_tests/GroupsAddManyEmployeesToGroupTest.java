@@ -12,19 +12,18 @@ public class GroupsAddManyEmployeesToGroupTest extends TestBase {
 	driver.findElement(By.xpath("//div[2]/div/div/div/span/a")).click();//нажимаем "настройки"
 	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
 	sleep();
-	driver.findElement(By.xpath("//td[2]/div/span")).click();
+	driver.findElement(By.xpath("//td[2]/div/span")).click();//закрываем всплывающие окна
 	sleep();
 	
-	driver.findElement(By.xpath("//div[3]/a/div")).click();//нажимаем "группы
+	driver.findElement(By.xpath("//div[3]/a/div")).click();//нажимаем "группы"
 	sleep();
-//	driver.findElement(By.xpath("//td[2]/div/span")).click();
-//	sleep();
+
 	
-	driver.findElement(By.xpath("//div[@id='bgroup_0']/div/table/tbody/tr/td[5]/a/span")).click();
+	driver.findElement(By.xpath("//div[@id='bgroup_0']/div/table/tbody/tr/td[5]/a/span")).click();//нажимаем на иконку добавления пользователя в группу
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/div[2]/span[2]")));//ждем загрузки страницы
 
-	driver.findElement(By.xpath("//div[3]/div/span[2]")).click();
-	driver.findElement(By.xpath("//div[3]/div/span[2]")).click();
+	driver.findElement(By.xpath("//div[3]/div/span[2]")).click();//добавляем сотрудника в группу
+	driver.findElement(By.xpath("//div[3]/div/span[2]")).click();//добавляем сотрудника в группу
 	driver.findElement(By.xpath("//center/input")).click();//сабмит
 	try {
 		Thread.sleep(5000);
@@ -32,12 +31,12 @@ public class GroupsAddManyEmployeesToGroupTest extends TestBase {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
-	driver.findElement(By.xpath("//div[@id='bgroup_0']/div/table/tbody/tr/td[5]/a/span")).click();
+	driver.findElement(By.xpath("//div[@id='bgroup_0']/div/table/tbody/tr/td[5]/a/span")).click();//нажимаем на иконку добавления пользоввателя в группу
 	
-	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("id('porta-settings-edit-queue-users-form')/div/div[2]")));
+	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("id('porta-settings-edit-queue-users-form')/div/div[2]")));//ждем загрузки страницы
 	
-	driver.findElement(By.xpath("//div[2]/div/span[2]")).click();
-	driver.findElement(By.xpath("//form/div/div[2]/div")).click();
+	driver.findElement(By.xpath("//div[2]/div/span[2]")).click();//удаляем сотрудника из группы
+	driver.findElement(By.xpath("//form/div/div[2]/div")).click();//удаляем сотрудника из группы
 	
 	driver.findElement(By.xpath("//center/input")).click();//сабмит
 	

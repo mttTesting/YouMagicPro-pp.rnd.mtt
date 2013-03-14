@@ -13,7 +13,7 @@ public class YourNumbersTest  extends TestBaseReg{
 		selenium.click("link=Настройки");// Переход в меню "Настройки"
 		Thread.sleep(8000);
 		
-		AssertJUnit.assertTrue(selenium.isElementPresent("id=bFilesFind_button_text"));
+		AssertJUnit.assertTrue(selenium.isElementPresent("id=bFilesFind_button_text"));//проверяем, открылась ли страница "Ваши номера"
 		
 	}
 }

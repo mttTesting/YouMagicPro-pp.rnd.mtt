@@ -12,7 +12,7 @@ public class FeedbackPageTest extends TestBaseReg{
 
 		selenium.click("//div[4]/a"); //Переход в меню "Поддержка"->"Обратная связь"
 		selenium.click("//span[4]/a");
-		selenium.waitForPageToLoad("30000");
+		selenium.waitForPageToLoad("30000");//ожидание загрузки страницы
 		Thread.sleep(3000);
 		AssertJUnit.assertTrue(selenium.isTextPresent("Поддержка")); //Проверка, присутствует ли на странице текст "Поддержка"
 	}
