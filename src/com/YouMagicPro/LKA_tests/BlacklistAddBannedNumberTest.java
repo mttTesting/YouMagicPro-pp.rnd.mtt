@@ -13,21 +13,20 @@ public class BlacklistAddBannedNumberTest extends TestBase {
 	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("div.bContent__innerHeader")));//ожидание загрузки страницы
 	
 	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
-	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
 	driver.findElement(By.xpath("//td[2]/div/span")).click();
 	
 	driver.findElement(By.xpath("//div[6]/a/div")).click();//нажимаем "„ерный —писок"
-//	driver.findElement(By.xpath("//td[2]/div/span")).click();
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//form/div/div/span")));//ожидание загрузки страницы
 	
-	driver.findElement(By.xpath("//div[2]/div/div/div/div/div[2]/input")).click();
+	driver.findElement(By.xpath("//div[2]/div/div/div/div/div[2]/input")).click();//нажимаем ƒобавить
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[2]/div/div/input")));//ожидание загрузки страницы
-	driver.findElement(By.xpath("//div[2]/div/div/input")).sendKeys("89857297409");
+	driver.findElement(By.xpath("//div[2]/div/div/input")).sendKeys("89857297409");//вводим номер телефона
 	sleep();
-	driver.findElement(By.id("edit-submit")).click();
+	driver.findElement(By.id("edit-submit")).click();//сохран€ем
 	sleep();
 	
-	driver.findElement(By.xpath("//div[2]/input[2]")).click();
+	driver.findElement(By.xpath("//div[2]/input[2]")).click();//удал€ем
 	sleep();
 	
 	}

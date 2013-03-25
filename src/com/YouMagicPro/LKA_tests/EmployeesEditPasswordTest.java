@@ -17,13 +17,7 @@ public class EmployeesEditPasswordTest extends TestBase{
 		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
     	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
     	
-    	try {
-    		Thread.sleep(5000);
-    	} catch (InterruptedException e) {
-    		// TODO Auto-generated catch block
-    		e.printStackTrace();
-    	}
-    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
+    	sleepSilent(5000);
     	
 		driver.findElement(By.xpath("//div[2]/a/div")).click();//нажимаем "Сотрудники"
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/a/span")));//ожидание загрузки страницы
@@ -31,14 +25,7 @@ public class EmployeesEditPasswordTest extends TestBase{
 		driver.findElement(By.xpath("//div[2]/div[3]/a/span")).click();//нажимаем на редактирование сотрудника
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[2]/div[3]/a/span")));
 		
-		try {
-    		Thread.sleep(5000);
-    	} catch (InterruptedException e) {
-    		// TODO Auto-generated catch block
-    		e.printStackTrace();
-    	}
-		
-		//Assert.assertTrue(driver.findElement(By.id("edit-employee-extension")).getText() != null);
+		sleepSilent(5000);
 		
 		driver.findElement(By.id("edit-user-password")).clear();
 		driver.findElement(By.id("edit-user-password")).sendKeys("1234");//вводим пароль
@@ -46,4 +33,13 @@ public class EmployeesEditPasswordTest extends TestBase{
 		
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[2]/div[3]/a/span")));//ожидание загрузки страницы
 		}
+
+	private void sleepSilent(int timeoutMs) {
+		try {
+    		Thread.sleep(timeoutMs);
+    	} catch (InterruptedException e) {
+    		// TODO Auto-generated catch block
+    		e.printStackTrace();
+    	}
+	}
 }

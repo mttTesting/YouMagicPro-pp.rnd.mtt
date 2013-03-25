@@ -18,7 +18,6 @@ public class EmployeesEditInternalNumberTest extends TestBase{
     	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();//закрываем всплывающие окна
     	
     	sleep();
-    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
     	
 		driver.findElement(By.xpath("//div[2]/a/div")).click();//нажимаем "Сотрудники"
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[3]/a/span")));//ожидание загрузки страницы

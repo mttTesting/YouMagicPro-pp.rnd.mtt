@@ -16,7 +16,7 @@ public class GroupsAlertTest extends TestBase {
 	driver.findElement(By.xpath("//div[3]/a/div")).click();//нажимаем "группы"
 	sleep();
 
-	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td/a/div/span")));//проверяем наличие эл-тов
+	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td/a/div/span")));//проверяем наличие эл-тов открывшегося окошка
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td[2]/div/span")));
 
 	}
