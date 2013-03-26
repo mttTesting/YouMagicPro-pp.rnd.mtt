@@ -7,7 +7,7 @@ import com.registration.tests.TestBaseReg;
 
 public class ClickOnPromoTest extends TestBaseReg{
 	@Test
-public void clickOnPromoTest () throws Exception {	 
+public void clickOnPromoTest_C15084 () throws Exception {	 
 		openAndLogin();
 
 		selenium.click("//div[4]/a");

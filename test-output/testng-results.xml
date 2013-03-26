@@ -2,24 +2,29 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48015" started-at="2013-03-26T09:12:25Z" finished-at="2013-03-26T09:13:13Z">
+  <suite name="Default suite" duration-ms="47887" started-at="2013-03-26T10:50:32Z" finished-at="2013-03-26T10:51:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="48015" started-at="2013-03-26T09:12:25Z" finished-at="2013-03-26T09:13:13Z">
-      <class name="com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest@15ea6975]" name="startWebDriver" is-config="true" duration-ms="1618" started-at="2013-03-26T13:12:25Z" finished-at="2013-03-26T13:12:27Z">
+    <test name="Default test" duration-ms="47887" started-at="2013-03-26T10:50:32Z" finished-at="2013-03-26T10:51:20Z">
+      <class name="com.YouMagicPro.LKA_tests.FaxPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.YouMagicPro.LKA_tests.FaxPageTest@30339b07]" name="setUp" is-config="true" duration-ms="13803" started-at="2013-03-26T14:50:32Z" finished-at="2013-03-26T14:50:46Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="groupsAddAndDeleteGroupTest_C15195C15186C25629()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest@15ea6975]" name="groupsAddAndDeleteGroupTest_C15195C15186C25629" duration-ms="43554" started-at="2013-03-26T13:12:27Z" finished-at="2013-03-26T13:13:10Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="faxPageTest()[pri:0, instance:com.YouMagicPro.LKA_tests.FaxPageTest@30339b07]" name="faxPageTest" duration-ms="31890" started-at="2013-03-26T14:50:46Z" finished-at="2013-03-26T14:51:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- groupsAddAndDeleteGroupTest_C15195C15186C25629 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest@15ea6975]" name="closeSession" is-config="true" duration-ms="2832" started-at="2013-03-26T13:13:10Z" finished-at="2013-03-26T13:13:13Z">
+        </test-method> <!-- faxPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YouMagicPro.LKA_tests.FaxPageTest@30339b07]" name="tearDown" is-config="true" duration-ms="2184" started-at="2013-03-26T14:51:18Z" finished-at="2013-03-26T14:51:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.YouMagicPro.LKA_tests.FaxPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
