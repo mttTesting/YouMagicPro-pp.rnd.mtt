@@ -18,7 +18,6 @@ public class BlacklistChooseMainNumberTest extends TestBase {
 	
 	driver.findElement(By.xpath("//div[6]/a/div")).click();//нажимаем "Черный Список"
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//form/div/div/span")));//ожидание загрузки страницы
-	//driver.findElement(By.xpath("//td[2]/div/span")).click();
 	
 	
 	driver.findElement(By.xpath("//div[@id='blacklist-items']/div/div/div/div/table/tbody/tr/td/span")).click();

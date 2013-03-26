@@ -19,11 +19,13 @@ public class GroupsCallQueueTest extends TestBase {
 	sleep();
 
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a/div/span")));//ждем загрузки страницы
-	driver.findElement(By.xpath("id('main_enter')/div[1]/a/div/span[1]")).click();//нажимаем на кнопку добавления группы
+	driver.findElement(By.xpath("//td[7]/div/a/span")).click();//нажимаем на кнопку добавления группы
 
 	
 	wait.until(ExpectedConditions.elementToBeClickable(By.id("edit-group-name")));
+	driver.findElement(By.id("edit-group-name")).clear();//заполняем поля данных
 	driver.findElement(By.id("edit-group-name")).sendKeys("Группа");//заполняем поля данных
+	driver.findElement(By.id("edit-group-id")).clear();
 	driver.findElement(By.id("edit-group-id")).sendKeys("123");
 	driver.findElement(By.id("edit-capacity")).clear();
 	driver.findElement(By.id("edit-capacity")).sendKeys("10");
@@ -38,7 +40,7 @@ public class GroupsCallQueueTest extends TestBase {
 
 	driver.findElement(By.id("edit-submit")).click();//сабмит
 	
-	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div/div/div[2]/div/div")));//ждем загрузку страницы
+	sleep();
 
 	
 	}

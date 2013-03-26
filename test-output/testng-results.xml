@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="58627" started-at="2013-03-15T06:48:37Z" finished-at="2013-03-15T06:49:36Z">
+  <suite name="Default suite" duration-ms="48015" started-at="2013-03-26T09:12:25Z" finished-at="2013-03-26T09:13:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="58627" started-at="2013-03-15T06:48:37Z" finished-at="2013-03-15T06:49:36Z">
-      <class name="com.YouMagicPro.LKA_tests.ContractChangeFIOTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractChangeFIOTest@5e9815f3]" name="startWebDriver" is-config="true" duration-ms="1606" started-at="2013-03-15T10:48:37Z" finished-at="2013-03-15T10:48:39Z">
+    <test name="Default test" duration-ms="48015" started-at="2013-03-26T09:12:25Z" finished-at="2013-03-26T09:13:13Z">
+      <class name="com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest@15ea6975]" name="startWebDriver" is-config="true" duration-ms="1618" started-at="2013-03-26T13:12:25Z" finished-at="2013-03-26T13:12:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="ContractChangeFIOTest_C29933()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractChangeFIOTest@5e9815f3]" name="ContractChangeFIOTest_C29933" duration-ms="54077" started-at="2013-03-15T10:48:39Z" finished-at="2013-03-15T10:49:33Z">
+        <test-method status="PASS" signature="groupsAddAndDeleteGroupTest_C15195C15186C25629()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest@15ea6975]" name="groupsAddAndDeleteGroupTest_C15195C15186C25629" duration-ms="43554" started-at="2013-03-26T13:12:27Z" finished-at="2013-03-26T13:13:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ContractChangeFIOTest_C29933 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractChangeFIOTest@5e9815f3]" name="closeSession" is-config="true" duration-ms="2933" started-at="2013-03-15T10:49:33Z" finished-at="2013-03-15T10:49:36Z">
+        </test-method> <!-- groupsAddAndDeleteGroupTest_C15195C15186C25629 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest@15ea6975]" name="closeSession" is-config="true" duration-ms="2832" started-at="2013-03-26T13:13:10Z" finished-at="2013-03-26T13:13:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractChangeFIOTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -22,14 +22,14 @@ public class GroupsAddAndDeleteGroupTest extends TestBase {
 
 	
 	wait.until(ExpectedConditions.elementToBeClickable(By.id("edit-group-name")));//ожидание загрузки страницы
-	driver.findElement(By.id("edit-group-name")).sendKeys("Группа");//заполняем поля данных
-	driver.findElement(By.id("edit-group-id")).sendKeys("123");
+	driver.findElement(By.id("edit-group-name")).sendKeys("Г1");//заполняем поля данных
+	driver.findElement(By.id("edit-group-id")).sendKeys("177");
 	driver.findElement(By.id("edit-capacity")).clear();
 	driver.findElement(By.id("edit-capacity")).sendKeys("10");
 	driver.findElement(By.id("edit-submit")).click();
 	
-	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@id='bgroup_1']/div/table/tbody/tr/td[8]/div/a/span")));//ждем загрузку страницы
-	driver.findElement(By.xpath("//div[@id='bgroup_1']/div/table/tbody/tr/td[8]/div/a/span")).click(); //удаляем группу
+	sleep();
+	driver.findElement(By.xpath("//div[2]/div/table/tbody/tr/td[8]/div/a/span")).click(); //удаляем группу
 	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td/a/div/span")));//ждем загрузку страницы
 	driver.findElement(By.xpath("//td/a/div/span")).click();//Нажимаем "Сохранить"
 	

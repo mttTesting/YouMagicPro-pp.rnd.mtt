@@ -18,7 +18,7 @@ public class OrderByEmailOrderWithoutDocTypeCheckedTest  extends TestBase{
 		sleep();
 
 		driver.findElement(By.xpath("//form/div/div/div/div/div/span")).click();//убираем галочки с типов документов
-		driver.findElement(By.xpath("//div/div/div/div[2]/span")).click();
+		driver.findElement(By.xpath("//form/div/div/div/div/div[2]/span")).click();
 		driver.findElement(By.xpath("//form/div/div/div/div/div[3]/span")).click();
 		driver.findElement(By.xpath("//div[4]/span")).click();
 		driver.findElement(By.xpath("//div[5]/span")).click();

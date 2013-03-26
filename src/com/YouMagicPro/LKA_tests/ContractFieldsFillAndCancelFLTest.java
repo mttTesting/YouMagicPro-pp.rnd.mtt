@@ -31,7 +31,7 @@ public class ContractFieldsFillAndCancelFLTest extends TestBase{
 	    		sleep();
 	    		driver.findElement(By.xpath("//input[@id='edit-submit']")).click();
 	    		sleep();
-	    		assertEquals(driver.findElement(By.cssSelector("div.section-title > h1")).getText(), "ÄÎÃÎÂÎĞ ÎÁ ÎÊÀÇÀÍÈÈ ÓÑËÓÃ ÑÂßÇÈ\n¹ 100341");
+	    		assertEquals(driver.findElement(By.cssSelector("div.section-title > h1")).getText(), "ÄÎÃÎÂÎĞ ÎÁ ÎÊÀÇÀÍÈÈ ÓÑËÓÃ ÑÂßÇÈ\n¹ 100414");
 	    		
 	    		driver.findElement(By.xpath("//div[@id='account-charges']/div[3]/div/a")).click();
 	    		sleep();
