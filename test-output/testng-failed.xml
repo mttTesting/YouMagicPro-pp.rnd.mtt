@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.FaxPageTest">
+      <class name="com.YouMagicPro.LKS_tests.PhoneAddEmptyContactTest">
         <methods>
+          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="faxPageTest"/>
+          <include name="phoneAddEmptyContactTest_C15328"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.FaxPageTest -->
+      </class> <!-- com.YouMagicPro.LKS_tests.PhoneAddEmptyContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

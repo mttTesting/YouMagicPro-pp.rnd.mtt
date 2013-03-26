@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47887" started-at="2013-03-26T10:50:32Z" finished-at="2013-03-26T10:51:20Z">
+  <suite name="Default suite" duration-ms="32087" started-at="2013-03-26T11:16:37Z" finished-at="2013-03-26T11:17:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47887" started-at="2013-03-26T10:50:32Z" finished-at="2013-03-26T10:51:20Z">
-      <class name="com.YouMagicPro.LKA_tests.FaxPageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.YouMagicPro.LKA_tests.FaxPageTest@30339b07]" name="setUp" is-config="true" duration-ms="13803" started-at="2013-03-26T14:50:32Z" finished-at="2013-03-26T14:50:46Z">
+    <test name="Default test" duration-ms="32087" started-at="2013-03-26T11:16:37Z" finished-at="2013-03-26T11:17:09Z">
+      <class name="com.YouMagicPro.LKS_tests.PhoneAddGroupWithEmptyNameTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneAddGroupWithEmptyNameTest@782afee5]" name="setUp" is-config="true" duration-ms="3842" started-at="2013-03-26T15:16:37Z" finished-at="2013-03-26T15:16:41Z">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -16,15 +16,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="faxPageTest()[pri:0, instance:com.YouMagicPro.LKA_tests.FaxPageTest@30339b07]" name="faxPageTest" duration-ms="31890" started-at="2013-03-26T14:50:46Z" finished-at="2013-03-26T14:51:18Z">
+        <test-method status="PASS" signature="PhoneAddGroupWithEmptyNameTest_C15327()[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneAddGroupWithEmptyNameTest@782afee5]" name="PhoneAddGroupWithEmptyNameTest_C15327" duration-ms="26262" started-at="2013-03-26T15:16:41Z" finished-at="2013-03-26T15:17:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- faxPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YouMagicPro.LKA_tests.FaxPageTest@30339b07]" name="tearDown" is-config="true" duration-ms="2184" started-at="2013-03-26T14:51:18Z" finished-at="2013-03-26T14:51:20Z">
+        </test-method> <!-- PhoneAddGroupWithEmptyNameTest_C15327 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneAddGroupWithEmptyNameTest@782afee5]" name="tearDown" is-config="true" duration-ms="1973" started-at="2013-03-26T15:17:07Z" finished-at="2013-03-26T15:17:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.YouMagicPro.LKA_tests.FaxPageTest -->
+      </class> <!-- com.YouMagicPro.LKS_tests.PhoneAddGroupWithEmptyNameTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
