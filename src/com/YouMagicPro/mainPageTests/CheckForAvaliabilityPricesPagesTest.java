@@ -30,7 +30,7 @@ public class CheckForAvaliabilityPricesPagesTest extends TestBaseReg{
 	AssertJUnit.assertTrue(selenium.isTextPresent("Дисковое пространство"));
 	selenium.click("//li[2]/ul/li[5]/a");
 	selenium.waitForPageToLoad("30000");
-	selenium.click("//div[@id='ipBlock-seccion06']/div/h1");//Переход по ссылке "Настройка оборудования"
+	selenium.click("//div[@id='ipBlock-seccion01']/div/h1");//Переход по ссылке "Настройка оборудования"
 	AssertJUnit.assertTrue(selenium.isTextPresent("Настройка оборудования"));
 	selenium.click("//li[2]/ul/li[6]/a");//Переход по ссылке "Доставка документов"
 	selenium.waitForPageToLoad("30000");

@@ -18,13 +18,13 @@ public class RegistrationStabilityOfNumbersTest extends TestBaseReg{
 		selenium.click("link=Бронзовые");//проходим по вкладкам типов номеров
 		selenium.click("link=Платиновые");
 		selenium.click("link=Обычные");
-		AssertJUnit.assertTrue(selenium.isTextPresent("(383)"));//проверка, есть ли на странице код выбранного города
+		AssertJUnit.assertTrue(selenium.isTextPresent("(804)"));//проверка, есть ли на странице код выбранного города
 		selenium.click("css=span.text");
 		selenium.click("//div[@id='edit-city-wrapper']/span/ul/li[7]");//выбираем город
 		Thread.sleep(5000);
 		selenium.click("link=Платиновые");//проходим по вкладкам типов номеров
 		selenium.click("link=Бронзовые");
 		selenium.click("link=Обычные");
-		AssertJUnit.assertTrue(selenium.isTextPresent("(863)"));//проверка, есть ли на странице код выбранного города
+		AssertJUnit.assertTrue(selenium.isTextPresent("(843)"));//проверка, есть ли на странице код выбранного города
 	}
 }
