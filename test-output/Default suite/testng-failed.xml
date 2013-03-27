@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKS_tests.PhoneAddEmptyContactTest">
+      <class name="com.YouMagicPro.authorization.AuthorizationAdminWrongLoginTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="phoneAddEmptyContactTest_C15328"/>
+          <include name="closeSession"/>
+          <include name="authorizationWrongLoginTest_C14708"/>
+          <include name="startWebDriver"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKS_tests.PhoneAddEmptyContactTest -->
+      </class> <!-- com.YouMagicPro.authorization.AuthorizationAdminWrongLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

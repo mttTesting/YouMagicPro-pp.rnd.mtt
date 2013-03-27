@@ -13,7 +13,7 @@ public class AuthorizationAdminWrongPasswordTest extends TestBase{
 				driver.switchTo().frame("iframe_autor");
 				
 				driver.findElement(By.id("edit-name-1")).sendKeys("12");//вводим логин
-				driver.findElement(By.xpath("//tr[5]/td/div/div/input")).sendKeys("1234");//вводим пароль 1234
+				driver.findElement(By.id("edit-pass-1")).sendKeys("1234");//вводим пароль 1234
 				driver.findElement(By.id("edit-submit-1")).click();//нажимаем кнопку Войти
 		
 				wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td/div/div")));//ожидание загрузки страницы

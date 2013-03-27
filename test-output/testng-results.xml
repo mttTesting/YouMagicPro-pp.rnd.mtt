@@ -2,29 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32087" started-at="2013-03-26T11:16:37Z" finished-at="2013-03-26T11:17:09Z">
+  <suite name="Default suite" duration-ms="8875" started-at="2013-03-27T07:05:10Z" finished-at="2013-03-27T07:05:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32087" started-at="2013-03-26T11:16:37Z" finished-at="2013-03-26T11:17:09Z">
-      <class name="com.YouMagicPro.LKS_tests.PhoneAddGroupWithEmptyNameTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneAddGroupWithEmptyNameTest@782afee5]" name="setUp" is-config="true" duration-ms="3842" started-at="2013-03-26T15:16:37Z" finished-at="2013-03-26T15:16:41Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="8875" started-at="2013-03-27T07:05:10Z" finished-at="2013-03-27T07:05:19Z">
+      <class name="com.YouMagicPro.authorization.AuthorizationAdminWrongPasswordTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.authorization.AuthorizationAdminWrongPasswordTest@1e77243d]" name="startWebDriver" is-config="true" duration-ms="1712" started-at="2013-03-27T11:05:10Z" finished-at="2013-03-27T11:05:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="PhoneAddGroupWithEmptyNameTest_C15327()[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneAddGroupWithEmptyNameTest@782afee5]" name="PhoneAddGroupWithEmptyNameTest_C15327" duration-ms="26262" started-at="2013-03-26T15:16:41Z" finished-at="2013-03-26T15:17:07Z">
+        </test-method> <!-- startWebDriver -->
+        <test-method status="PASS" signature="authorizationWrongLoginTest_C14711()[pri:0, instance:com.YouMagicPro.authorization.AuthorizationAdminWrongPasswordTest@1e77243d]" name="authorizationWrongLoginTest_C14711" duration-ms="5067" started-at="2013-03-27T11:05:12Z" finished-at="2013-03-27T11:05:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PhoneAddGroupWithEmptyNameTest_C15327 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneAddGroupWithEmptyNameTest@782afee5]" name="tearDown" is-config="true" duration-ms="1973" started-at="2013-03-26T15:17:07Z" finished-at="2013-03-26T15:17:09Z">
+        </test-method> <!-- authorizationWrongLoginTest_C14711 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.authorization.AuthorizationAdminWrongPasswordTest@1e77243d]" name="closeSession" is-config="true" duration-ms="2086" started-at="2013-03-27T11:05:17Z" finished-at="2013-03-27T11:05:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.YouMagicPro.LKS_tests.PhoneAddGroupWithEmptyNameTest -->
+        </test-method> <!-- closeSession -->
+      </class> <!-- com.YouMagicPro.authorization.AuthorizationAdminWrongPasswordTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
