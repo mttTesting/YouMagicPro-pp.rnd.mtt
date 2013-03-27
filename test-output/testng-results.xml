@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8875" started-at="2013-03-27T07:05:10Z" finished-at="2013-03-27T07:05:19Z">
+  <suite name="Default suite" duration-ms="42052" started-at="2013-03-27T07:23:19Z" finished-at="2013-03-27T07:24:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8875" started-at="2013-03-27T07:05:10Z" finished-at="2013-03-27T07:05:19Z">
-      <class name="com.YouMagicPro.authorization.AuthorizationAdminWrongPasswordTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.authorization.AuthorizationAdminWrongPasswordTest@1e77243d]" name="startWebDriver" is-config="true" duration-ms="1712" started-at="2013-03-27T11:05:10Z" finished-at="2013-03-27T11:05:12Z">
+    <test name="Default test" duration-ms="42052" started-at="2013-03-27T07:23:19Z" finished-at="2013-03-27T07:24:01Z">
+      <class name="com.YouMagicPro.LKA_tests.GroupsOneInInternalNumberTextFieldTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsOneInInternalNumberTextFieldTest@642cb3dc]" name="startWebDriver" is-config="true" duration-ms="5905" started-at="2013-03-27T11:23:19Z" finished-at="2013-03-27T11:23:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="authorizationWrongLoginTest_C14711()[pri:0, instance:com.YouMagicPro.authorization.AuthorizationAdminWrongPasswordTest@1e77243d]" name="authorizationWrongLoginTest_C14711" duration-ms="5067" started-at="2013-03-27T11:05:12Z" finished-at="2013-03-27T11:05:17Z">
+        <test-method status="PASS" signature="groupsOneInInternalNumberTextFieldTest_C15188()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsOneInInternalNumberTextFieldTest@642cb3dc]" name="groupsOneInInternalNumberTextFieldTest_C15188" duration-ms="32769" started-at="2013-03-27T11:23:25Z" finished-at="2013-03-27T11:23:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- authorizationWrongLoginTest_C14711 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.authorization.AuthorizationAdminWrongPasswordTest@1e77243d]" name="closeSession" is-config="true" duration-ms="2086" started-at="2013-03-27T11:05:17Z" finished-at="2013-03-27T11:05:19Z">
+        </test-method> <!-- groupsOneInInternalNumberTextFieldTest_C15188 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsOneInInternalNumberTextFieldTest@642cb3dc]" name="closeSession" is-config="true" duration-ms="3368" started-at="2013-03-27T11:23:58Z" finished-at="2013-03-27T11:24:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.authorization.AuthorizationAdminWrongPasswordTest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.GroupsOneInInternalNumberTextFieldTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
