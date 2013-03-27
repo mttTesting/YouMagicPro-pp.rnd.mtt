@@ -56,14 +56,9 @@ public class TestBaseReg {
 		selenium.type("id=edit-name-1", "0776008257"); //ввод логина и парол€
 		selenium.type("id=edit-pass-1", "1234");
 		selenium.click("id=edit-submit-1"); //нажатие "¬ход"
-		selenium.waitForPageToLoad("90000");
+		sleep();
 		selenium.click("css=a.bPopup__eClose.instructions-close");//закрытие всплывающих окон
-		try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		sleep();
 	}
 	public void sleep()
 	{

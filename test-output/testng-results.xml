@@ -2,24 +2,29 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42052" started-at="2013-03-27T07:23:19Z" finished-at="2013-03-27T07:24:01Z">
+  <suite name="Default suite" duration-ms="21189" started-at="2013-03-27T09:27:53Z" finished-at="2013-03-27T09:28:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42052" started-at="2013-03-27T07:23:19Z" finished-at="2013-03-27T07:24:01Z">
-      <class name="com.YouMagicPro.LKA_tests.GroupsOneInInternalNumberTextFieldTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsOneInInternalNumberTextFieldTest@642cb3dc]" name="startWebDriver" is-config="true" duration-ms="5905" started-at="2013-03-27T11:23:19Z" finished-at="2013-03-27T11:23:25Z">
+    <test name="Default test" duration-ms="21189" started-at="2013-03-27T09:27:53Z" finished-at="2013-03-27T09:28:14Z">
+      <class name="com.YouMagicPro.LKS_tests.PhoneAddGroupAndCancelTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneAddGroupAndCancelTest@30339b07]" name="setUp" is-config="true" duration-ms="3727" started-at="2013-03-27T13:27:53Z" finished-at="2013-03-27T13:27:57Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="groupsOneInInternalNumberTextFieldTest_C15188()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsOneInInternalNumberTextFieldTest@642cb3dc]" name="groupsOneInInternalNumberTextFieldTest_C15188" duration-ms="32769" started-at="2013-03-27T11:23:25Z" finished-at="2013-03-27T11:23:58Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="phoneAddGroupAndCancelTest_C15354()[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneAddGroupAndCancelTest@30339b07]" name="phoneAddGroupAndCancelTest_C15354" duration-ms="15403" started-at="2013-03-27T13:27:57Z" finished-at="2013-03-27T13:28:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- groupsOneInInternalNumberTextFieldTest_C15188 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsOneInInternalNumberTextFieldTest@642cb3dc]" name="closeSession" is-config="true" duration-ms="3368" started-at="2013-03-27T11:23:58Z" finished-at="2013-03-27T11:24:01Z">
+        </test-method> <!-- phoneAddGroupAndCancelTest_C15354 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneAddGroupAndCancelTest@30339b07]" name="tearDown" is-config="true" duration-ms="2055" started-at="2013-03-27T13:28:12Z" finished-at="2013-03-27T13:28:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.GroupsOneInInternalNumberTextFieldTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.YouMagicPro.LKS_tests.PhoneAddGroupAndCancelTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
