@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest">
+      <class name="com.YouMagicPro.LKS_tests.VoiceMailPageTest">
         <methods>
-          <include name="registrationStabilityOfNumbersTest_C14943"/>
           <include name="tearDown"/>
+          <include name="voiceMailPageTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.YouMagicPro.registration.RegistrationStabilityOfNumbersTest -->
+      </class> <!-- com.YouMagicPro.LKS_tests.VoiceMailPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
