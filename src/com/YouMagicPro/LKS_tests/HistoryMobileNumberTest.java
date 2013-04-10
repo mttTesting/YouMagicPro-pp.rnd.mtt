@@ -13,6 +13,17 @@ public class HistoryMobileNumberTest  extends TestBase{
 
 		driver.findElement(By.xpath("//a[contains(@href, '/private/my-office/nojs/history')]")).click();
 		sleep();//ожидание загрузки страницы
+		driver.findElement(By.xpath("//td/div/div/div/input")).click();
+		driver.findElement(By.xpath("//tbody[3]/tr/td[2]/a/span")).click();
+		driver.findElement(By.xpath("//td[2]/a/span")).click();
+		driver.findElement(By.xpath("//tbody[2]/tr[2]/td[3]/a/span")).click();
+		sleep();
+		driver.findElement(By.id("edit-to-date-datepicker-popup-0")).click();
+		sleep();//ожидание загрузки страницы
+		
+		
+		
+		
 		driver.findElement(By.id("edit-account-filter")).sendKeys("79857297409");//вводим номер дл€ поиска
 		sleep();
 		driver.findElement(By.id("edit-submit")).click();//нажимаем Ќайти

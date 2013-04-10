@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70791" started-at="2013-04-08T07:47:34Z" finished-at="2013-04-08T07:48:45Z">
+  <suite name="Default suite" duration-ms="67179" started-at="2013-04-10T08:57:48Z" finished-at="2013-04-10T08:58:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="70791" started-at="2013-04-08T07:47:34Z" finished-at="2013-04-08T07:48:45Z">
-      <class name="com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest@15ea6975]" name="startWebDriver" is-config="true" duration-ms="2022" started-at="2013-04-08T11:47:34Z" finished-at="2013-04-08T11:47:36Z">
+    <test name="Default test" duration-ms="67179" started-at="2013-04-10T08:57:48Z" finished-at="2013-04-10T08:58:55Z">
+      <class name="com.YouMagicPro.LKS_tests.HistoryNotFullNumberTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKS_tests.HistoryNotFullNumberTest@3159fa96]" name="startWebDriver" is-config="true" duration-ms="1645" started-at="2013-04-10T12:57:48Z" finished-at="2013-04-10T12:57:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="groupsAddAndDeleteGroupTest_C15195C15186C25629()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest@15ea6975]" name="groupsAddAndDeleteGroupTest_C15195C15186C25629" duration-ms="65413" started-at="2013-04-08T11:47:36Z" finished-at="2013-04-08T11:48:42Z">
+        <test-method status="PASS" signature="historyNotFullNumberTest_C15179()[pri:0, instance:com.YouMagicPro.LKS_tests.HistoryNotFullNumberTest@3159fa96]" name="historyNotFullNumberTest_C15179" duration-ms="62748" started-at="2013-04-10T12:57:49Z" finished-at="2013-04-10T12:58:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- groupsAddAndDeleteGroupTest_C15195C15186C25629 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest@15ea6975]" name="closeSession" is-config="true" duration-ms="3345" started-at="2013-04-08T11:48:42Z" finished-at="2013-04-08T11:48:45Z">
+        </test-method> <!-- historyNotFullNumberTest_C15179 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKS_tests.HistoryNotFullNumberTest@3159fa96]" name="closeSession" is-config="true" duration-ms="2775" started-at="2013-04-10T12:58:52Z" finished-at="2013-04-10T12:58:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.GroupsAddAndDeleteGroupTest -->
+      </class> <!-- com.YouMagicPro.LKS_tests.HistoryNotFullNumberTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
