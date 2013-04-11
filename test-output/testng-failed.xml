@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKS_tests.HistoryCityNumberTest">
+      <class name="com.YouMagicPro.LKM_tests.EnterToLKATest">
         <methods>
-          <include name="closeSession"/>
-          <include name="historyCityNumberTest_C15275"/>
           <include name="startWebDriver"/>
+          <include name="closeSession"/>
+          <include name="EnterToLKATest_C26771_C26772_C26773"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKS_tests.HistoryCityNumberTest -->
+      </class> <!-- com.YouMagicPro.LKM_tests.EnterToLKATest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

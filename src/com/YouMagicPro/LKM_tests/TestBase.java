@@ -76,61 +76,46 @@ import org.testng.annotations.BeforeTest;
 	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
 	    }
 	    
-	    
+	    public static void waitLKMAdminPageToLoad()
+	    { 	
+	    	driver.get("http://account.umagicpro-pp.rnd.mtt/user/login");//открытие портала  	    	
+	    	
+	    	driver.findElement(By.id("edit-name-1")).sendKeys("100468");//ввод логина, пароля
+	    	driver.findElement(By.id("edit-pass-1")).sendKeys("123");
+	    	driver.findElement(By.id("edit-submit-1")).click();
+	    	
+	    	sleep();
+	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
+	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	    	sleep();
+	    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
+	    }
 	    public static void getInviteAndLogin(){
-		    waitManagerPageToLoad();
+	    	waitManagerPageToLoad();
 			
-			driver.findElement(By.xpath("//tr[2]/td[7]/a")).click();
-			
-		    try {
-		    	Thread.sleep(15000);
-		    } catch (InterruptedException e) {
-		    	e.printStackTrace();
-		    }
-		    
-		    driver.findElement(By.xpath("//div[3]/ul/li[2]/a")).click();
+	    	driver.findElement(By.xpath("//tr[2]/td[7]/a")).click();
+	    	driver.findElement(By.xpath("//a[contains(@href, '/logout')]")).click();
+	    	waitLKMAdminPageToLoad();
 		    sleep();
-			
-		    waitAdminPageToLoad();
+	    	driver.findElement(By.xpath("//a[contains(text(),'Предоставить доступ')]")).click();
+		    sleep();
+	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
+	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
+	    	sleep();
+	    	//driver.findElement(By.xpath("//td[2]/div/span")).click();
+	    	//sleep();
+		    driver.findElement(By.xpath("//span[3]/a")).click();
 		    
-		    try {
-		    	Thread.sleep(60000);
-		    } catch (InterruptedException e) {
-		    	e.printStackTrace();
-		    }
 		    
-		    driver.findElement(By.cssSelector("div.messages.status > a")).click();
-		    try {
-		    	Thread.sleep(30000);
-		    } catch (InterruptedException e) {
-		    	e.printStackTrace();
-		    }
+		    waitManagerPageToLoad();
+		    driver.findElement(By.xpath("//tr[2]/td[7]/a")).click();
+		    
+		    sleep();
+	    	wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a.bPopup__eClose.instructions-close")));//ожидание загрузки страницы
 	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
 	    	sleep();
 	    	
-	    	driver.findElement(By.xpath("//td[2]/div/span")).click();
-	    	sleep();
-		    
-		    driver.findElement(By.cssSelector("span.logout_user > a")).click();
-		    sleep();
-		    
-		    
-		    waitManagerPageToLoad();
-		    
-		    
-		    
-		    driver.findElement(By.xpath("//tr[2]/td[7]/a")).click();
-
-		    try {
-		    	Thread.sleep(15000);
-		    } catch (InterruptedException e) {
-		    	e.printStackTrace();
-		    }
-		    driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
-			sleep();
-			driver.findElement(By.xpath("//td[2]/div/span")).click();
-			sleep();
-		    
+	    	assertEquals(driver.findElement(By.xpath("//td[3]/div/div/div/div/div")).getText(), "You are now masquerading as 100468.");
 	}
 	    
 	    
