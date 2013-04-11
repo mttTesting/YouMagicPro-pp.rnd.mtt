@@ -14,7 +14,7 @@ public class AgreementStatusTest extends TestBase{
 		sleep();
 		
 		assertEquals(driver.findElement(By.xpath("//tr[3]/td[2]/span")).getText(), "не принято");//проверка статуса клиента
-		assertEquals(driver.findElement(By.xpath("//tr[2]/td[2]/div/fieldset/div/div/table/tbody/tr[3]/td[2]/span")).getText(), "не принято");//проверка статуса клиента
+		assertEquals(driver.findElement(By.xpath("//tr[2]/td[2]/div/fieldset/div/div/table/tbody/tr[3]/td[2]/span")).getText(), "принято");//проверка статуса клиента
 		
 	}
 }

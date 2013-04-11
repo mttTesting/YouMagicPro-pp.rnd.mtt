@@ -115,7 +115,7 @@ import org.testng.annotations.BeforeTest;
 	    	driver.findElement(By.cssSelector("a.bPopup__eClose.instructions-close")).click();
 	    	sleep();
 	    	
-	    	assertEquals(driver.findElement(By.xpath("//td[3]/div/div/div/div/div")).getText(), "You are now masquerading as 100468.");
+	    	assertEquals(driver.findElement(By.xpath("//td[3]/div/div/div/div")).getText(), "You are now masquerading as 100468.");
 	}
 	    
 	    
