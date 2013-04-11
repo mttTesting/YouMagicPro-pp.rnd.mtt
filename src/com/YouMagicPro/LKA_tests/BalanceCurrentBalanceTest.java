@@ -10,7 +10,7 @@ public class BalanceCurrentBalanceTest extends TestBase{
 	    	public void balanceCurrentBalanceTest_15093() {  		
 	    		waitAdminPageToLoad();
 	    
-	    		assertEquals(driver.findElement(By.xpath("//tr[4]/td[2]/span")).getText(), "230.76");//ищем "Сумма платежей за отчетный период"
+	    		assertEquals(driver.findElement(By.xpath("//tr[4]/td[2]/span")).getText(), "228.4");//ищем "Сумма платежей за отчетный период"
 	    	}
 
 	}

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKM_tests.EnterToLKATest">
+      <class name="com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest">
         <methods>
           <include name="startWebDriver"/>
+          <include name="contractEndOfPageDataTest_C15062"/>
           <include name="closeSession"/>
-          <include name="EnterToLKATest_C26771_C26772_C26773"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKM_tests.EnterToLKATest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

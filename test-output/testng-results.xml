@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69255" started-at="2013-04-11T07:12:28Z" finished-at="2013-04-11T07:13:37Z">
+  <suite name="Default suite" duration-ms="41237" started-at="2013-04-11T07:30:11Z" finished-at="2013-04-11T07:30:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69255" started-at="2013-04-11T07:12:28Z" finished-at="2013-04-11T07:13:37Z">
-      <class name="com.YouMagicPro.LKM_tests.EnterToLKATest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKM_tests.EnterToLKATest@2a2eb8e3]" name="startWebDriver" is-config="true" duration-ms="1729" started-at="2013-04-11T11:12:28Z" finished-at="2013-04-11T11:12:30Z">
+    <test name="Default test" duration-ms="41237" started-at="2013-04-11T07:30:11Z" finished-at="2013-04-11T07:30:52Z">
+      <class name="com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest">
+        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@65c041ff]" name="startWebDriver" is-config="true" duration-ms="1605" started-at="2013-04-11T11:30:11Z" finished-at="2013-04-11T11:30:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="EnterToLKATest_C26771_C26772_C26773()[pri:0, instance:com.YouMagicPro.LKM_tests.EnterToLKATest@2a2eb8e3]" name="EnterToLKATest_C26771_C26772_C26773" duration-ms="63524" started-at="2013-04-11T11:12:30Z" finished-at="2013-04-11T11:13:33Z">
+        <test-method status="PASS" signature="contractEndOfPageDataTest_C15062()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@65c041ff]" name="contractEndOfPageDataTest_C15062" duration-ms="36516" started-at="2013-04-11T11:30:13Z" finished-at="2013-04-11T11:30:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EnterToLKATest_C26771_C26772_C26773 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKM_tests.EnterToLKATest@2a2eb8e3]" name="closeSession" is-config="true" duration-ms="3992" started-at="2013-04-11T11:13:33Z" finished-at="2013-04-11T11:13:37Z">
+        </test-method> <!-- contractEndOfPageDataTest_C15062 -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@65c041ff]" name="closeSession" is-config="true" duration-ms="3105" started-at="2013-04-11T11:30:49Z" finished-at="2013-04-11T11:30:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKM_tests.EnterToLKATest -->
+      </class> <!-- com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

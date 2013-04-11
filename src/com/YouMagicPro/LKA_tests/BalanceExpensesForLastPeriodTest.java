@@ -10,7 +10,7 @@ public class BalanceExpensesForLastPeriodTest extends TestBase{
 	    	public void balanceExpensesForLastPeriodTest_C15092() {  		
 	    		waitAdminPageToLoad();
 	    
-	    		assertEquals(driver.findElement(By.xpath("//tr[2]/td[2]/span")).getText(), "18.88");//Сумма всех расходов за отчетный период
+	    		assertEquals(driver.findElement(By.xpath("//tr[2]/td[2]/span")).getText(), "21.24");//Сумма всех расходов за отчетный период
 	    	}
 
 	}
