@@ -2,24 +2,29 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41237" started-at="2013-04-11T07:30:11Z" finished-at="2013-04-11T07:30:52Z">
+  <suite name="Default suite" duration-ms="59581" started-at="2013-04-15T05:55:24Z" finished-at="2013-04-15T05:56:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41237" started-at="2013-04-11T07:30:11Z" finished-at="2013-04-11T07:30:52Z">
-      <class name="com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@65c041ff]" name="startWebDriver" is-config="true" duration-ms="1605" started-at="2013-04-11T11:30:11Z" finished-at="2013-04-11T11:30:13Z">
+    <test name="Default test" duration-ms="59581" started-at="2013-04-15T05:55:24Z" finished-at="2013-04-15T05:56:24Z">
+      <class name="com.YouMagicPro.LKS_tests.PhoneAddFiveNumbersForContactTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneAddFiveNumbersForContactTest@7ec677d5]" name="setUp" is-config="true" duration-ms="4745" started-at="2013-04-15T09:55:24Z" finished-at="2013-04-15T09:55:29Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="contractEndOfPageDataTest_C15062()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@65c041ff]" name="contractEndOfPageDataTest_C15062" duration-ms="36516" started-at="2013-04-11T11:30:13Z" finished-at="2013-04-11T11:30:49Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="phoneAddFiveNumbersForContactTest_C15316_C15320_C15319()[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneAddFiveNumbersForContactTest@7ec677d5]" name="phoneAddFiveNumbersForContactTest_C15316_C15320_C15319" duration-ms="52666" started-at="2013-04-15T09:55:29Z" finished-at="2013-04-15T09:56:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contractEndOfPageDataTest_C15062 -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest@65c041ff]" name="closeSession" is-config="true" duration-ms="3105" started-at="2013-04-11T11:30:49Z" finished-at="2013-04-11T11:30:52Z">
+        </test-method> <!-- phoneAddFiveNumbersForContactTest_C15316_C15320_C15319 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YouMagicPro.LKS_tests.PhoneAddFiveNumbersForContactTest@7ec677d5]" name="tearDown" is-config="true" duration-ms="2158" started-at="2013-04-15T09:56:22Z" finished-at="2013-04-15T09:56:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeSession -->
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.YouMagicPro.LKS_tests.PhoneAddFiveNumbersForContactTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
