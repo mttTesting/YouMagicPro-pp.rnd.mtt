@@ -11,7 +11,7 @@ public class CheckForAvaliabilityFreeCallsPageTest extends TestBaseReg{
 	@Test
 	public void  checkForAvaliabilityFreeCallsPageTest() throws Exception {
 		open();
-		selenium.click("//div[2]/span[2]");//Переход по ссылке "5 бесплатных внутренних номеров"
+		selenium.click("//li/ul/li[2]/a");//Переход по ссылке "5 бесплатных внутренних номеров"
 		selenium.waitForPageToLoad("30000");
 		AssertJUnit.assertTrue(selenium.isTextPresent("5 бесплатных внутренних номеров"));
 		

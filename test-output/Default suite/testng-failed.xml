@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest">
+      <class name="com.YouMagicPro.mainPageTests.CheckForAvaliabilityChooseYourNumbersPageTest">
         <methods>
-          <include name="startWebDriver"/>
-          <include name="contractEndOfPageDataTest_C15062"/>
-          <include name="closeSession"/>
+          <include name="checkForAvaliabilityAboutCompanyPageTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.YouMagicPro.LKA_tests.ContractEndOfPageDataTest -->
+      </class> <!-- com.YouMagicPro.mainPageTests.CheckForAvaliabilityChooseYourNumbersPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

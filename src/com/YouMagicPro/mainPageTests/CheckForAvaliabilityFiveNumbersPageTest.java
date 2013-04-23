@@ -12,7 +12,7 @@ public class CheckForAvaliabilityFiveNumbersPageTest  extends TestBaseReg{
 	public void  checkForAvaliabilityFiveNumbersPageTest() throws Exception {
 		open();
 		selenium.waitForPageToLoad("30000");
-		selenium.click("//div[2]/span[2]");//Переход по ссылке "5 бесплатных внутренних номеров"
+		selenium.click("//li[9]/a");//Переход по ссылке "5 бесплатных внутренних номеров"
 		selenium.waitForPageToLoad("30000");
 		AssertJUnit.assertTrue(selenium.isTextPresent("5 бесплатных внутренних номеров"));
 

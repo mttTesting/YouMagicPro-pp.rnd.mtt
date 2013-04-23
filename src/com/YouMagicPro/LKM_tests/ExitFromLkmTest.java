@@ -10,6 +10,6 @@ public class ExitFromLkmTest extends TestBase{
 	
 		driver.findElement(By.xpath("//a[contains(@href, '/logout')]")).click();//нажатие на logout
 		sleep();
-		assertEquals(driver.findElement(By.cssSelector("div.copyright")).getText(), "© 2012 ОАО «Межрегиональный ТранзитТелеком»");//проверяем, попали ли мы на главную страницу
+		assertEquals(driver.findElement(By.cssSelector("div.copyright")).getText(), "© 2013 ОАО «Межрегиональный ТранзитТелеком»");//проверяем, попали ли мы на главную страницу
 	}
 }

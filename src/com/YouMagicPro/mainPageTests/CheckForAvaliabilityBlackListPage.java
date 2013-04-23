@@ -9,9 +9,10 @@ import com.registration.tests.TestBaseReg;
 public class CheckForAvaliabilityBlackListPage extends TestBaseReg{
 	@Test
 	public void  checkForAvaliabilityAboutCompanyPageTest() throws Exception {
-		open();
-		selenium.click("xpath=(//a[contains(text(),'Черный список')])[4]");//Переход по ссылке "Черный список"
-		selenium.waitForPageToLoad("30000");
-		AssertJUnit.assertTrue(selenium.isTextPresent("Черный список"));
+//		СТРАНИЦА УБРАНА
+//		open();
+//		selenium.click("xpath=(//a[contains(text(),'Черный список')])[4]");//Переход по ссылке "Черный список"
+//		selenium.waitForPageToLoad("30000");
+//		AssertJUnit.assertTrue(selenium.isTextPresent("Черный список"));
 	}
 }

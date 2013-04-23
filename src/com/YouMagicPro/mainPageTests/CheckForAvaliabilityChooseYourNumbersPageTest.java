@@ -11,7 +11,7 @@ public class CheckForAvaliabilityChooseYourNumbersPageTest extends TestBaseReg{
 	@Test
 	public void  checkForAvaliabilityAboutCompanyPageTest() throws Exception {
 		open();
-		selenium.click("//div[3]/div/div/span[2]");//Переход по ссылке "Красивые номера"
+		selenium.click("//li[2]/ul/li/a");//Переход по ссылке "Красивые номера"
 		selenium.waitForPageToLoad("30000");
 		AssertJUnit.assertTrue(selenium.isTextPresent("Красивые номера"));
 

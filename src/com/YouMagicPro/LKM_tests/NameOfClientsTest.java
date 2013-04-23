@@ -8,7 +8,7 @@ public class NameOfClientsTest extends TestBase{
 	public void nameOfClientsTest_C26770() {
 		waitManagerPageToLoad();
 		
-		assertEquals(driver.findElement(By.xpath("//td[4]")).getText(), "ООО Николаич и партнеры");//проверяем названия фирм первых двух клиентов
+		assertEquals(driver.findElement(By.xpath("//td[4]")).getText(), "ООО ООО Межрегиональный ТранзитТелеком");//проверяем названия фирм первых двух клиентов
 		assertEquals(driver.findElement(By.xpath("//tr[2]/td[4]")).getText(), "ООО Вежливый Лось");
 	}
 }
